@@ -1,3 +1,8 @@
+---
+parent:Introduction
+title: Software
+---
+
 # SOFTWARE INSTALLATION
 
 We will need softwate listed bellow:

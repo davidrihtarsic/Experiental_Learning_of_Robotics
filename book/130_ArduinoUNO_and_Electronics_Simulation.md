@@ -1,3 +1,8 @@
+---
+parent:Introduction
+title: Simulations
+---
+
 # ARDUINOUNO AND ELECTRONICS SIMULATION
 
 We can use several simulating programs to simulate robots. There are awesome platforms that allow simulations like: 3Dvisualizer or Webots ... But since our robot will be based on the Arduino Uno controller probably the best option is:

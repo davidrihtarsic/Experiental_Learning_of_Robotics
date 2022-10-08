@@ -1,3 +1,8 @@
+---
+parent:Introduction
+title: Robotics
+---
+
 # TEACHING ROBOTICS
 
 ## What is robotics

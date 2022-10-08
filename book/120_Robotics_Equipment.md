@@ -1,3 +1,8 @@
+---
+parent:Introduction
+title: Equipment
+---
+
 # ROBOTICS EQUIPMENT
 
 We can divide the equipment for robotics into three different groups:

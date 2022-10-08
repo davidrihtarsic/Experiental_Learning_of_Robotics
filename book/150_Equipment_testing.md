@@ -1,3 +1,8 @@
+---
+parent:Introduction
+title: Testing
+---
+
 # EQUIPMENT TESTING
 
 ## Basic testing in Arduino IDE
