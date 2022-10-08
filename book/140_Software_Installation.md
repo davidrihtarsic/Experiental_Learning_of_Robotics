@@ -2,6 +2,7 @@
 grand_parent: Book
 parent: Introduction
 title: Software
+nav_order: 4
 ---
 
 # SOFTWARE INSTALLATION
