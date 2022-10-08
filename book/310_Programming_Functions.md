@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Flow control
+title: Functions
+nav_order: 4
+---
+
 # PROGRAMMING FUNCTIONS
 
 ## Task: WRITE A FUNCTION

@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Flow control
+title: Loops
+nav_order: 4
+---
+
 # PROGRAMMING LOOPs: FOR-NEXT & WHILE
 
 ## Task: REPEAT SOME INSTRUCTIONS

@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Flow control
+title: Digital Input
+nav_order: 4
+---
+
 # DIGITAL INPUT
 
 -   In sake to detect the obstacles we have to equip robot with the

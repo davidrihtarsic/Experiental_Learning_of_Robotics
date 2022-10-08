@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Flow control
+title: S-R-A Loop
+nav_order: 4
+---
+
 # S-R-A LOOP
 
 ## Tasks:
