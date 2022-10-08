@@ -1,4 +1,5 @@
 ---
+grand_parent: Book
 parent: Introduction
 title: Equipment
 nav_order: 4
