@@ -1,3 +1,7 @@
+---
+nav_excloude: true
+---
+
 # TEACHING ROBOTICS
 
 ## What is robotics
