@@ -1,5 +1,5 @@
 ---
-nav_order: 4
+grand_parent: Book
 parent: Introduction
 title: Robotics
 ---

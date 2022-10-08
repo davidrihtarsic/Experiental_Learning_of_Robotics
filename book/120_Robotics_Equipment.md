@@ -1,7 +1,7 @@
 ---
-nav_order: 4
 parent: Introduction
 title: Equipment
+nav_order: 4
 ---
 
 # ROBOTICS EQUIPMENT
