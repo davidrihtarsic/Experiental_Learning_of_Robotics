@@ -5,4 +5,8 @@ title: Home
 
 # Experiental learning of Robotics
 
-to-do
+opis kaj je na tej strani
+
+## Contribution
+
+please ... do it.
