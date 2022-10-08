@@ -19,6 +19,7 @@ text for some intro to new lecture unit
 |  Left DC Motor - con. B |          D6          |
 | Right DC Motor - con. A |          D5          |
 | Right DC Motor - con. B |          D4          |
+
 Table: Motors connections to RobDuino Output pins. {#tbl:motors_to_RobDuino}
 
 2. Write simple programming instructions to move the robot forward. Make right sequence of programming instructions (e.g. `digitalWrite()` and `delay(time_in_ms)` functions) to achive:

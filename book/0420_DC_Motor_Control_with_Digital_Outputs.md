@@ -40,6 +40,7 @@ void loop()
 |  0 |  1 |                |
 |  1 |  0 |                |
 |  1 |  1 |                |
+
 Table: All combinations of the states of motor's connectors. {#tbl:motor_combo}
 
 ## Questions:
