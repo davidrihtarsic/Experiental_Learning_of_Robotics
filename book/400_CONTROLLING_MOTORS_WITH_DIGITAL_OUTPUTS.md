@@ -1,7 +1,7 @@
 ---
-title:<++>
-nav_order:3
-has_children:true
+title: Digital Output
+nav_order: 3
+has_children: true
 ---
 
 
