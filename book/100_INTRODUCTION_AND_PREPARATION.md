@@ -1,5 +1,5 @@
 ---
-title:  Introduction
+title: Introduction
 parent: Book
 nav_order: 3
 has_children: true
