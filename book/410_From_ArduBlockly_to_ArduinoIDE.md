@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Arduino IDE
+title: From Block to C++
+nav_order: 4
+---
+
 # FROM ARDUBLOCKLY TO ARDUINOIDE
 
 ## Tasks:

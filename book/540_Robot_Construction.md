@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Digital Output
+title: Robot Construction
+nav_order: 4
+---
+
 # ROBOT CONSTRUCTION
 
 ## Tasks:

@@ -1,6 +1,6 @@
 ---
 parent: Book
-title: ARDUINO IDE
+title: Arduino IDE
 nav_order: 3
 has_children: true
 ---

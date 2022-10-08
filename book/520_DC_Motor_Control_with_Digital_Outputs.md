@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Digital Output
+title: Digital Output
+nav_order: 4
+---
+
 # DC MOTOR CONTROL WITH DIGITAL OUTPUTS
 
 ## Task:
