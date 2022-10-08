@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Ardublockly
+title: DC Motor
+nav_order: 4
+---
+
 # HOW THE DC MOTOR WORKS
 
 ## Task: MAKE DC MORTOT RUN

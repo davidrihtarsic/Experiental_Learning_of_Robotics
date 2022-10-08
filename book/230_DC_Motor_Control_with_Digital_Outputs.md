@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Ardublockly
+title: Digital Output
+nav_order: 4
+---
+
 # DC MOTOR CONTROL WITH DIGITAL OUTPUTS
 
 ## Task:

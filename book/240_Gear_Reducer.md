@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Ardublockly
+title: Gear Reducer
+nav_order: 4
+---
+
 # GEAR REDUCER
 
 ## Task:

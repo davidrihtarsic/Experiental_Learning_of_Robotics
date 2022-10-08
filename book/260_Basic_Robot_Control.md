@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Ardublockly
+title: Robot Control
+nav_order: 4
+---
+
 # BASIC ROBOT CONTROL
 
 ## Task: CONTROLLING THE MOTORS
