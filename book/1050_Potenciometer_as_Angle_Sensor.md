@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: Potenciometer
+nav_order: 4
+---
+
 # POTENTIOMETER AS ANGLE SENSOR
 
 ## Tasks:

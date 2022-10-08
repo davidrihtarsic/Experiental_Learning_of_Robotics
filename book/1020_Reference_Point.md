@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: Reference point
+nav_order: 4
+---
+
 # REFERENCE POINT
 
 ## Tasks:

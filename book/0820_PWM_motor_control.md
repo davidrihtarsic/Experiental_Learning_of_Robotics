@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Motors
+title: PWM Control
+nav_order: 4
+---
+
 # PWM MOTOR CONTROL
 
 There is often the situation where the power of the motors must be controlled.

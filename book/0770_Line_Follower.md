@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Line Follower
+nav_order: 4
+---
+
 # LINE FOLLOWER
 
 ## Tasks:

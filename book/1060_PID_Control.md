@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: PID Control
+nav_order: 4
+---
+
 # PID CONTROL
 
 text for some intro to new lecture unit

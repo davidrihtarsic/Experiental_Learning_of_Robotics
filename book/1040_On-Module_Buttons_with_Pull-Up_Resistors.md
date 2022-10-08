@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: On-module Keys
+nav_order: 4
+---
+
 # ON-MODULE BUTTONS WITH PULL-UP RESISTORS
 
 ## Tasks:

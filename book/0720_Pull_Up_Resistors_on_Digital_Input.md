@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Pull-Up Resistor
+nav_order: 4
+---
+
 # PULL-UP RESISTORS ON DIGITAL INPUT
 
 On the module RobDuino we can find two "on-board push button switches". Wiring of this switches is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can we noticed that both switches are connected to ground voltage potential.

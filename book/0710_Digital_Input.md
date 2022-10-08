@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Digital Input
+nav_order: 4
+---
+
 # DIGITAL INPUT
 
 Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencials. Usually potencial `0 V` is presented as logical `0` and potencial `+5 V` is indicated as logical `1`. Digital inputs are often used for detecting state of switches, board keys and push buttons...

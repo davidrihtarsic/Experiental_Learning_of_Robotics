@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Detecting Obstacles
+nav_order: 4
+---
+
 # AVOIDING OBSTACLES
 
 ## Tasks:

@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Timers
+title: Time measurements
+nav_order: 4
+---
+
 # END OF LINE DETECTION
 
 ## Tasks:

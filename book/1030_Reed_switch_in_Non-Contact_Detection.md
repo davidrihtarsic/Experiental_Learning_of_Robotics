@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: Reed switch
+nav_order: 4
+---
+
 # REED SWITCH IN NON-CONTACT DETECTION
 
 ## Tasks:

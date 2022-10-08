@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Barier Gate
+title: Construction
+nav_order: 4
+---
+
 # BARRIER GATE CONSTRUCTION
 
 ## Tasks:

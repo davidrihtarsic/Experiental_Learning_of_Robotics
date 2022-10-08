@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Ligth Sensor
+nav_order: 4
+---
+
 # LIGHT SENSOR
 
 ## Tasks:

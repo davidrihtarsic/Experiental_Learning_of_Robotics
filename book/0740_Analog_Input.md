@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: Reading Input
+title: Analog Input
+nav_order: 4
+---
+
 # ANALOG INPUT
 
 In general, controllers are equipped with `Analog to Digital Converters` or short `ADC`. This internal devices converts voltage potencial into numeric value which can be further used by written program. This is also the case in Arduino UNO converter by the function `analogRead(pin_number)`. In this case the voltage range $[0.0\ V .. +5.0\ V]$ is converted in to range of numbers $[0 .. 1024]$.

@@ -1,8 +1,6 @@
 ---
 parent: Book
-title: Digital Input
+title: Motors
 nav_order: 3
 has_children: true
 ---
-
-
