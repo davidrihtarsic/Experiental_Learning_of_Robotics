@@ -4,6 +4,6 @@ nav_order: 2
 has_children: true
 ---
 
-# Experiental learning of robotice
+# Experiental learning of Robotics
 
 celotno knjigo lahko zložite tule...
