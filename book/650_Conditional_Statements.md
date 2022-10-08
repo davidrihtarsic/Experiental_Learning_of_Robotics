@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: Flow Control
+nav_order: 4
+---
+
 # CONDITIONAL STATEMENTS
 
 Before we dive into S-R-A Loop lets take a first look to IF-statemen. `IF-statement` allows us to execute some code when the condition is `true`. Such navigation of execution of the code is essential in programming and as such one of the fundamental structures of the field. Lets test test the bumper push-button-switch if it is working properly...

@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: Introduction to C++
+nav_order: 4
+---
+
 # INTRODUCTION TO PROGRAMMING
 
 text for some intro to new lecture unit

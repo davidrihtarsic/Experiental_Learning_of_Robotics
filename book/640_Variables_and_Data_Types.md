@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: Variables
+nav_order: 4
+---
+
 # VARIABLES AND DATA TYPES
 
 In earlier examples we have stored some values into `variables` (e.g counting `for-nex loop` repetition). Variables are the containers for storing data values usually located in RAM (also in EPROM, FLASH ...). In order to store different data (e.g. numbers, words ...) we have to use different type of variables. The declaration of the variable ( =creation ) has next syntax:

@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: Programming Loop
+nav_order: 4
+---
+
 # PROGRAMMING LOOPs: FOR-NEXT & DO-WHILE
 
 It is very often needed, that we want to repeat some part of code several times. In that case we can use programming loops where we can specify which code should be repeated. In general there are two very often situation where we are using the programming loops:

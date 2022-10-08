@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: Clean Code
+nav_order: 4
+---
+
 # WRITING CLEAN CODE
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.

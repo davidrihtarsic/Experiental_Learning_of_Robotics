@@ -1,3 +1,10 @@
+---
+grand_parent: Book
+parent: C++ Programming
+title: S-R-A Loop
+nav_order: 4
+---
+
 # S-R-A LOOP
 
 S-R-A loop is repeating process where:
