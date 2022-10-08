@@ -1,5 +1,5 @@
 ---
-nav_excloude: true
+nav_exclude: true
 ---
 
 # TEACHING ROBOTICS
