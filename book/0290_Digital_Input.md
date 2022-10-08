@@ -1,6 +1,6 @@
 ---
 grand_parent: Book
-parent: Flow control
+parent: Ardublockly
 title: Digital Input
 nav_order: 4
 ---

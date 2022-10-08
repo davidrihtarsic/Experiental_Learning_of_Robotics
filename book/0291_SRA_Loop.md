@@ -1,6 +1,6 @@
 ---
 grand_parent: Book
-parent: Flow control
+parent: Ardublockly
 title: S-R-A Loop
 nav_order: 4
 ---
