@@ -5,7 +5,7 @@ title: PWM Control
 nav_order: 4
 ---
 
-# PWM MOTOR CONTROL
+## PWM MOTOR CONTROL
 
 There is often the situation where the power of the motors must be controlled.
 One convenient way to do this is that we don't power the motor full time,
@@ -20,7 +20,7 @@ This modulated output is controlled by the `analogWrite(pin, pwm)` function. Mod
 can be performed on pins: 3, 5 and 6 of the RobDuino modul. The value of `pwm` parameter
 can be on a scale of 0 - 255., where 0 is 0% and 255 is 100% of electrical power served.
 
-## Tasks:
+### Tasks:
 
 1. Write new functions for driving the robot left and right with reduced power of the motors:
     - `moveLeftPWM();`
@@ -81,7 +81,7 @@ void loop()
 5. Save `moveRightPWM(int PWM_value)` and `moveLeftPWM(int PWM_value)` functions into header file `RobotMovingFunctions.h`
 
 
-## Questions:
+### Questions:
 
 1. How can we control the average power of the motor?
 2. How can we control the average power of the motor in both directions
@@ -89,15 +89,15 @@ void loop()
 3. Explain the purpose of programming function `analogWrite(pin, pwm)`.
 4. Explain the meaning of the `pin` and `pwm` parameters in function `analogWrite`.
 
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>
 

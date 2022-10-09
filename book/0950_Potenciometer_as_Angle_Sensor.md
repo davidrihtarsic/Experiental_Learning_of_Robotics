@@ -5,9 +5,9 @@ title: Potenciometer
 nav_order: 4
 ---
 
-# POTENTIOMETER AS ANGLE SENSOR
+## POTENTIOMETER AS ANGLE SENSOR
 
-## Tasks:
+### Tasks:
 
 1. Add the potentiometer to the shaft of barrier gate. You can follow the instrucions in the [video](https://www.youtube.com/embed/kzLtVWtxVsQ).
 
@@ -50,20 +50,20 @@ void loop() {
 ```
 4. Advanced: Calculate the angle of barrier gate from the analog readings of potenciometer.
 
-## Questions:
+### Questions:
 
 1.  What is the value of the angle sensor when the barrier gate is in the upper orientation\...
 2.  \... and in lower orientation.
 
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>  
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>  
 

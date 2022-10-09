@@ -5,7 +5,7 @@ title: S-R-A Loop
 nav_order: 4
 ---
 
-# S-R-A LOOP
+## S-R-A LOOP
 
 S-R-A loop is repeating process where:
 
@@ -15,7 +15,7 @@ S-R-A loop is repeating process where:
 
 is involved during the procedure of controlling the robot. This is the most important part of software in robotics. Remember the `autonomous` control is `ability to perform intended tasks based on current state and sensing, without human intervention`.
 
-## Tasks:
+### Tasks:
 
 1. Using the S-R-A loop technique you should write the program in particular order:
     1.  Check the sensor. IF the bumper \...
@@ -52,21 +52,21 @@ void loop()
 
 3. Write a program to drive the robot around the class and avoid the obstacles.
 
-## Questions:
+### Questions:
 
 1. What for `S-A-R loop` stands for?
 2. Mark all three basic S-A-R processes in previous code example.
 3. Can the `line 7` of the [@lst:270_SRA_Loop] be written outside of `loop()` function? What would happened if so?
 
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>  
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>  
 

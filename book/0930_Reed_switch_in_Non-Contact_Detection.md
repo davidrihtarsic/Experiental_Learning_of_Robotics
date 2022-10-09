@@ -5,9 +5,9 @@ title: Reed switch
 nav_order: 4
 ---
 
-# REED SWITCH IN NON-CONTACT DETECTION
+## REED SWITCH IN NON-CONTACT DETECTION
 
-## Tasks:
+### Tasks:
 
 1. Add a reed switch to the front of the barrier gate to detect the car.
 2. Connect the reed switch to the input pin A1 an GND.
@@ -39,22 +39,22 @@ const int REED_SW_PIN = A1;
 [+] void moveGateDown() {
 ```
 
-## Questions:
+### Questions:
 
 1.  What is pull-up resistor?
 2.  How can we turn on the internal pull-up resistor of the microcontroller?
 
 <iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
 
-> ## Summary:
->
-> ### <++>
->
-> <++>
->
->## Issues:
->
->### *<++>*
->
-><++>  
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>  
 

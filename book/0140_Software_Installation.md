@@ -5,7 +5,7 @@ title: Software
 nav_order: 4
 ---
 
-# SOFTWARE INSTALLATION
+## SOFTWARE INSTALLATION
 
 We will need softwate listed bellow:
 
@@ -19,7 +19,7 @@ We will need softwate listed bellow:
   + auto-detect USB port, 
   + function information
 
-## Arduino IDE
+### Arduino IDE
 
 1. Go to Arduino web page Arduino->Software->[Download](https://www.arduino.cc/en/Main/Software).
 2. Download [Arduino IDE 1.8.9](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) choose [Windows Install](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe)...
@@ -28,7 +28,7 @@ We will need softwate listed bellow:
 4. ... don't forget to install also 3rd party drivers (for Chinese version of Arduino UNO controller)... 
 5. if you do forget... Try this [Russian drivers](https://www.5v.ru/zip/ch341ser(v34).zip) from [page](https://www.5v.ru/ch340g.htm).
 
-### Getting started
+#### Getting started
 
 1. Run `Arduino IDE`
 2. Connect Arduino Uno controller to USB port.\
@@ -70,11 +70,11 @@ Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for loca
     4. `[x] Display linenumbers`
     5. `[x] Enable code folding`
 
-## RobDuino
+### RobDuino
 
 RobDuino is Arduino library which include some usefull functions for driving motors and on-board key usage...
 
-### RobDuino Library Installation
+#### RobDuino Library Installation
 
 1. Download zip file:
    * [RobDuino-master.zip](https://github.com/davidrihtarsic/RobDuino/archive/master.zip)
@@ -87,15 +87,15 @@ RobDuino is Arduino library which include some usefull functions for driving mot
    * `.../Download/RobDuino.zip`
    * `[OK]`
 
-## Ardublockly
+### Ardublockly
 
 [Ardublockly](https://ardublockly.embeddedlog.com/) is [graphical programming environment](https://en.wikipedia.org/wiki/Visual_programming_language) for programming Arduino controllers. A demo version of the program is also available [on-line](https://ardublockly.embeddedlog.com/demo/#).
 
->Note: For actual programming you will need Arduino IDE installed.
+Note: For actual programming you will need Arduino IDE installed.
 
->Note: For running Ardublockly you will need to install Python program.
+Note: For running Ardublockly you will need to install Python program.
 
-### Python Installation
+#### Python Installation
 
 1. You will have to install [Python 3.7](https://www.python.org/) or grater. First [Download](https://www.python.org/downloads/) the newest version of Python.
 
@@ -103,7 +103,7 @@ RobDuino is Arduino library which include some usefull functions for driving mot
     1. `[x] Add Python to PATH` in
     2. choose `Clasic Instalation`
 
-### Ardublockly Installation
+#### Ardublockly Installation
 
 3. From [github.com/.../ardublockly](https://github.com/carlosperate/ardublockly) download **zip** file by clicking **Clone or download** and choosen [Download ZIP file](https://github.com/carlosperate/ardublockly/archive/master.zip).
 
@@ -111,14 +111,14 @@ RobDuino is Arduino library which include some usefull functions for driving mot
 
 5. That is it! Installation is complete.
 
-#### Running Ardublockly
+##### Running Ardublockly
 
 6. Find this file `C:\\Program Files(x86)\\ardublockly-master` and double-click on `start.py`. Python program should run and you should see:
     1. terminal window with some code running...
     2. and a new window should apear in your Internet Browser.
 If this is will not happend try to run `start.py` with right mouse button and `Start program with` then choose `Python 3.7`.
 
-### Settings
+#### Settings
 
 7. Click `menu` and choose `Settings`:
     1. `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino_debug.exe
@@ -126,9 +126,9 @@ If this is will not happend try to run `start.py` with right mouse button and `S
     3. `Com port:` COM3 *or appropriate one*
     4. Click `[RETURN]`.
 
-## VSC in PlatformIO
+### VSC in PlatformIO
 
->Note: For programming Arduino controllers you will need Arduino IDE installed.
+Note: For programming Arduino controllers you will need Arduino IDE installed.
 
 [Download](https://code.visualstudio.com/download) installation file:
 
@@ -138,7 +138,7 @@ If this is will not happend try to run `start.py` with right mouse button and `S
 4. run `Install`.
 5. restart VSC or click `Reload now`.
 
-### Getting Started
+#### Getting Started
 
 Write basic program `Blink`:
 

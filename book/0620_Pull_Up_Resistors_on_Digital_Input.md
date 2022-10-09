@@ -5,7 +5,7 @@ title: Pull-Up Resistor
 nav_order: 4
 ---
 
-# PULL-UP RESISTORS ON DIGITAL INPUT
+## PULL-UP RESISTORS ON DIGITAL INPUT
 
 On the module RobDuino we can find two "on-board push button switches". Wiring of this switches is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can we noticed that both switches are connected to ground voltage potential.
 
@@ -13,7 +13,7 @@ On the module RobDuino we can find two "on-board push button switches". Wiring o
 
 To properly use this on-board push-button switches we must enable the `pull-up` resistors of A4 and A5 input of microcontroller.
 
-## Tasks:
+### Tasks:
 
 1. Configure pins `A4` and `A5` as inputs with `pull-up` resistor.
 2. At the end of the `setup()` function add the `while-loop` which will delay the execution of the program until we press the `A4` key - acting as a "START BUTTON".
@@ -45,22 +45,22 @@ void loop()
 ```
 : Pull Up Resistors on Digital Input. {#lst:290_Pull_Up_Resistors_on_Digital_Input}
 
-## Questions:
+### Questions:
 
 1. What is the programming instruction of reading the value form digital input?
 2. Which values can be assigned to `bool` type variable?
 3. Explain the programming instruction `exit(0)`.
 
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>
 
 

@@ -5,9 +5,9 @@ title: Line Follower
 nav_order: 4
 ---
 
-# LINE FOLLOWER
+## LINE FOLLOWER
 
-## Tasks:
+### Tasks:
 
 1. Write the program to control the robot follow the line ( actually above the edge between black and white area ). Some programming hints you can find in [@lst:340_Line_Follower] :
 
@@ -39,21 +39,21 @@ void loop()
 ```
 : Line Follower. {#lst:340_Line_Follower}
 
-## Questions:
+### Questions:
 
 1.  What is the program function to get the `light_sensor_value`?
 2.  Determine the movements of the robot if the robot is over the black
     area and if the robot is over the white area.
 
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>
 

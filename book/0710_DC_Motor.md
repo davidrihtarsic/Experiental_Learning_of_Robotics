@@ -4,3 +4,6 @@ parent: Motors
 title: DC Motor
 nav_order: 4
 ---
+
+## DC MOTOR
+

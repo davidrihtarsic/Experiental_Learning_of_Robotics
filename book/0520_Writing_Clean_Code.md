@@ -5,7 +5,7 @@ title: Clean Code
 nav_order: 4
 ---
 
-# WRITING CLEAN CODE
+## WRITING CLEAN CODE
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
 You will probably spent the same amount of time cleaning the code that you needed for writing a working version.
@@ -36,9 +36,10 @@ void loop()
 }
 ```
 : Writing Clean Code. {#lst:230_Writing_Clean_Code}
+
 ... we will do it in several steps.
 
-## Tasks:
+### Tasks:
 
 1. Write programming functions for moving the robot in several dirrections:
     1. `moveForward()`,
@@ -81,15 +82,15 @@ void moveForward(){
 ```
 : Header file example of Robot moving functions. {#lst:Header_file_example_of_Robot_moving_functions}
 
-## Questions:
+### Questions:
 
 1. <++>
 2. <++>
 3. <++>
 
-## CLEAN CODE EXPLAINED
+### CLEAN CODE EXPLAINED
 
-### Comments - YES and NO
+#### Comments - YES and NO
 
 Comments are very helpful and necessary. Keep them short and meaningful whenever is needed. May also help during thinking process while beginning designing the code.
 
@@ -107,7 +108,7 @@ Don't use comments where the code is self-explanatory, for example:
   delay(3000); //wait for 3000ms
 ```
 
-### Functions
+#### Functions
 
 Concatenate programming code into meaningful functions is a must! Previous example of code for `driving a robot forward` is very difficult to understand at first sight. We can make cleaner code as is shown in nex example where is easier to understand what-is-what:
 
@@ -132,7 +133,7 @@ void setup()
 }
 ```
 
-#### Function declaration
+##### Function declaration
 
 Function declaration is highly advisable since allow you a quick overview of available functions in a current file. It is like a table of functions with it's return type and parameters. All declarations are tipically found at the beginig of the file.
 
@@ -142,7 +143,7 @@ void moveLeft();
 void moveLeft_PWM(int pwm_value);
 ```
 
-#### Function Definition
+##### Function Definition
 
 A function definition provides the actual body of the function.
 
@@ -156,7 +157,7 @@ void robotForward()
 }
 ```
 
-### Constants
+#### Constants
 
 Use explanatory constants to more clearly represent unintuitive numbers or other abstract values. Use these constants instead of comments since these numbers will appear several times during programming code.
 
@@ -175,7 +176,7 @@ void setIOpins()
 }
 ```
 
-### Variables
+#### Variables
 
 Use explanatory variables to make if-statements easily readable and thus understandable. Make `boolean` variables as short statements with no inverting logic.
 
@@ -208,7 +209,7 @@ void loop()
 }
 ```
 
-### Header files
+#### Header files
 
 To keep our main program file short and transparent as possible we can put supporting code (e.g. functions, settings, ...) into separate file and include it at the beginning of the main program. These files are called header files. We can write a function and save it into header file called "calculate.h"
 
@@ -233,7 +234,7 @@ int main()
 
 In this way our main code is clean and transparent.
 
-### Pre-process
+#### Pre-process
 
 The preprocessors are the directives, which give instructions to the compiler to pre-process the information before actual compilation starts (e.g. `#include` is one of them). You can easily use as such text substitutions for more clear code reading.
 
@@ -244,7 +245,7 @@ The preprocessors are the directives, which give instructions to the compiler to
 
 Remember! `#define` is really a simple text substitution and is not type-safe. Furthermore, we have to be certain that our definition will not interfere with other code used outside of our scope e.g. `libraries`. The last example is not the best representation of `#define` usage. In these case the `const int` is more proper way to go (allowed type checking, debugging). But `#define` has other benefits where `const` can not be used.
 
-#### Translations
+##### Translations
 
 The substitutions can be used as a translation and simplification of code. Such code can be introduced to very young children to get involved in programming.
 
@@ -260,7 +261,7 @@ void loop(){
 }
 ```
 
-#### Debugging
+##### Debugging
 
 You can even substitute function names e.g. `debug(txt)` with `Serial.println(txt)` and easily separate debugging code lines from necessary serial print of data. 
 
@@ -301,12 +302,12 @@ void setup()
 }
 ```
 
-> ## Summary:
->
-> ## Issues:
-> ### What is the difference between `const int` and #define?
-> `#define` is textual replacement, so it is as fast as it can get. Also it can save some RAM. The downside is that it's not type-safe.
->
-> `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
->
+### Summary:
+
+### Issues:
+#### What is the difference between `const int` and #define?
+`#define` is textual replacement, so it is as fast as it can get. Also it can save some RAM. The downside is that it's not type-safe.
+
+`const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
+
 

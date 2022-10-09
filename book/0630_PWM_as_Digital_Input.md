@@ -5,7 +5,7 @@ title: PWM as Input sig.
 nav_order: 4
 ---
 
-# PULSE WIDTH AS DIGITAL INPUT
+## PULSE WIDTH AS DIGITAL INPUT
 
 Digital input can also be used to transferee other data. One way is to modulate the data into pulse duration e.g. longer the duration of the pulse, bigger the value. This modulation of data is called **Pulse-width modulatio** or **PWM**. Such an example is ultrasonic distance sensor. Where the distance is hidden in the time duration that sound needed of travel the distance from source to object and back as presented in [@fig:UltraSound_sen_50].
 
@@ -20,7 +20,7 @@ datasheet on ultrasonic sensor HC-SR04
 https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
 -->
 
-## Tasks:
+### Tasks:
 
 1. Connect the ultrasonic distance sensor to module Robduino according to [@tbl:con_ultrason]
 
@@ -71,16 +71,16 @@ void loop()
 
 3. Add needed code in function `getDistance_cm()` to calculate the distance in cm. Also change the `Serial.println(duration_us)` program line to output `distance_cm` value.
 
-## Questions:
+### Questions:
 
 1. What is PWM?
 2. How are PWM data presented in digital signal?
 3. What voltage is used to transmit PWM values?
 
-> ## Summary:
-> ### <++>
->
-> ## Issues:
-> ### <++>
->
+### Summary:
+#### <++>
+
+### Issues:
+#### <++>
+
 

@@ -5,14 +5,14 @@ title: Equipment
 nav_order: 4
 ---
 
-# ROBOTICS EQUIPMENT
+## ROBOTICS EQUIPMENT
 
 We can divide the equipment for robotics into three different groups:
 1. Electronics,
 2. Computer science,
 3. Engineering.
 
-## ELECTRONICS
+### ELECTRONICS
 - WIRES
     - 4x 15cm
     - 4x 10cm
@@ -37,7 +37,7 @@ We can divide the equipment for robotics into three different groups:
     + 1x servo attach
     + LCD (i2c)
 
-## COMPUTER SCIENCE
+### COMPUTER SCIENCE
 
 - Arduino UNO controller
 - modul RobDuino-v2 (shield)
@@ -47,9 +47,9 @@ We can divide the equipment for robotics into three different groups:
 - 2x 18650 LiIon battery's
 - 9V Power Supply
 
-## MECHANICAL ENGINEERING
+### MECHANICAL ENGINEERING
 
-### CONSTRUCTION ELEMENTS
+#### CONSTRUCTION ELEMENTS
 
 - 12x square block 15x15x30mm
 - 6x square block 15x15x15mm
@@ -65,7 +65,7 @@ We can divide the equipment for robotics into three different groups:
 - 1x pin rail 15mm
 - 2x M4 nuts and bolts L=25mm
 
-### GEARING (GEARS and GEARBOX)
+#### GEARING (GEARS and GEARBOX)
 
 - 2x gearboxes with shafts
 - 2x sliding bearing
@@ -79,7 +79,7 @@ We can divide the equipment for robotics into three different groups:
 - 1x gear fi48mm Z30
 - 1x os elise 30mm
 
-## OPTIONAL
+### OPTIONAL
 
 - rubber bands
 - black isolating tape

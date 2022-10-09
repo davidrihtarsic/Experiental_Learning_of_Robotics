@@ -5,14 +5,14 @@ title: On-module Keys
 nav_order: 4
 ---
 
-# ON-MODULE BUTTONS WITH PULL-UP RESISTORS
+## ON-MODULE BUTTONS WITH PULL-UP RESISTORS
 
-## Tasks:
+### Tasks:
 
 1. Module RobDuino includes two \"on-board\" buttons which are connected from pin A4 and A5 to GND. This two buttons can allso be used but internal pull-up resistors must be turned on.
 1. Add manual functionality to the automated barrier gate. Add the possibility to manually lift (e.g. press A4 button) and lower (A5 button) the barrier gate.
 
-## Questions:
+### Questions:
 
 1.  \<++\>
 2.  \<++\>
@@ -46,15 +46,15 @@ const int ROBDUINO_BT_A5_PIN = A5;
 [+] void moveGateDown() {
 ```
 
-> ##  Summary
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ##  Issues
-> 
-> ### *<++>*
-> 
-> <++>  
+###  Summary
+
+#### <++>
+
+<++>
+
+###  Issues
+
+#### *<++>*
+
+<++>  
 

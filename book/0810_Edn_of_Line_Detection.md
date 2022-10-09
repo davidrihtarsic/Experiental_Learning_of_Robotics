@@ -5,15 +5,15 @@ title: Time measurements
 nav_order: 4
 ---
 
-# END OF LINE DETECTION
+## END OF LINE DETECTION
 
-## Tasks:
+### Tasks:
 
 1. Stop the robot when it reaches the end of line.
 2. Detecting the end of line can be done by measuring the time that robot spend over the black and white area. E.g. if the robot is driving along the line - the time spent over black and time spent over white area will be quite the same. When line ends the robot will not detect the black area soon and the time spent over white area will increase significantly - and that is the trigger for detecting the end of line.
 3. Advanced: Make a function to align (move) the robot back to the line.
 
-## Questions:
+### Questions:
 
 1.  How can we store a data to the controller\'s memory?
 2.  How can we measure time in programming loops?
@@ -56,9 +56,9 @@ void loop()
 ```
 : Edn of Line Detection. {#lst:360_Edn_of_Line_Detection}
 
-> ## Summary:
-> ### <++>
->
-> ## Issues:
-> ### <++>
->
+### Summary:
+#### <++>
+
+### Issues:
+#### <++>
+

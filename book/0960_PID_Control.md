@@ -5,11 +5,11 @@ title: PID Control
 nav_order: 4
 ---
 
-# PID CONTROL
+## PID CONTROL
 
 text for some intro to new lecture unit
 
-## Tasks:
+### Tasks:
 
 1. <++>
 2. <++>
@@ -38,15 +38,15 @@ void zapornicaDol_PID(){
 
 3. <++>
 
-## Questions:
+### Questions:
 
 1. <++>
 2. <++>
 3. <++>
 
-> ## Summary:
-> ### <++>
->
-> ## Issues:
-> ### <++>
->
+### Summary:
+#### <++>
+
+### Issues:
+#### <++>
+

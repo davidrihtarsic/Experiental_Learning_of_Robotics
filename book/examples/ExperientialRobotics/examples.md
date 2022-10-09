@@ -1,20 +1,22 @@
-170_Hello_World_in_ArduinoIDE
-180_How_DC_Motor_Works
-190_DC_Motor_Control_with_Digital_Outputs
-200_Gear_Reducer
-210_Robot_Construction
-220_Introduction_to_Programming
-230_Writing_Clean_Code
-240_Programming_Loops
-250_Variables_and_Data_Types
-260_Conditional_Statements
-270_SRA_Loop
-280_Digital_Input
-290_Pull_Up_Resistors_on_Digital_Input
-300_PWM_as_Digital_Input
-310_Analog_Input
-320_Avoiding_Obstacles
-330_Ligth_Sensor
-340_Line_Follower
-350_PWM_motor_control
-360_Edn_of_Line_Detection
+# Exapmples
+
+> pdftotext Experiential_Learning_of_Robotics.pdf
+> grep "Program [0-9]" Experiential_Learning_of_Robotics.txt
+
+Program 3.1: Hello World in ArduinoIDE.
+Program 4.1: DC Motor Control with Digital Outputs.
+Program 5.1: Introduction to Programming.
+Program 5.2: Header file example of Robot moving functions.
+Program 5.3: Programming Loops.
+Program 5.4: Variables and Data Types.
+Program 5.5: Conditional Statements.
+Program 5.6: SRA Loop.
+Program 6.1: Digital Input.
+Program 6.2: Pull Up Resistors on Digital Input.
+Program 6.3: PWM as Digital Input.
+Program 6.4: Analog Input.
+Program 6.5: Avoiding Obstacles.
+Program 6.6: Ligth Sensor.
+Program 6.7: Line Follower.
+Program 7.1: PWM motor control.
+Program 8.1: Edn of Line Detection.

@@ -7,9 +7,9 @@ has_children: true
 
 # INTRODUCTION AND PREPARATION
 
-Nakaj čisto za začetek
-
-Kako uporabljati to gradivao?
-
-Kaj namestiti...
+> TO-DO:
+>
+> - nakaj o gradivu
+> - kako je napisano in
+> - kako ga uporabljati
 

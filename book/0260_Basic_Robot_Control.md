@@ -5,9 +5,9 @@ title: Robot Control
 nav_order: 4
 ---
 
-# BASIC ROBOT CONTROL
+## BASIC ROBOT CONTROL
 
-## Task: CONTROLLING THE MOTORS
+### Task: CONTROLLING THE MOTORS
 
 1. Connect LEFT MOTOR to digital outputs:
     -   D7 and D6
@@ -23,25 +23,25 @@ nav_order: 4
     - turn left
     - turn right
 
-## Questions:
+### Questions:
 
 1.  How many digital outputs you have to set in order to control the
     robot for specific move?
 2.  How many different moves your robot can make?
 
-> ## Summary:
-> 
-> ### Controlling the robot in two degrees of freedom
-> 
-> To controlling the robot in two degrees of freedom we need to control
-> two motors. Since we have to set two digital outputs for each motor we
-> have to set four digital outputs for each individual move.
-> 
-> ## Issues:
-> 
-> ### *When I change the direction of the robot the robot does not move as expected.*
-> 
-> Probably you did not set all of the outputs correctly. Remember that
-> some outputs may have remained set in previous output state from taken
-> action in previous task.  
+### Summary:
+
+#### Controlling the robot in two degrees of freedom
+
+To controlling the robot in two degrees of freedom we need to control
+two motors. Since we have to set two digital outputs for each motor we
+have to set four digital outputs for each individual move.
+
+### Issues:
+
+#### *When I change the direction of the robot the robot does not move as expected.*
+
+Probably you did not set all of the outputs correctly. Remember that
+some outputs may have remained set in previous output state from taken
+action in previous task.  
 

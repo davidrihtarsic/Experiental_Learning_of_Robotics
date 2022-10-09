@@ -5,9 +5,9 @@ title: Construction
 nav_order: 4
 ---
 
-# BARRIER GATE CONSTRUCTION
+## BARRIER GATE CONSTRUCTION
 
-## Tasks:
+### Tasks:
 
 1. Construct the barrier gate according to [video](https://www.youtube.com/embed/5_eh7ojNH68) instructions.
 
@@ -51,22 +51,22 @@ const int MOTOR_PIN_2 = 6;
 [+] void moveGateDown() {
 ```
 
-## Questions:
+### Questions:
 1. What is the time for raising and lowering the barrier?
     Compare it to your colleague's value.
 2. What is the disadvantage of time controlled loop?
 
 <iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
 
-> ## Summary
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>
+### Summary
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>
 

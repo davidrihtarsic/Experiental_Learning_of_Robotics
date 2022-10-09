@@ -5,9 +5,9 @@ title: Testing
 nav_order: 4
 ---
 
-# EQUIPMENT TESTING
+## EQUIPMENT TESTING
 
-## Basic testing in Arduino IDE
+### Basic testing in Arduino IDE
 
 1. Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` 
@@ -24,27 +24,27 @@ nav_order: 4
     If the uploading was successful you will be prompted with the text
     like:  
 
-> ```
-> Done uploading.  
-> Sketch uses 970 bytes (3%) of program storage space. Maximum
-> is 32256 bytes. Global variables use 9 bytes (0%) of dynamic
-> memory, leaving 2039 bytes for local variables. Maximum is
-> 2048 bytes.
-> ```
+```
+Done uploading.  
+Sketch uses 970 bytes (3%) of program storage space. Maximum
+is 32256 bytes. Global variables use 9 bytes (0%) of dynamic
+memory, leaving 2039 bytes for local variables. Maximum is
+2048 bytes.
+```
 
-> ## Issues
->
-> ### LED_BUILTIN was not declared in this scope
->
-> ![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared_IDE}
->
-> Compiler ne ve kaj naj bi bilo "LED_BUILTIN" ... na tem mesu naj bi bila številka priključka, ki ga želimo krmiliti. V tem primeru je to številka 13. Rešitvi sta lahko 2:  
-> 1. vse LED_BUILTIN zamenjaš s 13 ali  
-> 2. v vrstico pred "void setup()" dodaj `const int LED_BUILTIN = 13;`
->
-> Zadnja (druga) rešitev je boljša, ker pripomore k berljivosti programa... Spremenljivka LED_BUILTIN se imenuje "razlagalna spremenljivka" ker pomaga razlagati program. Tako postane tisti komentar "// turn the LED on (HIGH is the voltage level)" nepotreben, saj sama koda pove točno enako.
+### Issues
 
-## Basic testing in Ardublockly
+#### LED_BUILTIN was not declared in this scope
+
+![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared_IDE}
+
+Compiler ne ve kaj naj bi bilo "LED_BUILTIN" ... na tem mesu naj bi bila številka priključka, ki ga želimo krmiliti. V tem primeru je to številka 13. Rešitvi sta lahko 2:  
+1. vse LED_BUILTIN zamenjaš s 13 ali  
+2. v vrstico pred "void setup()" dodaj `const int LED_BUILTIN = 13;`
+
+Zadnja (druga) rešitev je boljša, ker pripomore k berljivosti programa... Spremenljivka LED_BUILTIN se imenuje "razlagalna spremenljivka" ker pomaga razlagati program. Tako postane tisti komentar "// turn the LED on (HIGH is the voltage level)" nepotreben, saj sama koda pove točno enako.
+
+### Basic testing in Ardublockly
 
 1. Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` 
@@ -61,24 +61,24 @@ nav_order: 4
 
 ![Ardublockly basic setup.](./slike/Ardublockly_basic_setup.png){#fig:Ardublockly_basic_setup}
 
-> ```
-> Successfully Uploaded Sketch
-> WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F.
-> No valid hardware definitions found in folder WAV8F.
-> Sketch uses 444 bytes (1%) of program storage space. Maximum is
-> 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory,
-> leaving 2039 bytes for local variables. Maximum is 2048 bytes.
-> ```
+```
+Successfully Uploaded Sketch
+WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F.
+No valid hardware definitions found in folder WAV8F.
+Sketch uses 444 bytes (1%) of program storage space. Maximum is
+32256 bytes. Global variables use 9 bytes (0%) of dynamic memory,
+leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+```
 
-> ## Summary
-> Before uploading the programming code always check that the right board and serial port are set.
->
-> ## Issues
-> **Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
-> Try to re-connect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
+### Summary
+Before uploading the programming code always check that the right board and serial port are set.
+
+### Issues
+**Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
+Try to re-connect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
 
 
-## RobDuino module
+### RobDuino module
 
 1. Na krmilnik Arduino Uno priključite modul `RobDuino` in naložite naslednji program:
 
@@ -107,7 +107,7 @@ void loop() {
 
 2. Nato preverite delovanje obeh tipk (A4 in A5) na modulu in vrednosti izhodnih priključkov D0 .. D7.
 
-## Napajalni modul
+### Napajalni modul
 
 Napajalni modul uporablja 2x Li-ion akumulatorja tipa 18650. Spodnje tiskano vezje je prikazano [@fig:napajalni_modul].
 
@@ -121,9 +121,9 @@ Dodatno smo ga opremili z:
     1. ON - izhod za 9V je kaktiviran
     2. OFF - izključen izhod 9V napajanja in omogočeno je polnenje akumulatorjev preko 3-pinskega priključka (5V).
 
->Pomembno: Pred prvo uporabo moramo ročno aktivirati napajalni modul tako, da povežemo GND na 3-pinskem priključku in NEGATIVNI terminal akumulatorjev.
+Pomembno: Pred prvo uporabo moramo ročno aktivirati napajalni modul tako, da povežemo GND na 3-pinskem priključku in NEGATIVNI terminal akumulatorjev.
 
-## Tipka
+### Tipka
 
 1. Priključite stikalo po shemi na [@fig:tipka_test].
 
@@ -148,7 +148,7 @@ void loop() {
 }
 ```
 
-## Svetlobni senzor
+### Svetlobni senzor
 
 1. Priključite foto-tranzistor v delilnik napetosti z uporom, kot prikazuje [@fig:foto_senzor_test].
 
@@ -171,7 +171,7 @@ void loop() {
 
 3. Odziv senzorja spremljajte v oknu serijske komunikacije.
 
-## IR senzor razdalje
+### IR senzor razdalje
 
 1. IR senzor razdalje priključite na tri-pinski priključek kot je prikazano na [@fig:test_IR].
 
@@ -192,7 +192,7 @@ void loop() {
 }
 ```
 
-## LCD (I2C)
+### LCD (I2C)
 
 1. Priključite LCD na I2C vodilo kot prikazuje 
 

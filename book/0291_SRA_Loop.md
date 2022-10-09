@@ -5,9 +5,9 @@ title: S-R-A Loop
 nav_order: 4
 ---
 
-# S-R-A LOOP
+## S-R-A LOOP
 
-## Tasks:
+### Tasks:
 
 1. Write the program to drive the robot around the class and avoid the
     obstacles.
@@ -17,7 +17,7 @@ nav_order: 4
     2.   ... is pressed the robot has to stop/go back/turn.
     3.   ... is not pressed the robot can drive forward.
 
-## Questions:
+### Questions:
 
 1.  Would this routine also work in Arduino run first function (check
     the program in Slide 2)?
@@ -25,15 +25,15 @@ nav_order: 4
 
 <iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&hl=en&size=s" width="410" height="337" title="S-R-A Loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-> ## Summary:
-> 
-> ### Senzoning-Reasoning-Acting Loop
-> 
-> S-R-A loop is the most important thing in robotics.
-> 
-> ## Issues:
-> 
-> ### *It seems that the program is not working right \... like it would be ignoring the value of the sensor.*
-> 
-> Probably the S-R-A loop is not actually a loop. Check the program if the input is read just onces or is read continuously.  
+### Summary:
+
+#### Senzoning-Reasoning-Acting Loop
+
+S-R-A loop is the most important thing in robotics.
+
+### Issues:
+
+#### *It seems that the program is not working right \... like it would be ignoring the value of the sensor.*
+
+Probably the S-R-A loop is not actually a loop. Check the program if the input is read just onces or is read continuously.  
 
