@@ -9,7 +9,7 @@ has_children: true
 
 > TO-DO:
 >
-> - nakaj o gradivu
+> - nakaj o namenu teknjige
 > - kako je napisano in
 > - kako ga uporabljati
 
