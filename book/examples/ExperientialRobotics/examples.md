@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Exapmples
 
 > pdftotext Experiential_Learning_of_Robotics.pdf
