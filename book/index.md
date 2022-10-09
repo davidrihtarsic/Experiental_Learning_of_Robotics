@@ -6,4 +6,4 @@ has_children: true
 
 # Experiental learning of Robotics
 
-celotno knjigo lahko zložite tule...
+Complete book: Experiental learning of Robotics is available [here](./pdf/Experiential_Learning_of_Robotics.pdf)
