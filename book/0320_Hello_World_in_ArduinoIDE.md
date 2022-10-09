@@ -44,23 +44,36 @@ void loop() {
 
 Using curly braces in C++ is important part of riting the programming code. Imagine that you want to merge several members of programing code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces {} are the best choice.
 
-#### Function Definition
-```cpp
-   void loop() {
-
-   }
-```
-#### Function Call
-```cpp
-    digitalWrite(3, HIGH);
-```
 #### Function Name
 
 Function name should be stacked together from 2 - 5 short words that uniquely describing the functionality of the function. The first word should start with lower case and all the others words following should start with upper case. Some examples should be:
+
 ```cpp
-   badname(); 
-   goodFunctionName(); 
+badname(); 
+goodFunctionName(); 
 ```
+
+#### Function Declaration
+
+```cpp
+int measre_Temperature_Avg(int temperatureSensor);
+```
+
+#### Function Definition
+
+```cpp
+void loop() {
+    //some programming
+    //code goes here...
+}
+```
+
+#### Function Call
+
+```cpp
+    digitalWrite(3, HIGH);
+```
+
 ### Issues:
 
 #### *Error: expected ';' before 'something'*
