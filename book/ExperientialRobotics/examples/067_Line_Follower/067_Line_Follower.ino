@@ -11,7 +11,7 @@ void setup()
 void loop()
 {
   int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-  if ( light_sensor_value < treshold_value )
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
   {
     // do this if robot is over the black line
 
@@ -19,6 +19,6 @@ void loop()
   else
   {
     // do this if robot is over white area
-     
+
   }
 }

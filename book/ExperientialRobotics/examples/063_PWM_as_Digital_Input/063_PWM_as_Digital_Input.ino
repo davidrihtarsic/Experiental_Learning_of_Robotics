@@ -19,8 +19,9 @@ int getPulseWidth_us()
 float getDistance_cm()
 {
   // do distance calculation here...
-  return 0
+  return 0;
 }
+
 void loop()
 {
   float distance_cm = getDistance_cm();

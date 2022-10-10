@@ -22,12 +22,12 @@ void loop()
   }
   else
   {
-    // WHITE area
+    //WHITEarea
     moveRight();
     // Do similar meas.
     // of time on white
-    delay(100); 
+    delay(100);
     // If time is signif. longer:
-    //        robotStop();exit(0);
+    // robotStop();exit(0);
   }
 }

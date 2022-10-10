@@ -7,9 +7,9 @@ void setup()
   // for 10 times to make a danging move
   for (int i = 0; i < 10; i++)
   {
-    robotLeft();
+    moveLeft();
     delay(100);
-    robotRight();
+    moveRight();
     delay(100);
   }
   stopTheRobot();

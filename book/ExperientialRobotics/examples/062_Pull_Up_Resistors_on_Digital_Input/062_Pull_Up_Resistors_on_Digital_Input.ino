@@ -20,4 +20,3 @@ void loop()
     exit(0);        //terminate the program
   }
 }
-```

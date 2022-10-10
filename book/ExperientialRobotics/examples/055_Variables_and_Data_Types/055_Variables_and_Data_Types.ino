@@ -6,7 +6,7 @@ void setup()
   moveForward();
   delay(3000);
   moveBack();
-  deay(3000);
+  delay(3000);
   stopTheRobot();
 }
 void loop()
