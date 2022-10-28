@@ -22,8 +22,7 @@ nav_order: 4
 
 1.  In which direction the motor\'s shaft spins in different situations?
 2.  In which direction the electric current flow?
-3.  Why does motor is not spinning when both connectors are connected to +
-    terminal of the battery?
+3.  Why does motor not spinning when both connectors are connected to + terminal of the battery?
 
 ### Summary
 The rotation of the DC motor depends on the direction of electric

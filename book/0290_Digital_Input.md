@@ -7,8 +7,8 @@ nav_order: 4
 
 ## DIGITAL INPUT
 
--   In sake to detect the obstacles we have to equip robot with the
-    \"touch sensor\". This sensor is basically a switch or key, which
+-   In sake to detect the obstacles we have to equip the robot with the
+    \"touch sensor\". This sensor is basically a switch or a key, which
     toggles it\'s output between GND and +5 V voltage potentials.
 -   Follow [video instructions](https://www.youtube.com/embed/eWldNxh-q2c)
     to construct bumper in front of the robot.
@@ -33,8 +33,9 @@ in order that are specified in presentation and listed as:
 
 ### Questions:
 
-1. What is the output voltage of the sensor when the robot is (or is NOT) touching the obstacle?
-2. How many different states are presented at the output of the sensor?
+1. What is the output voltage (measure it) of the sensor when the robot is
+    (or is NOT) touching the obstacle?
+2. How many different states can we measure at the output of the sensor?
 3. Name several more examples where digital sensor can take place.
 
 <iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Connecting the key" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

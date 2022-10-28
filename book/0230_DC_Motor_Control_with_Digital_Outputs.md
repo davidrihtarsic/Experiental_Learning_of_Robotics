@@ -26,8 +26,8 @@ Table: All combinations of the states of motor's connectors. {#tbl:motor_combo_A
 
 ### Questions:
 
-2.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
-3.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
+1.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
+2.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
 
 ![Wireing the DC motor to controller.](./slike/Controlling_the_motor.png)
 

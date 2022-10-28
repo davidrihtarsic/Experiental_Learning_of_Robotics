@@ -20,7 +20,7 @@ nav_order: 4
 2.  How fast the shaft of the reductor is spinning in comparison to the shaft of the motor?
 3.  Are you able to freely rotate the shaft of the reductor by hand?
 4.  What happened with the produced mechanical power?
-5.  Try to calculate the geared ratio of the reductor.
+5.  Try to calculate the geared ratio of the reducer.
 
 ![Gear ration calculation.](./slike/gear_ratio.png)
 
