@@ -9,9 +9,37 @@ has_children: true
 
 > TO-DO:
 >
-> - nakaj o gradivu
+> - nakaj o namenu te knjige.
 > - kako je napisano in
 > - kako ga uporabljati
+
+Welcome to the educational robotics lecture using Arduino, Robduino module, and Fischertechnik parts! In this lectures, we will learn how to use these tools and materials to build and program simple robots for educational and recreational purposes.
+
+First, we will introduce the Arduino controller and the Robduino module, and discuss their capabilities and limitations. We will also cover the basics of the Arduino programming language, including variables, functions, and control structures.
+
+Next, we will discuss the Fischertechnik parts and how they can be used to construct robots with various shapes, sizes, and capabilities. We will cover the different types of parts that are available, such as beams, gears, motors, and sensors, and how they can be combined to create a wide range of structures and mechanisms.
+
+We will then demonstrate how to use the Arduino controller and Robduino shield to program and control Fischertechnik robots. We will cover topics such as sensor input, actuator output, and feedback control.
+
+Throughout this lecture, we will use hands-on activities and examples to illustrate the concepts and techniques that are covered. We will also discuss some of the challenges and considerations that are involved in building and programming robots with these tools and materials.
+
+## Construction parts
+
+Fischertechnik and LEGO are both brands of construction toy systems that allow users to build and create a wide range of structures and mechanisms. Both systems use a modular approach, with a variety of interlocking parts that can be easily snapped together.
+
+However, there are some key differences between Fischertechnik and LEGO parts:
+
+Material: Fischertechnik parts are made of a durable, high-quality plastic called polycarbonate, which is known for its strength and resistance to wear and tear. LEGO parts are made of a softer plastic called acrylonitrile butadiene styrene (ABS), which is more flexible and less durable.
+
+Precision: Fischertechnik parts are designed with high precision and tolerances, which allows for more accurate and stable constructions. LEGO parts have slightly looser tolerances, which can make them more prone to wobbling or sagging.
+
+Size and shape: Fischertechnik parts are generally smaller and more compact than LEGO parts, which allows for more detailed and precise constructions. LEGO parts are larger and more blocky, which makes them more suitable for building larger structures.
+
+Functionality: Fischertechnik parts are designed with a focus on mechanical and electrical functionality, and include a wide range of components such as gears, motors, and sensors. LEGO parts are more geared towards aesthetics and playability, and include elements such as minifigures and decorative elements.
+
+Price: Fischertechnik parts tend to be more expensive than LEGO parts, due to their higher quality and greater functionality.
+
+Overall, Fischertechnik and LEGO are both excellent construction toy systems, and the choice between them will depend on the specific needs and preferences of the user.
 
 ---
 grand_parent: Book
@@ -261,8 +289,8 @@ Because education is associated with information and computers are associated wi
 #### Katero učno opremo naj uporabim?
 
 - [Lego We-Do](https://le-www-live-s.legocdn.com/sc/media/files/user-guides/wedo-2/introduction/introduction-en-us-v1-9a5c0557dd5e2d052e77cbc7c39e6a5f.pdf)
-- [Lego Mindstiorms](https://education.lego.com/en-au/support/mindstorms-ev3/quick-start-guide)
-- [Fischertehnik](https://www.fischertechnik.de/en/service/elearning/teaching)
+- [Lego Mindstiorms](https://www.lego.com/en-si/themes/mindstorms/buildarobot)
+- [Fischertehnik](https://www.fischertechnik.de/en/products/learning/stem-robotics)
 - [Vex](http://www.vexrobotics.fi/wp-content/uploads/sites/5/2016/03/228-3319-VEX-IQ-Robotics-Education-Guide-201511051.pdf)
 
 
@@ -849,6 +877,13 @@ has_children: true
 
 # FIRST STEPS INTO ROBOTICS WIHT ARDUBLOCKLY
 
+Ardublockly is a visual programming tool for the Arduino controller. It allows users to program the Arduino using blocks that represent different programming concepts and functions, rather than writing code in a text-based programming language.
+
+Ardublockly is based on the popular Scratch programming language, and uses a similar block-based interface. It includes a wide range of blocks for controlling motors, reading sensors, displaying information, and many other tasks.
+
+Ardublockly is designed to be user-friendly and intuitive, making it a great choice for beginners and educators who are new to programming and robotics. It is also fully compatible with the Arduino controller, and can be used to program a wide range of Arduino-based projects.
+
+Overall, Ardublockly is a powerful and versatile programming tool that can help users of all skill levels learn about programming and robotics in a fun and engaging way.
 
 ---
 grand_parent: Book
@@ -904,8 +939,7 @@ nav_order: 4
 
 1.  In which direction the motor\'s shaft spins in different situations?
 2.  In which direction the electric current flow?
-3.  Why does motor is not spinning when both connectors are connected to +
-    terminal of the battery?
+3.  Why does motor not spinning when both connectors are connected to + terminal of the battery?
 
 ### Summary
 The rotation of the DC motor depends on the direction of electric
@@ -945,8 +979,8 @@ Table: All combinations of the states of motor's connectors. {#tbl:motor_combo_A
 
 ### Questions:
 
-2.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
-3.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
+1.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
+2.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
 
 ![Wireing the DC motor to controller.](./slike/Controlling_the_motor.png)
 
@@ -980,7 +1014,7 @@ nav_order: 4
 2.  How fast the shaft of the reductor is spinning in comparison to the shaft of the motor?
 3.  Are you able to freely rotate the shaft of the reductor by hand?
 4.  What happened with the produced mechanical power?
-5.  Try to calculate the geared ratio of the reductor.
+5.  Try to calculate the geared ratio of the reducer.
 
 ![Gear ration calculation.](./slike/gear_ratio.png)
 
@@ -1171,8 +1205,8 @@ nav_order: 4
 
 ## DIGITAL INPUT
 
--   In sake to detect the obstacles we have to equip robot with the
-    \"touch sensor\". This sensor is basically a switch or key, which
+-   In sake to detect the obstacles we have to equip the robot with the
+    \"touch sensor\". This sensor is basically a switch or a key, which
     toggles it\'s output between GND and +5 V voltage potentials.
 -   Follow [video instructions](https://www.youtube.com/embed/eWldNxh-q2c)
     to construct bumper in front of the robot.
@@ -1197,8 +1231,9 @@ in order that are specified in presentation and listed as:
 
 ### Questions:
 
-1. What is the output voltage of the sensor when the robot is (or is NOT) touching the obstacle?
-2. How many different states are presented at the output of the sensor?
+1. What is the output voltage (measure it) of the sensor when the robot is
+    (or is NOT) touching the obstacle?
+2. How many different states can we measure at the output of the sensor?
 3. Name several more examples where digital sensor can take place.
 
 <iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Connecting the key" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -1333,6 +1368,18 @@ has_children: true
 
 # ARDUINO IDE
 
+The Arduino platform is based on the Atmel AVR microcontroller family, and the Arduino Uno is based on the ATmega328 microcontroller. The Arduino Integrated Development Environment (IDE) is a software application that provides a way to write and upload code to the microcontroller. The Arduino IDE is available for Windows, macOS, and Linux, and it is open source.
+
+To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, make sure that you have the Arduino IDE installed on your computer. Then, follow these steps:
+
+1. Connect your Arduino Uno to your computer using a USB cable.
+2. Open the Arduino IDE.
+3. Select the correct board and serial port in the Arduino IDE.
+4. Write your C++ code in the Arduino IDE editor.
+5. Click the "Verify" button to compile your code.
+6. Click the "Upload" button to upload your code to the Arduino Uno.
+
+Happy programming!
 ---
 grand_parent: Book
 parent: Arduino IDE
@@ -1379,23 +1426,36 @@ void loop() {
 
 Using curly braces in C++ is important part of riting the programming code. Imagine that you want to merge several members of programing code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces {} are the best choice.
 
-#### Function Definition
-```cpp
-   void loop() {
-
-   }
-```
-#### Function Call
-```cpp
-    digitalWrite(3, HIGH);
-```
 #### Function Name
 
 Function name should be stacked together from 2 - 5 short words that uniquely describing the functionality of the function. The first word should start with lower case and all the others words following should start with upper case. Some examples should be:
+
 ```cpp
-   badname(); 
-   goodFunctionName(); 
+badname(); 
+goodFunctionName(); 
 ```
+
+#### Function Declaration
+
+```cpp
+int measre_Temperature_Avg(int temperatureSensor);
+```
+
+#### Function Definition
+
+```cpp
+void loop() {
+    //some programming
+    //code goes here...
+}
+```
+
+#### Function Call
+
+```cpp
+    digitalWrite(3, HIGH);
+```
+
 ### Issues:
 
 #### *Error: expected ';' before 'something'*
@@ -1415,6 +1475,19 @@ has_children: true
 
 # DIGITAL OUTPUT
 
+On an Arduino Uno board, a digital output is a pin that can be used to output a digital signal, which can be either high (5 volts) or low (0 volts). Digital outputs are useful for controlling devices that are either on or off, such as LEDs, motors, and relays.
+
+To use a digital output on an Arduino Uno board, you will need to specify which pin you want to use as an output in your code. You can do this using the pinMode function, which takes two arguments: the pin number and the mode (OUTPUT or INPUT). For example, the following code sets digital pin 13 as an output:
+
+```C++
+pinMode(13, OUTPUT);
+```
+
+Once you have set a pin as an output, you can use the digitalWrite function to set the pin to either a high or low state. For example, the following code sets digital pin 13 to a high state:
+
+```C++
+digitalWrite(13, HIGH);
+```
 ---
 grand_parent: Book
 parent: Digital Output
@@ -1423,6 +1496,16 @@ nav_order: 4
 ---
 
 ## HOW THE DC MOTOR WORKS
+
+A DC motor (Direct Current motor) is an electrical machine that converts electrical energy into mechanical energy. It works by using electromagnetic principles to generate rotary motion.
+
+Here is how a DC motor works in more detail:
+
+- The DC motor has two main parts: the stator and the rotor. The stator is the stationary part of the motor, and the rotor is the rotating part.
+- The stator consists of a coil of wire that is wound around a core. When an electric current flows through the coil, it creates a magnetic field around the core.
+- The rotor consists of a permanent magnet or a coil of wire that is mounted on a shaft. When the rotor is placed inside the stator, the magnetic fields of the stator and the rotor interact with each other.
+- If the stator's coil is energized with a DC current, the magnetic field it creates will rotate around the core. This causes the rotor to rotate as well, since it is attracted to the moving magnetic field.
+- The speed and direction of the rotor's rotation can be controlled by adjusting the strength and polarity of the current flowing through the stator's coil. This is typically done using an H-bridge circuit, which allows the current to be reversed and the motor to run in both directions.
 
 ### Task: MAKE DC MORTOT RUN
 
@@ -1521,6 +1604,16 @@ nav_order: 4
 
 ## GEAR REDUCER
 
+Gear reduction is the process of using a set of gears to reduce the speed of a mechanical system while increasing the torque (rotational force). It is commonly used in robotics and other applications where it is necessary to trade speed for power.
+
+There are several ways to achieve gear reduction, but the most common method is to use a gear train, which is a series of interconnected gears that transmit motion from one gear to another. By using gears with different sizes and ratios, it is possible to reduce the speed of the output gear while increasing the torque.
+
+For example, consider a simple gear train with two gears: a larger driving gear (Gear A) and a smaller driven gear (Gear B). If the driving gear has 10 teeth and the driven gear has 20 teeth, the gear reduction ratio will be 2:1 (Gear B will rotate at half the speed of Gear A, but with twice the torque).
+
+Here is the formula for calculating the gear reduction ratio:
+
+$$  Gear reduction ratio = \frac{Number of teeth on driving gear}{Number of teeth on driven gear} $${#eq:gear_eq}
+
 ### Task:
 
 1. Add geared reductor to DC motor.
@@ -1603,8 +1696,33 @@ nav_order: 3
 has_children: true
 ---
 
-# INTRODUCTION TO C PROGRAMMING LANGUAGE
+# INTRODUCTION TO C++ PROGRAMMING LANGUAGE
 
+C++ is a high-performance programming language that is widely used for building software applications. It was developed by Bjarne Stroustrup in 1979 as an extension of the C programming language. C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." C++ is also a compiled language, which means that the source code is converted into machine code by a compiler before it can be run on a computer.
+
+Here are some basic concepts in C++:
+
+**Variables**: A variable is a named location in memory that stores a value. In C++, you must specify the data type of a variable when you declare it. For example:
+
+```cpp
+int x;      // declares a variable x of type int
+float y;    // declares a variable y of type float
+char c;     // declares a variable c of type char
+```
+
+**Operators**: Operators are special symbols that perform specific operations on one or more operands. C++ has a variety of operators, including arithmetic operators (e.g., +, -, *, /), comparison operators (e.g., ==, !=, >, <), and logical operators (e.g., &&, ||, !).
+
+**Control structures**: Control structures are statements that control the flow of execution in a program. C++ has several types of control structures, including if statements, for loops, and while loops.
+
+**Functions**: A function is a block of code that performs a specific task. C++ has a large standard library of functions, and you can also define your own functions. A function definition has the following syntax:
+
+```cpp
+return_type function_name(parameter list) {
+   // function body
+}
+```
+
+**Object-oriented programming**: As I mentioned earlier, C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." An object is a self-contained unit of code that represents a real-world entity, such as a person, a car, or a bank account. Objects have attributes (data) and behaviors (functions). In C++, you can define classes to create objects.
 
 ---
 grand_parent: Book
@@ -1874,8 +1992,8 @@ void moveForward(){
 
 ### Questions:
 
-1. <++>
-2. <++>
+1. Explain why functions contribute to more readable code.
+2. Why is good to use explanatory variables?
 3. <++>
 
 ### CLEAN CODE EXPLAINED
@@ -2022,7 +2140,15 @@ int main()
 }
 ```
 
-In this way our main code is clean and transparent.
+There are several reasons to use header files in C++:
+
+**Code organization**: Header files allow you to organize your code into logical units, which can make it easier to understand and maintain. For example, you can use a header file to group together related function declarations, constants, and data types.
+
+**Code reuse**: Header files can be included in multiple source files, which allows you to reuse the same code in multiple places without having to copy and paste it. This can save time and reduce the risk of errors.
+
+**Compilation speed**: When you include a header file in a source file, the compiler does not need to recompile the code in the header file every time it compiles the source file. This can significantly improve the compilation speed of your program, especially if the header file contains a large amount of code.
+
+**Separation of interface and implementation**: Header files can be used to separate the interface (the function declarations and data types that are visible to the rest of the program) from the implementation (the actual code that performs the tasks). This can make it easier to change the implementation of a module without affecting the rest of the program.
 
 #### Pre-process
 
@@ -2099,6 +2225,114 @@ void setup()
 `#define` is textual replacement, so it is as fast as it can get. Also it can save some RAM. The downside is that it's not type-safe.
 
 `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
+
+
+---
+grand_parent: Book
+parent: C++ Programming
+title: Testing Code
+nav_order: 4
+---
+
+## TESTING PROGRAMMING CODE
+
+Testing code in Arduino is important because it helps to ensure that the code is working correctly and producing the desired results. Testing can help to catch bugs and errors in the code, and can also help to verify that the code is performing the tasks that it is intended to perform. By thoroughly testing code, you can improve the reliability and functionality of your Arduino projects.
+
+The Serial.println() function is a useful tool for debugging Arduino code because it allows you to print information to the serial monitor, which can help you understand what your code is doing and troubleshoot any problems.
+
+To use Serial.println() for debugging, you will need to include the Serial library at the top of your sketch and initialize the serial monitor using the Serial.begin() function. Then, you can use Serial.println() to print strings or variables to the serial monitor.
+
+Here is an example of how to use Serial.println() for debugging in an Arduino sketch:
+
+```cpp
+void setup() {
+  // Initialize serial communication at a baud rate of 9600
+  Serial.begin(9600);
+}
+
+void loop() {
+  int x = 10;
+  int y = 20;
+
+  // Print the value of x and y to the serial monitor
+  Serial.print("x = "); Serial.println(x);
+  Serial.print("y = "); Serial.println(y);
+
+  // Print the result of an operation to the serial monitor
+  int sum = x + y;
+  Serial.print("sum = "); Serial.println(sum);
+}
+```
+
+To view the output of the Serial.println() statements, you will need to open the serial monitor in the Arduino IDE. You can do this by clicking on the "magnifying glass" icon in the top right corner of the window.
+
+### Testing mode
+
+Since testing programming code and hardware is one of the key features in designing a robot it is recommended that testing functions are a part of your main program. 
+
+We will write a program which will be triggered by sending specific text over the serial communication. For example if we will send the string `forward` the function `moveForward()` will be executed. The function `serialEvent()` is trigged when some data are available on serial communication. A basic example of such functionality is shown in [@lst:053_Testing_programming_code]:
+
+```cpp
+#include "RobotMovingFunctions.h"
+void setup()
+{
+  Serial.begin(9600);
+
+  setIOpins();
+  moveForward();
+  delay(3000);
+  stopTheRobot();
+  
+}
+
+void loop()
+{
+
+}
+
+void serialEvent(){
+  String test_string = Serial.readString();
+  if      (test_string == "forward")  moveForward();
+  else if (test_string == "stop")     stopTheRobot();
+  else Serial.println("\n" + test_string + " is not valid command.");
+}
+```
+: Testing programming code. {#lst:053_Testing_programming_code}
+
+> ### Task: Try testing workflow
+>
+> 1. Explore the testing functionality of  this example.
+> 2. Complete the testing functionality with other functions available to control the robot movement.
+> 3. Move the function `serialEvent()` into header file.
+
+In further lectures we will be using more advances `Testing mode` where single digital outputs will be controlled; and inputs will be measured in digital and analog manner. The testing mode will be trigged by a command `testing`. The output will show every output state:
+
+```cpp
+******* Testing mode ********************
+
+Dig. Out	Dig. In.	An.In.
+D0 = 1		A0 = 0		A0 = 293
+D1 = 0		A1 = 0		A1 = 334
+D2 = 0		A2 = 0		A2 = 353
+D3 = 0		A3 = 0		A3 = 369
+D4 = 0		A4 = 0		A4 = 339
+D5 = 0		A5 = 0		A5 = 264
+D6 = 0
+D7 = 0
+-------------------------------------------
+```
+
+> ### Questions: 
+>
+> 1. Explain why testing is important.
+> 2. Describe the techniques of testing.
+> 3. What parts of the robot should be tested regularly.
+
+### Summary:
+#### <++>
+
+### Issues:
+#### <++>
 
 
 ---
@@ -2207,7 +2441,58 @@ unsigned long stop_time = millis();
 unsigned long loop_duration = stop_time - start_time;
 ```
 
+#### *Can I exit a while loop.*
 
+Yes, you can use the "break" statement to exit a while loop in C++. However, this is not a common practice it is advised to set appropriate condition to exit a while loop.
+Here is an example of using "brake" statement:
+
+```cpp
+int x = 0;
+while (x < 10) {
+  Serial.println(x);
+  x++;
+  if (x == 5) {
+    break;
+  }
+}
+```
+
+This code will output the following to the serial port:
+
+```
+0
+1
+2
+3
+4
+```
+
+In this example, the "break" statement is used to exit the while loop when the value of "x" becomes 5. As a result, the loop only executes 5 times, rather than 10 times.
+
+It is also possible to use the "continue" statement to skip the remainder of the current iteration of a loop, without exiting the loop entirely. For example:
+
+```cpp
+int x = 0;
+while (x < 10) {
+  x++;
+  if (x % 2 == 1) {
+    continue;
+  }
+  Serial.println(x);
+}
+```
+
+This code will output the following to the serial port:
+
+```
+2
+4
+6
+8
+10
+```
+
+In this example, the "continue" statement is used to skip the remainder of the current iteration of the loop if the value of "x" is odd. As a result, only the even values of "x" are printed.
 
 ---
 grand_parent: Book
@@ -2310,9 +2595,32 @@ stopTheRobot();
 
 #### What is variable?
 
-A variable in a program is a specific piece of memory that consists of one or more contiguous bytes, typically 1, 2, 4, 8, or 16 bytes. Every variable in a program has a name, which will correspond to the memory address for the variable. You use the variable name to store a data value in memory or retrieve the data that the memory contains.
+In computer programming, a variable is a storage location in memory that is used to hold a value. The value of a variable can be changed during the execution of a program.
 
-Variables are used in C++ where you will need to store any type of values within a program and whose value can be changed during the program execution. These variables can be declared in various ways each having different memory requirements and storing capability. Variables are the name of memory locations that are allocated by compilers, and the allocation is done based on the data type used for declaring the variable.
+Each variable has a name, which is used to refer to the variable in the code, and a data type, which determines the kind of value that the variable can hold.
+
+There are several different data types in C++, including:
+
+Integers: Integers are whole numbers that can be positive, negative, or zero. In C++, there are several different integer data types, including char, short, int, and long.
+
+Floating-point numbers: Floating-point numbers are numbers with decimal points. In C++, the float and double data types are used to represent floating-point numbers.
+
+Characters: Characters are single letters, digits, or symbols. In C++, the char data type is used to represent characters.
+
+Booleans: Booleans are values that can either be true or false. In C++, the bool data type is used to represent booleans.
+
+To use variables in C++, you will need to declare them and assign them values. Here is an example:
+
+```cpp
+int x;       // Declare an integer variable called x
+x = 10;      // Assign the value 10 to x
+
+char c;      // Declare a character variable called c
+c = 'A';     // Assign the value 'A' to c
+
+double d;    // Declare a double variable called d
+d = 3.14;    // Assign the value 3.14 to d
+```
 
 #### Variable definition and initialization in C++
 
@@ -2467,14 +2775,67 @@ void loop()
 3. Explain when the curly braces `{}` are necessary in the if-statement.
 
 ### Summary:
+
+#### Conditional statements
+
+Conditional statements in C++ allow you to execute different blocks of code based on whether a condition is true or false. There are several different types of conditional statements in C++, including if, if-else, and switch.
+
+Here is an example of how to use an if statement in C++:
+
+```cpp
+int x = 10;
+
+if (x > 5) {
+  // This code will be executed if x is greater than 5
+  printf("x is greater than 5");
+}
+```
+
+In this example, the if statement checks whether the value of x is greater than 5. If it is, the code block inside the curly braces will be executed. If it is not, the code block will be skipped.
+
+Here is an example of how to use an if-else statement in C++:
+
+```cpp
+int x = 10;
+
+if (x > 5) {
+  // This code will be executed if x is greater than 5
+  printf("x is greater than 5");
+} else {
+  // This code will be executed if x is not greater than 5
+  printf("x is not greater than 5");
+}
+```
+
+In this example, the if-else statement first checks whether the value of x is greater than 5. If it is, the code block inside the first set of curly braces will be executed. If it is not, the code block inside the second set of curly braces will be executed.
+
+Here is an example of how to use a switch statement in C++:
+
+```cpp
+int x = 2;
+
+switch (x) {
+  case 1: printf("x is 1"); break;
+  case 2: printf("x is 2"); break;
+  case 3: printf("x is 3"); break;
+  default: printf("x is something else"); break;
+}
+```
+
+In this example, the switch statement checks the value of x and executes the code block corresponding to the first case label that matches the value. The break statements are used to exit the switch statement once a match is found. If no match is found, the code block for the default label is executed.
+
 #### IF Statement
+
 If statement can be written in several forms. The easiest one is:
+
 ```cpp
 if (value_one) statement1;
 ```
+
 In this case the variable named `value_one` can hold some numerical number. If `value_one` is `true` or greater than `0` the program will execute `statement1`.
 But this simple example is not used so often due its simplicity. We rather use it in
 this form:
+
 ```cpp
 if ( value_one == value_two ){
   statement1;
@@ -2490,7 +2851,9 @@ if ( value_one == value_two ){
   statement3;
 }
 ```
+
 #### Condition operators
+
 Also other logical condition operators can be used:
 
 - Less than: `a < b`
@@ -2500,15 +2863,10 @@ Also other logical condition operators can be used:
 - Equal to `a == b`
 - Not Equal to: `a != b`
 
-And some more conditional statements are available in C++:
-
-- `if` - to specify a block of code to be executed, if a specified condition is true
-- `else` - to specify a block of code to be executed, if the same condition is false
-- `else` - if to specify a new condition to test, if the first condition is false
-- `switch` - to specify many alternative blocks of code to be executed
-
 ### Issues:
+
 #### *<++>*
+
 <++>
 
 ---
@@ -2527,6 +2885,25 @@ S-R-A loop is repeating process where:
 3. Acting
 
 is involved during the procedure of controlling the robot. This is the most important part of software in robotics. Remember the `autonomous` control is `ability to perform intended tasks based on current state and sensing, without human intervention`.
+
+The S-R-A loop is a common design pattern in robotics. It refers to the process of using sensors to gather information about the environment, processing the information to determine an appropriate response, and then executing the response using actuators.
+
+Here is an pseudo example of how the S-R-A loop could be implemented in C++:
+
+```cpp
+while (true) {
+  // 1. Sense the environment using sensors
+  sensor_data = gatherSensorData();
+
+  // 2. Process the sensor data to determine an appropriate response
+  response = processSensorData(sensor_data);
+
+  // 3. Execute the response using actuators
+  executeResponse(response);
+}
+```
+
+In this example, the `gatherSensorData` function is used to gather data from the robot's sensors, the `processSensorData` function is used to determine an appropriate response based on the sensor data, and the `executeResponse` function is used to execute the response using the robot's actuators. The loop is executed continuously, allowing the robot to constantly sense and respond to its environment.
 
 ### Tasks:
 
@@ -2591,6 +2968,24 @@ has_children: true
 ---
 
 # READING INPUT SIGNAL
+
+To read an input signal on an Arduino, you can use one of the digital input pins or one of the analog input pins. Digital input pins can only read two states: high (5 volts) or low (0 volts). They are often used to read switches or buttons, or to detect the presence or absence of a signal.
+
+To read a digital input signal on an Arduino, you can use the digitalRead function, which takes a pin number as an argument and returns either HIGH or LOW. For example, to read the state of digital pin 2, you could use the following code:
+
+```cpp
+int pin = 2;
+int state = digitalRead(pin);
+```
+
+Analog input pins, on the other hand, can read a range of voltage levels, from 0 to 5 volts. They are often used to read sensors that output an analog signal, such as a temperature sensor or a potentiometer.
+
+To read an analog input signal on an Arduino, you can use the analogRead function, which takes a pin number as an argument and returns a value between 0 and 1023, corresponding to the voltage level on the pin. For example, to read the voltage on analog pin 0, you could use the following code:
+
+```cpp
+int pin = 0;
+int value = analogRead(pin);
+```
 
 ---
 grand_parent: Book
@@ -3127,6 +3522,18 @@ has_children: true
 
 # MOTORS and ACTUATORS
 
+Motors and actuators are essential components of many robotic systems, as they allow robots to move and manipulate their environment. In Arduino robotics, there are several types of motors and actuators that you can use, depending on the specific needs of your application.
+
+Some common types of motors and actuators that you can use with Arduino include:
+
+**DC motors**: These are simple motors that rotate at a constant speed when a DC voltage is applied. They are commonly used to drive wheels or other mechanisms. To control a DC motor with an Arduino, you will need a motor driver, such as an H-bridge, which allows you to control the direction and speed of the motor.
+
+**Stepper motors**: These motors have multiple coils that can be energized in a specific sequence, allowing them to rotate in precise increments. Stepper motors are commonly used in applications that require precise positioning, such as 3D printers or CNC machines. To control a stepper motor with an Arduino, you will need a stepper motor driver, such as a ULN2003 or L298N.
+
+**Servo motors**: These motors have built-in feedback control and can rotate to a specific angle. They are commonly used to control the position of a mechanism, such as a robotic arm or a camera. To control a servo motor with an Arduino, you can use the Servo library and the write function, which takes an angle as an argument.
+
+**Linear actuators**: These are motors that produce linear motion, rather than rotary motion. They are commonly used to move mechanisms or lift loads. To control a linear actuator with an Arduino, you will need a motor driver, such as an H-bridge, and you can use the analogWrite function to control the speed and direction of the actuator.
+
 ---
 grand_parent: Book
 parent: Motors
@@ -3265,6 +3672,44 @@ has_children: true
 ---
 
 # TIMERS AND TIME MEASUREMENT
+
+Timers and time measurement are important concepts in Arduino programming, as they allow you to perform tasks at specific intervals, measure elapsed time, or synchronize events. The Arduino has several built-in timer modules that you can use in your programs.
+
+Here are some common ways to use timers and measure time in Arduino:
+
+**delay() function**: This function causes the program to pause for a specific number of milliseconds. For example, the following code will cause the LED on digital pin 13 to blink every second:
+
+```cpp
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);  // wait for 1 second
+  digitalWrite(13, LOW);
+  delay(1000);  // wait for 1 second
+}
+```
+
+**millis() function**: This function returns the number of milliseconds that have elapsed since the Arduino was powered on or reset. You can use this function to measure elapsed time or to trigger events at specific intervals. For example, the following code will turn the LED on and off every 5 seconds:
+
+```cpp
+unsigned long previous_time = 0;  // store the previous time
+
+void loop() {
+  unsigned long current_time = millis();  // get the current time
+  if (current_time - previous_time >= 5000) {  // check if 5 seconds have passed
+    digitalWrite(13, !digitalRead(13));  // toggle the LED
+    previous_time = current_time;  // update the previous time
+  }
+}
+```
+
+**Hardware timers**: The Arduino has several hardware timers that can be used to generate periodic interrupts. You can use these timers to trigger events at specific intervals without using the delay() function. For example, the following code uses Timer 1 to toggle the LED on and off every second:
+
+```cpp
+void setup() {
+  // set up Timer 1 to generate an interrupt every 1 second
+  cli();  // disable global interrupts
+  TCCR1A = 0;  // set Timer 1 to normal mode
+```
 
 ---
 grand_parent: Book

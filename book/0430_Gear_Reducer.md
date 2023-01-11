@@ -7,6 +7,16 @@ nav_order: 4
 
 ## GEAR REDUCER
 
+Gear reduction is the process of using a set of gears to reduce the speed of a mechanical system while increasing the torque (rotational force). It is commonly used in robotics and other applications where it is necessary to trade speed for power.
+
+There are several ways to achieve gear reduction, but the most common method is to use a gear train, which is a series of interconnected gears that transmit motion from one gear to another. By using gears with different sizes and ratios, it is possible to reduce the speed of the output gear while increasing the torque.
+
+For example, consider a simple gear train with two gears: a larger driving gear (Gear A) and a smaller driven gear (Gear B). If the driving gear has 10 teeth and the driven gear has 20 teeth, the gear reduction ratio will be 2:1 (Gear B will rotate at half the speed of Gear A, but with twice the torque).
+
+Here is the formula for calculating the gear reduction ratio:
+
+$$  Gear reduction ratio = \frac{Number of teeth on driving gear}{Number of teeth on driven gear} $${#eq:gear_eq}
+
 ### Task:
 
 1. Add geared reductor to DC motor.

@@ -84,8 +84,8 @@ void moveForward(){
 
 ### Questions:
 
-1. <++>
-2. <++>
+1. Explain why functions contribute to more readable code.
+2. Why is good to use explanatory variables?
 3. <++>
 
 ### CLEAN CODE EXPLAINED
@@ -232,7 +232,15 @@ int main()
 }
 ```
 
-In this way our main code is clean and transparent.
+There are several reasons to use header files in C++:
+
+**Code organization**: Header files allow you to organize your code into logical units, which can make it easier to understand and maintain. For example, you can use a header file to group together related function declarations, constants, and data types.
+
+**Code reuse**: Header files can be included in multiple source files, which allows you to reuse the same code in multiple places without having to copy and paste it. This can save time and reduce the risk of errors.
+
+**Compilation speed**: When you include a header file in a source file, the compiler does not need to recompile the code in the header file every time it compiles the source file. This can significantly improve the compilation speed of your program, especially if the header file contains a large amount of code.
+
+**Separation of interface and implementation**: Header files can be used to separate the interface (the function declarations and data types that are visible to the rest of the program) from the implementation (the actual code that performs the tasks). This can make it easier to change the implementation of a module without affecting the rest of the program.
 
 #### Pre-process
 
