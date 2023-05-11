@@ -1,9 +1,3 @@
----
-title: Introduction
-parent: Learning Activity
-nav_order: 3
-has_children: true
----
 
 # INTRODUCTION AND PREPARATION
 
