@@ -1,5 +1,5 @@
 ---
-title: Book
+title: Learning Activity
 nav_order: 2
 has_children: true
 ---
