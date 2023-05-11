@@ -1,3 +1,4 @@
+
 ---
 title: Introduction
 parent: Book
@@ -23,32 +24,28 @@ We will then demonstrate how to use the Arduino controller and Robduino shield t
 
 Throughout this lecture, we will use hands-on activities and examples to illustrate the concepts and techniques that are covered. We will also discuss some of the challenges and considerations that are involved in building and programming robots with these tools and materials.
 
-## Construction parts
 
-Fischertechnik and LEGO are both brands of construction toy systems that allow users to build and create a wide range of structures and mechanisms. Both systems use a modular approach, with a variety of interlocking parts that can be easily snapped together.
+ Introduction to embedded systems
+--------------------------------------------------------------------------------
 
-However, there are some key differences between Fischertechnik and LEGO parts:
 
-Material: Fischertechnik parts are made of a durable, high-quality plastic called polycarbonate, which is known for its strength and resistance to wear and tear. LEGO parts are made of a softer plastic called acrylonitrile butadiene styrene (ABS), which is more flexible and less durable.
+ Overview of robotics and its applications
+--------------------------------------------------------------------------------
 
-Precision: Fischertechnik parts are designed with high precision and tolerances, which allows for more accurate and stable constructions. LEGO parts have slightly looser tolerances, which can make them more prone to wobbling or sagging.
 
-Size and shape: Fischertechnik parts are generally smaller and more compact than LEGO parts, which allows for more detailed and precise constructions. LEGO parts are larger and more blocky, which makes them more suitable for building larger structures.
 
-Functionality: Fischertechnik parts are designed with a focus on mechanical and electrical functionality, and include a wide range of components such as gears, motors, and sensors. LEGO parts are more geared towards aesthetics and playability, and include elements such as minifigures and decorative elements.
+ Basic concepts and terminology
+--------------------------------------------------------------------------------
 
-Price: Fischertechnik parts tend to be more expensive than LEGO parts, due to their higher quality and greater functionality.
+Robotics is a rapidly growing field of technology that has the potential to revolutionize many areas of our lives. It involves the development of machines that can imitate or surpass human capabilities in performing a variety of tasks. Robotics is an interdisciplinary field of science, engineering, and technology that deals with the design, construction, operation, and application of robots.
 
-Overall, Fischertechnik and LEGO are both excellent construction toy systems, and the choice between them will depend on the specific needs and preferences of the user.
+Robotics is a complex field involving both hardware and software components. Hardware components include physical robotic parts such as motors, sensors, and actuators, while software components include algorithms and programming languages used to control the robot and its functions. Robotics also requires an understanding of various disciplines including mathematics, physics, mechanics, and computer science.
 
----
-grand_parent: Book
-parent: Introduction
-title: Robotics
-nav_order: 4
----
+At its core, robotics is all about autonomy. Autonomy is the process of designing a robot to perform and complete specific tasks, such as carrying out a surgical procedure or assembling a car. Automation can help reduce costs, increase productivity, and improve the safety of both workers and products.
 
-## TEACHING ROBOTICS
+When it comes to terminology, there are a few key terms used in robotics. Robot is a machine that is capable of performing tasks on its own or under the control of a computer program. Robotics is the science and technology of robots and their design, construction, operation, and application. Sensors measure and detect environmental conditions, such as temperature, pressure, or light. Actuators convert electrical signals into mechanical motion. Computer vision is the ability of robots to interpret visual information from cameras. AI, or artificial intelligence, is used to give robots the ability to learn and think for themselves.
+
+Robotics is an exciting field with many potential applications. Taking the time to become familiar with the basic concepts and terminology can help you better understand and apply robotics in practical situations.
 
 ### What is robotics
 
@@ -143,6 +140,32 @@ information and action exchanges between multiple robots (2.6) to ensure that th
 robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
 EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
 
+ History of robotics
+--------------------------------------------------------------------------------
+
+Robotics technology has evolved rapidly in the last few decades, leading to a vast array of possibilities for what can be achieved. From manufacturing robots to autonomous vehicles and medical robots, robots are becoming increasingly advanced and capable of performing more complex tasks.
+
+The potential applications for robotics technology are endless, and robotics is set to revolutionize the way we live and work in the future. From healthcare to transportation, robotics is transforming the way we interact with our environment and making life easier, safer, and more efficient.
+
+With the advancement of robotics, we stand at the brink of a new era of technology, one that promises to completely revolutionize the way we live. The future of robotics is an exciting one, and it will be fascinating to see what the next few decades have in store.
+
+---
+grand_parent: Book
+parent: Introduction
+title: Robotics
+nav_order: 4
+---
+
+## Teaching robotics
+
+Robotics in education is an exciting field that has the potential to revolutionize the way our children learn. By introducing robots into the classroom, educators can provide students with engaging, hands-on learning experiences that stimulate their curiosity, creativity, and problem-solving skills. Robotics offers a unique opportunity to develop 21st century skills such as collaboration, communication, critical thinking, and creativity. It allows students to learn in a safe environment with no risk of failure, and fosters an environment of experimentation and exploration.
+
+Robotics can also be used to enhance subject-matter learning, enabling students to write code and program robots to solve problems. This opens up possibilities for developing skills such as design thinking, algorithmic thinking, and computational thinking. Robotics also has potential to promote STEM education, as students can learn about topics such as engineering and computer science through the use of robots.
+
+In addition, robotics can help to develop social and emotional skills. Through the use of robots, students can learn to collaborate, work in teams, and develop leadership skills. Robotics also encourages students to develop empathy and to think critically about the world around them.
+
+Overall, robotics in education is an important tool for preparing students for the future. By introducing robots into the classroom, educators can create engaging and interactive learning experiences that teach students valuable skills. Robotics can also be used to enhance subject-matter learning, promote STEM education, and develop social and emotional skills."
+
 ### Robotics and Education
 
 #### Definition of the robots in education
@@ -218,7 +241,7 @@ Critical thinking is ability to do analysis of facts and form objective judgment
 Kids are able to see if they fulfill the intended task or not. They can asses their own performance based on results of intended tasks.
 <!--
 It is quite difficult to asses ourself if we are well qualified in some topic. Remember: Dunning-Kruger effect: Confidence(Competence)
--->
+q->
 
 ##### ICT LITERACY
 
@@ -348,6 +371,11 @@ Literature
 - [Programming Arduino](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#arduino)
 
 -->
+
+ Current state of the field
+--------------------------------------------------------------------------------
+
+
 ---
 grand_parent: Book
 parent: Introduction
@@ -355,7 +383,24 @@ title: Equipment
 nav_order: 4
 ---
 
-## ROBOTICS EQUIPMENT
+ Robotics Equipment
+--------------------------------------------------------------------------------
+
+Fischertechnik and LEGO are both brands of construction toy systems that allow users to build and create a wide range of structures and mechanisms. Both systems use a modular approach, with a variety of interlocking parts that can be easily snapped together.
+
+However, there are some key differences between Fischertechnik and LEGO parts:
+
+Material: Fischertechnik parts are made of a durable, high-quality plastic called polycarbonate, which is known for its strength and resistance to wear and tear. LEGO parts are made of a softer plastic called acrylonitrile butadiene styrene (ABS), which is more flexible and less durable.
+
+Precision: Fischertechnik parts are designed with high precision and tolerances, which allows for more accurate and stable constructions. LEGO parts have slightly looser tolerances, which can make them more prone to wobbling or sagging.
+
+Size and shape: Fischertechnik parts are generally smaller and more compact than LEGO parts, which allows for more detailed and precise constructions. LEGO parts are larger and more blocky, which makes them more suitable for building larger structures.
+
+Functionality: Fischertechnik parts are designed with a focus on mechanical and electrical functionality, and include a wide range of components such as gears, motors, and sensors. LEGO parts are more geared towards aesthetics and playability, and include elements such as minifigures and decorative elements.
+
+Price: Fischertechnik parts tend to be more expensive than LEGO parts, due to their higher quality and greater functionality.
+
+Overall, Fischertechnik and LEGO are both excellent construction toy systems, and the choice between them will depend on the specific needs and preferences of the user.
 
 We can divide the equipment for robotics into three different groups:
 1. Electronics,
@@ -434,6 +479,26 @@ We can divide the equipment for robotics into three different groups:
 - rubber bands
 - black isolating tape
 
+
+ ARDUINO
+================================================================================
+
+
+
+ Overview of the Arduino platform and its capabilities
+--------------------------------------------------------------------------------
+
+Arduino originated from the Wiring project, which was developed at the Interaction Design Institute Ivrea in Italy. The Wiring project was an open-source electronics prototyping platform that was designed to provide a low-cost and easy-to-use environment for creating interactive physical computing applications. The project was led by Hernando Barragán, a professor at the Institute, and the platform was based on the open-source, programmable Atmel microcontroller. Arduino was derived from the Wiring project and was released in 2005.
+
+Arduino is an open source hardware and software platform used for building interactive electronics projects. The Arduino platform was designed to facilitate creating digital projects for the physical world. It consists of a physical programmable circuit board (often called a microcontroller) as well as a set of software tools for writing code for the board.
+
+The Arduino platform is based on the Atmel AVR microcontroller, so it is capable of running programs written in C or C++. The board itself is made up of a number of components, including a voltage regulator, a USB connection, an LED, and a set of analog and digital pins that allow you to connect external components to the board. The board also includes a reset button and a power switch, allowing you to reset and power the board on and off.
+
+The Arduino platform has a huge amount of flexibility and can be used to create a range of projects from simple to complex. For example, you can use the Arduino platform to create a basic home automation system that turns lights on and off, or you can use it to create a complex interactive art installation. You can also use the Arduino platform to create robots and other self-controlled devices.
+
+The Arduino platform has grown to become an incredibly popular choice for makers, hobbyists, and professionals alike. It is incredibly easy to use, and the large community of users provides a wealth of tutorials and information. Additionally, the open-source nature of the platform makes it easy to customize and expand upon existing projects. It is a great platform for anyone looking to get started with physical computing projects.
+
+
 ---
 grand_parent: Book
 parent: Introduction
@@ -441,7 +506,7 @@ title: Simulations
 nav_order: 4
 ---
 
-## ARDUINOUNO AND ELECTRONICS SIMULATION
+## Arduinouno and electronics simulation
 
 We can use several simulating programs to simulate robots. There are awesome platforms that allow simulations like: 3Dvisualizer or Webots ... But since our robot will be based on the Arduino Uno controller probably the best option is:
 
@@ -449,10 +514,10 @@ We can use several simulating programs to simulate robots. There are awesome pla
 
 You can sign in with your google account.
 
-### Task:
-
-1. Try to do some basic project (e.g. Blink) to turn on and off an LED.
-2. Try to add your own LED on the different output pin and change the program like is shown on the [@fig:blink_tc] to make it work (LED must blinking).
+> ### Task:
+> 
+> 1. Try to do some basic project (e.g. Blink) to turn on and off an LED.
+> 2. Try to add your own LED on the different output pin and change the program like is shown on the [@fig:blink_tc] to make it work (LED must blinking).
 
 ![Blink example in Thinkercad.](./slike/thinkercad_simulation_blink.png){#fig:blink_tc}
 
@@ -464,6 +529,30 @@ You can sign in with your google account.
   + How can we determine the voltage on the resistor (describe 2 possibilities)?
 4. What voltage is present on the LED?
 
+
+---
+parent: Book
+title: Arduino IDE
+nav_order: 3
+has_children: true
+---
+
+  Arduino IDE
+--------------------------------------------------------------------------------
+
+The Arduino platform is based on the Atmel AVR microcontroller family, and the Arduino Uno is based on the ATmega328 microcontroller. The Arduino Integrated Development Environment (IDE) is a software application that provides a way to write and upload code to the microcontroller. The Arduino IDE is available for Windows, macOS, and Linux, and it is open source.
+
+To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, make sure that you have the Arduino IDE installed on your computer. Then, follow these steps:
+
+1. Connect your Arduino Uno to your computer using a USB cable.
+2. Open the Arduino IDE.
+3. Select the correct board and serial port in the Arduino IDE.
+4. Write your C++ code in the Arduino IDE editor.
+5. Click the "Verify" button to compile your code.
+6. Click the "Upload" button to upload your code to the Arduino Uno.
+
+Happy programming!
+
 ---
 grand_parent: Book
 parent: Introduction
@@ -471,7 +560,7 @@ title: Software
 nav_order: 4
 ---
 
-## SOFTWARE INSTALLATION
+## Software installation
 
 We will need softwate listed bellow:
 
@@ -635,6 +724,11 @@ void loop() {
 ```
 8. Run `Build` and `Upload`.
 
+
+ Setting up an Arduino development environment
+--------------------------------------------------------------------------------
+
+
 ---
 grand_parent: Book
 parent: Introduction
@@ -642,7 +736,7 @@ title: Testing
 nav_order: 4
 ---
 
-## EQUIPMENT TESTING
+## Equipment testing
 
 ### Basic testing in Arduino IDE
 
@@ -868,518 +962,11 @@ void loop() {
 Če niste prepričani kateri i2c naslov uporablja naprava na LCD-ju le tega lahko preverite s programom `I2C scanner` (https://playground.arduino.cc/Main/I2cScanner/). Običajno I2C LCD-ji, ki jih naredijo kitajski proizvajalci uporabljajo I2C naslov `0x27` , `0x3F` ali manj pogosto `0x38`.
 
 
----
-parent: Book
-title: Ardublockly
-nav_order: 3
-has_children: true
----
 
-# FIRST STEPS INTO ROBOTICS WIHT ARDUBLOCKLY
+ Programming Arduino using C++
+--------------------------------------------------------------------------------
 
-Ardublockly is a visual programming tool for the Arduino controller. It allows users to program the Arduino using blocks that represent different programming concepts and functions, rather than writing code in a text-based programming language.
 
-Ardublockly is based on the popular Scratch programming language, and uses a similar block-based interface. It includes a wide range of blocks for controlling motors, reading sensors, displaying information, and many other tasks.
-
-Ardublockly is designed to be user-friendly and intuitive, making it a great choice for beginners and educators who are new to programming and robotics. It is also fully compatible with the Arduino controller, and can be used to program a wide range of Arduino-based projects.
-
-Overall, Ardublockly is a powerful and versatile programming tool that can help users of all skill levels learn about programming and robotics in a fun and engaging way.
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Hello world
-nav_order: 4
----
-
-## HELLO WORLD IN ARDUBLOCKLY
-
-### Task: MAKE 1ST ARDUBLOCKLY PROGRAM
-
-1. Make a very simple program like setting the digital output bit D3 to logical state 1 or **HIGH**.
-2. Send the program to Arduino controller.
-
-![First program in Ardublockly.](./slike/Hello_World_Ardublockly_1.png){#fig:ardublockly_first}
-
-### Questions:
-
-1.  What is the voltage of the digital output pin D3?
-2.  Try to compare and understand the C++ programming code in aside
-    window.
-
-### Summary
-Programming with programming blocks is a good starting point for beginners since humans are not good in handling to many informations at the same time.
-
-Having programming blocks aside with C code is nice and soft introduction of the code programming.
-
-### Issues
-...to do...
-
----
-grand_parent: Book
-parent: Ardublockly
-title: DC Motor
-nav_order: 4
----
-
-## HOW THE DC MOTOR WORKS
-
-### Task: MAKE DC MORTOT RUN
-
-1. Connect the DC motor to the battery and make it run.
-2. You can try different combinations to connect the terminals of the motor like:
-    - \+ and -
-    - \- and +
-    - \- and -
-    - \+ and +.
-
-![DC motor connection.](./slike/Electric_current_DC_motor.png)
-
-### Questions:
-
-1.  In which direction the motor\'s shaft spins in different situations?
-2.  In which direction the electric current flow?
-3.  Why does motor not spinning when both connectors are connected to + terminal of the battery?
-
-### Summary
-The rotation of the DC motor depends on the direction of electric
-current.
-
-### Issues
-#### *When I connect the DC motor to + and - terminals of the battery the motor\'s shaft does not spin.*
-
-Check the voltage of the battery... battery may be discharged.  
-Check the connectors of the motor... may be bad.  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Digital Output
-nav_order: 4
----
-
-## DC MOTOR CONTROL WITH DIGITAL OUTPUTS
-
-### Task:
-
-1. Connect the DC motor to Digital Output D7 and D6.
-2. Write the program and check all the combinations of digital outputs;
-    00, 01, 10 and 11.
-
-3.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo_ARB ]).R
-
-| D7 | D6 | Motor rotation |
-|:--:|:--:|----------------|
-|  0 |  0 |                |
-|  0 |  1 |                |
-|  1 |  0 |                |
-|  1 |  1 |                |
-
-Table: All combinations of the states of motor's connectors. {#tbl:motor_combo_ARB}
-
-### Questions:
-
-1.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
-2.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
-
-![Wireing the DC motor to controller.](./slike/Controlling_the_motor.png)
-
-### Summary
-
-The motor\'s shaft is spinning according to the direction of the
-electric current trough the motor.  
-The torque is weak.
-
-### Issues  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Gear Reducer
-nav_order: 4
----
-
-## GEAR REDUCER
-
-### Task:
-
-1. Add geared reductor to DC motor.
-2. Try to stop the shaft of the geared reductor and compare your fillings with the stopping the motor shaft.
-
-![Adding the reductor to the motor.](./slike/reductor.png)
-
-### Questions:
-
-1.  How difficult is to stop the shaft of the reductor in comparison to motor shaft?
-2.  How fast the shaft of the reductor is spinning in comparison to the shaft of the motor?
-3.  Are you able to freely rotate the shaft of the reductor by hand?
-4.  What happened with the produced mechanical power?
-5.  Try to calculate the geared ratio of the reducer.
-
-![Gear ration calculation.](./slike/gear_ratio.png)
-
-### Summary
-
-#### Gear ratio
-
-The gear ratio describing the ratio between the angular velocity of
-input gear G1 and angular velocity of output gear G2.  
-$$ { i=\frac{\omega_1}{\omega_2} } $$  
-Because each gear moves tooth per tooth and if two touching gears have different numbers of teeths their\'s angular velocity will be different.
-In fact the anguar velocity will be inversely proportional.  
-$$ {\frac{\omega_1}{\omega_2}=\frac{N_2}{N_1}=i} $$
-
-### Issues
-
-#### *The reductor\'s shaft is not spinning although the DC motor is working properly.*
-
-Check if the reductor is attached all the way to the motor. 
-Check if the worm gear of the motor is in contact with first gear of the
-roductor.
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Robot Construction
-nav_order: 4
----
-
-## ROBOT CONSTRUCTION
-
-### Tasks:
-
-1. Construct the mobile robot according to this sequences on the [@fig:construction].
-
-![Construction sequences.](./slike/free_whelly.png)
-
-Or you can follow the video [instructions](https://youtu.be/bybqvos4xYk)
-
-2. Add the battery between the red cornered bricks. The connector shuld
-    be pointing to the back of the robot.
-3. Add also the RobDuino controller. Clip the controller between the grey upstanding bricks.
-
-### Questions:
-
-1.  Where do you think is th front side of the robot?
-2.  Are you able to rotate the wheels freely by hand?
-
-<!--
-slika iz YouTuba
-<iframe width="410" height="230" frameborder="0" src="https://www.youtube.com/embed/bybqvos4xYk"></iframe>
-![Test Picture](https://img.youtube.com/vi/bybqvos4xYk/maxresdefault.jpg){#fig:fff}
--->
-
-### Summary:
-<++>
-
-### Issues:
-
-<++>
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Robot Control
-nav_order: 4
----
-
-## BASIC ROBOT CONTROL
-
-### Task: CONTROLLING THE MOTORS
-
-1. Connect LEFT MOTOR to digital outputs:
-    -   D7 and D6
-2. Connect RIGHT MOTOR to digital outputs:
-    -   D5 and D4
-
-![DC motors connection.](./slike/DC_motor_connect_2.png){#fig:DC_motor_connect}
-
-3. Now you can write the program to control both motors in order to move the robot FORWARD for 3 second and STOP.
-4. Next you can write the program which will move the robot in several different directions:
-    - forward
-    - backward
-    - turn left
-    - turn right
-
-### Questions:
-
-1.  How many digital outputs you have to set in order to control the
-    robot for specific move?
-2.  How many different moves your robot can make?
-
-### Summary:
-
-#### Controlling the robot in two degrees of freedom
-
-To controlling the robot in two degrees of freedom we need to control
-two motors. Since we have to set two digital outputs for each motor we
-have to set four digital outputs for each individual move.
-
-### Issues:
-
-#### *When I change the direction of the robot the robot does not move as expected.*
-
-Probably you did not set all of the outputs correctly. Remember that
-some outputs may have remained set in previous output state from taken
-action in previous task.  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Functions
-nav_order: 4
----
-
-## PROGRAMMING FUNCTIONS
-
-### Task: WRITE A FUNCTION
-
-1. Write a programming functions which includes the certain programming steps in order to move the robot in specific direction. Some examples are presented in [@fig:functions_ardublockly].
-
-![Functions in Ardublockly.](./slike/Ardublockly_functions.png){#fig:functions_ardublockly}
-
-2. Write also other functions like:
-    -   `robotForward()`
-    -   `robotStop()`
-    -   `robotLeft()`
-    -   `robotRight()`
-    -   `robotBackward()`
-3. Write longer program to move the robot allover the classroom.
-
-### Questions:
-
-1.  What would happened if several robots would have the same program?
-2.  Can you change the program in a way that robot would repeat the program?
-3.  What happens if the mobile robot run into an obstacle?
-
-### Summary:
-
-#### <++>
-
-#### Issues:
-
-#### *<++>*
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Loops
-nav_order: 4
----
-
-## PROGRAMMING LOOPs: FOR-NEXT & WHILE
-
-### Task: REPEAT SOME INSTRUCTIONS
-
-1. If we want to repeat some programming instructions for several times we can use For-Next Loop.
-2. For example the next program repeats functions `robotLeft()` and `robotRight()` for `10 times` and robot will do a funny \"dancing\" move.
-
-![An example of FOR-NEX loop.](./slike/Loop_For_1.png){#fig:for_next_loop}
-
-3. Experiment a bit more with such programming techniques.
-
-### Questions:
-
-1.  What is a programming loop?
-2.  Name a situation where programming pool is used.
-
-### Summary:
-
-#### Repeating Code in Functions
-Using functions may not seem to be very convenient. But it is a huge deal, and helps to make a clean code. It is advised to use functions ether if the code is used only once.
-
-Where the code is repeated several times in different occasions in the program the use of the functions is trivial.
-
-### Issues:
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: Digital Input
-nav_order: 4
----
-
-## DIGITAL INPUT
-
--   In sake to detect the obstacles we have to equip the robot with the
-    \"touch sensor\". This sensor is basically a switch or a key, which
-    toggles it\'s output between GND and +5 V voltage potentials.
--   Follow [video instructions](https://www.youtube.com/embed/eWldNxh-q2c)
-    to construct bumper in front of the robot.
-
-### Questions:
-
-1.  Do you hear \"clicking\" sound when you push the bumper?
-2.  Name the mechanical mechanism where smaller force on one end can
-    cause greater force on the other end of the mechanism.
-
-<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/eWldNxh-q2c"></iframe>
-
-### Tasks: CONNECT THE SWITCH
-
-The key has three connecting terminals. Each of one is marked with the
-number 1, 2 or 3. Connect them in right order. Connect the key terminals
-in order that are specified in presentation and listed as:
-
-1. connect to RobDuino C0 terminal.
-2. connect to RobDuino voltage terminal GND.
-3. connect to RobDuino voltage terminal +5V.
-
-### Questions:
-
-1. What is the output voltage (measure it) of the sensor when the robot is
-    (or is NOT) touching the obstacle?
-2. How many different states can we measure at the output of the sensor?
-3. Name several more examples where digital sensor can take place.
-
-<iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Connecting the key" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<!--
-![test](https://slides.googleapis.com/v1/presentations/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/pages/gb54165725_0_2}/thumbnail)
--->
-### Summary:
-
-#### Digital sensors
-
-The output of a digital sensor can be just in two states:
-
--   logical \"0\" - presented in voltage as 0 V.
--   logical \"1\" - presented in voltage as +5V.
-
-### Issues:
-
-#### *Robot has no power since I connected the key as a sensor.*
-
-Probably the key or switch is connected wrong and there is short connection between the GND and +5V voltage terminals. Unconnect the key or switch and verify if the power is back.
-
-### Tasks: READING DIGITAL INPUT
-
-1. Write the program shown in the presentation to test the readings of the digital sensor.
-1. Then ... complete the program to turn OFF the LED when the bumper is not touching anything.
-1. Next ... Change IF statements into single one IF-THEN-ELSE statement.
-1. Advanced ... Solve the problem without IF statement.
-
-### Questions:
-
-1.  Check if the LED on the output terminal D3 is turend ON when the
-    bummper is pressed.
-
-<iframe src="https://docs.google.com/presentation/d/1NVtol-a0tmlgl00VwCACQIcAOOty3KYEMSgUFkf8-Aw/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Testing Digital Input" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Summary:
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: S-R-A Loop
-nav_order: 4
----
-
-## S-R-A LOOP
-
-### Tasks:
-
-1. Write the program to drive the robot around the class and avoid the
-    obstacles.
-1. Using the S-R-A loop technique you should write the program in
-    particular order:
-    1.  Check the sensor. IF the bummper  ...
-    2.   ... is pressed the robot has to stop/go back/turn.
-    3.   ... is not pressed the robot can drive forward.
-
-### Questions:
-
-1.  Would this routine also work in Arduino run first function (check
-    the program in Slide 2)?
-2.  <++>
-
-<iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&hl=en&size=s" width="410" height="337" title="S-R-A Loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Summary:
-
-#### Senzoning-Reasoning-Acting Loop
-
-S-R-A loop is the most important thing in robotics.
-
-### Issues:
-
-#### *It seems that the program is not working right \... like it would be ignoring the value of the sensor.*
-
-Probably the S-R-A loop is not actually a loop. Check the program if the input is read just onces or is read continuously.  
-
----
-grand_parent: Book
-parent: Ardublockly
-title: From Block to C++
-nav_order: 4
----
-
-## FROM ARDUBLOCKLY TO ARDUINOIDE
-
-### Tasks:
-
-1. Make a really basic program with easy task like it is shown on [@fig:Ardublockly_to_Arduino_IDE].
-
-![How to copy c++ code from Ardublockly?](./slike/Ardublockly_to_Arduino_IDE.png){#fig:Ardublockly_to_Arduino_IDE}
-
-2. Open the Arduino IDE program.
-3. Copy-Paste all the c++ code from Ardublockly into Arduino IDE.
-4. Experiment with the c++ code.
-
-### Questions:
-
-1.  Why we need to compile the programming code?
-2.  If in the code are some errors, where they can be noted?
-
-### Summary:
-
-#### *Compiling the code*  
-A compiler is just a program that converts your program written in terms you understand into a form your computer understands (e.g. from English to ones and zeros). The compiler must convert your source code to machine code.
-
-#### *Programming the microcontroller*  
-Each time we change the programming code and want to run it on a microcontroler we need to send the machine code to the microcontroller first. This process is called programming.
-
-### Issues:
-
-#### *Programming the microcontroller failed: can't open device "/dev/ttyUSB0"*  
-Check the USB connection with the Arduino controller.  
-Check the settings if the Board, Processor and Port are set wright.
-
----
-parent: Book
-title: Arduino IDE
-nav_order: 3
-has_children: true
----
-
-# ARDUINO IDE
-
-The Arduino platform is based on the Atmel AVR microcontroller family, and the Arduino Uno is based on the ATmega328 microcontroller. The Arduino Integrated Development Environment (IDE) is a software application that provides a way to write and upload code to the microcontroller. The Arduino IDE is available for Windows, macOS, and Linux, and it is open source.
-
-To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, make sure that you have the Arduino IDE installed on your computer. Then, follow these steps:
-
-1. Connect your Arduino Uno to your computer using a USB cable.
-2. Open the Arduino IDE.
-3. Select the correct board and serial port in the Arduino IDE.
-4. Write your C++ code in the Arduino IDE editor.
-5. Click the "Verify" button to compile your code.
-6. Click the "Upload" button to upload your code to the Arduino Uno.
-
-Happy programming!
 ---
 grand_parent: Book
 parent: Arduino IDE
@@ -1387,7 +974,7 @@ title: Hello world
 nav_order: 4
 ---
 
-## HELLO WORLD IN ARDUINO IDE
+## Hello world in Arduino IDE
 
 ### Tasks:
 
@@ -1466,6 +1053,39 @@ Probably you forgot to put ; (semicolon) at the end of the command. Find the row
 
 Check if the enable switch fot the digital outputs is at the right position (ENABLE).
 
+
+ Communicating with sensors and actuators
+--------------------------------------------------------------------------------
+
+
+ Implementing control algorithms
+--------------------------------------------------------------------------------
+
+
+ Debugging and testing
+--------------------------------------------------------------------------------
+
+
+ ELECTRONICS FUNDAMENTALS
+================================================================================
+
+
+ Power sources batteries AC DC adapters
+--------------------------------------------------------------------------------
+
+
+ Basic principles of electricity and electronics
+--------------------------------------------------------------------------------
+
+
+ Voltage current resistance and Ohms law
+--------------------------------------------------------------------------------
+
+
+ Circuit components and their functions resistors capacitors diodes
+--------------------------------------------------------------------------------
+
+
 ---
 parent: Book
 title: Digital Output
@@ -1473,7 +1093,8 @@ nav_order: 3
 has_children: true
 ---
 
-# DIGITAL OUTPUT
+ Digital output
+--------------------------------------------------------------------------------
 
 On an Arduino Uno board, a digital output is a pin that can be used to output a digital signal, which can be either high (5 volts) or low (0 volts). Digital outputs are useful for controlling devices that are either on or off, such as LEDs, motors, and relays.
 
@@ -1488,6 +1109,27 @@ Once you have set a pin as an output, you can use the digitalWrite function to s
 ```C++
 digitalWrite(13, HIGH);
 ```
+
+ Digital input
+--------------------------------------------------------------------------------
+
+> to-do
+
+1. Push Button: a push button can be used to trigger a digital input. By connecting a push button to an Arduino digital pin and writing a sketch to register when the button is pressed, digital input can be used to trigger an action. 
+
+2. Touch Sensor: a touch sensor can be used to detect contact with a particular surface and can act as a digital input. By connecting the sensor to an Arduino digital pin and writing a sketch to listen for contact, digital input can be used to trigger an action.
+
+3. Light Sensor: a light sensor can be used to detect light levels and can act as a digital input. By connecting the sensor to an Arduino digital pin and writing a sketch to listen for changes in light levels, digital input can be used to trigger an action."
+
+
+ ROBOTICS HARDWARE
+================================================================================
+
+
+ Overview of different types of robots
+--------------------------------------------------------------------------------
+
+
 ---
 grand_parent: Book
 parent: Digital Output
@@ -1495,7 +1137,7 @@ title: DC Motor
 nav_order: 4
 ---
 
-## HOW THE DC MOTOR WORKS
+## Motor as main actuator
 
 A DC motor (Direct Current motor) is an electrical machine that converts electrical energy into mechanical energy. It works by using electromagnetic principles to generate rotary motion.
 
@@ -1535,6 +1177,7 @@ current.
 Check the voltage of the battery... battery may be discharged.  
 Check the connectors of the motor... may be bad.  
 
+
 ---
 grand_parent: Book
 parent: Digital Output
@@ -1542,7 +1185,7 @@ title: Digital Output
 nav_order: 4
 ---
 
-## DC MOTOR CONTROL WITH DIGITAL OUTPUTS
+## DC motor control with digital outputs
 
 ### Task:
 
@@ -1595,6 +1238,7 @@ The torque is weak.
 
 ### Issues  
 
+
 ---
 grand_parent: Book
 parent: Digital Output
@@ -1602,7 +1246,7 @@ title: Gear Reducer
 nav_order: 4
 ---
 
-## GEAR REDUCER
+## Gear reducer
 
 Gear reduction is the process of using a set of gears to reduce the speed of a mechanical system while increasing the torque (rotational force). It is commonly used in robotics and other applications where it is necessary to trade speed for power.
 
@@ -1650,6 +1294,7 @@ Check if the reductor is attached all the way to the motor.
 Check if the worm gear of the motor is in contact with first gear of the
 roductor.
 
+
 ---
 grand_parent: Book
 parent: Digital Output
@@ -1657,7 +1302,7 @@ title: Robot Construction
 nav_order: 4
 ---
 
-## ROBOT CONSTRUCTION
+## Robot construction
 
 ### Tasks:
 
@@ -1689,40 +1334,6 @@ slika iz YouTuba
 
 <++>
 
----
-parent: Book
-title: C++ Programming
-nav_order: 3
-has_children: true
----
-
-# INTRODUCTION TO C++ PROGRAMMING LANGUAGE
-
-C++ is a high-performance programming language that is widely used for building software applications. It was developed by Bjarne Stroustrup in 1979 as an extension of the C programming language. C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." C++ is also a compiled language, which means that the source code is converted into machine code by a compiler before it can be run on a computer.
-
-Here are some basic concepts in C++:
-
-**Variables**: A variable is a named location in memory that stores a value. In C++, you must specify the data type of a variable when you declare it. For example:
-
-```cpp
-int x;      // declares a variable x of type int
-float y;    // declares a variable y of type float
-char c;     // declares a variable c of type char
-```
-
-**Operators**: Operators are special symbols that perform specific operations on one or more operands. C++ has a variety of operators, including arithmetic operators (e.g., +, -, *, /), comparison operators (e.g., ==, !=, >, <), and logical operators (e.g., &&, ||, !).
-
-**Control structures**: Control structures are statements that control the flow of execution in a program. C++ has several types of control structures, including if statements, for loops, and while loops.
-
-**Functions**: A function is a block of code that performs a specific task. C++ has a large standard library of functions, and you can also define your own functions. A function definition has the following syntax:
-
-```cpp
-return_type function_name(parameter list) {
-   // function body
-}
-```
-
-**Object-oriented programming**: As I mentioned earlier, C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." An object is a self-contained unit of code that represents a real-world entity, such as a person, a car, or a bank account. Objects have attributes (data) and behaviors (functions). In C++, you can define classes to create objects.
 
 ---
 grand_parent: Book
@@ -1731,9 +1342,8 @@ title: Introduction to C++
 nav_order: 4
 ---
 
-## INTRODUCTION TO PROGRAMMING
-
-text for some intro to new lecture unit
+ Understanding basic robot movement
+--------------------------------------------------------------------------------
 
 ### Tasks: Make robot move
 
@@ -1906,6 +1516,129 @@ Ker gre pri robotiki v najosnovnejšem primeru za S-R-A loop bi verjetno bilo pr
 #### <++>
 
 
+
+Sensors and actuators
+--------------------------------------------------------------------------------
+
+
+---
+parent: Book
+title: C++ Programming
+nav_order: 3
+has_children: true
+---
+
+# INTRODUCTION TO C++
+
+C++ is a high-performance programming language that is widely used for building software applications. It was developed by Bjarne Stroustrup in 1979 as an extension of the C programming language. C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." C++ is also a compiled language, which means that the source code is converted into machine code by a compiler before it can be run on a computer.
+
+Here are some basic concepts in C++:
+
+**Variables**: A variable is a named location in memory that stores a value. In C++, you must specify the data type of a variable when you declare it. For example:
+
+```cpp
+int x;      // declares a variable x of type int
+float y;    // declares a variable y of type float
+char c;     // declares a variable c of type char
+```
+
+**Operators**: Operators are special symbols that perform specific operations on one or more operands. C++ has a variety of operators, including arithmetic operators (e.g., +, -, *, /), comparison operators (e.g., ==, !=, >, <), and logical operators (e.g., &&, ||, !).
+
+**Control structures**: Control structures are statements that control the flow of execution in a program. C++ has several types of control structures, including if statements, for loops, and while loops.
+
+**Functions**: A function is a block of code that performs a specific task. C++ has a large standard library of functions, and you can also define your own functions. A function definition has the following syntax:
+
+```cpp
+return_type function_name(parameter list) {
+   // function body
+}
+```
+
+**Object-oriented programming**: As I mentioned earlier, C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." An object is a self-contained unit of code that represents a real-world entity, such as a person, a car, or a bank account. Objects have attributes (data) and behaviors (functions). In C++, you can define classes to create objects.
+
+
+---
+grand_parent: Book
+parent: C++ Programming
+title: Introduction to C++
+nav_order: 4
+---
+
+ Basic syntax and structure of a C++
+--------------------------------------------------------------------------------
+
+
+A C++ program begins with preprocessor directives, an example of which is including header files. Preprocessor directives provide instructions to the compiler and tell it what additional files to include in the compilation process.
+
+Following the preprocessor directives are declarations, which include variables, constants, and user-defined functions.
+
+The main function is the entry point of any C++ program, and contains all of the program’s executable code. Within the main function are more definitions, which are additional declarations of data types, variables, constants, and user-defined functions. Finally, the program is concluded with the return 0 statement, indicating success.
+
+Developing a C++ program requires careful attention to the order in which the preprocessor directives, declarations, main function, and definitions are written. Only by understanding the basic structure of a C++ program can a programmer write effective, efficient, and bug-free code.
+
+Here is an example of a basic C++ program that blinks LED on a 13-th pin of an Arduino Uno controller and can be written in Arduino IDE:
+
+```c++
+#include <avr/io.h>
+#include <util/delay.h>
+
+// Function declaration
+void setup();
+
+int main() 
+{
+    // Variable declaration
+    int time_ms = 1000;
+    // Function call
+    setup();
+    // Main LOOP program instructions
+    while (true)
+    {
+        PORTB |= (1<<PINB5);
+        _delay_ms(time_ms);
+        PORTB &= !(1<<PINB5);
+        _delay_ms(time_ms);
+    }
+    return 0;
+}
+// Function definition
+void setup() {
+    PDDB |= (1<<PINB5);
+}
+```
+: Native C++ program for ATmega328. {#lst:native_cpp}
+
+Programming an Arduino Uno board in native C++ is much more difficult than in Arduino IDE. Arduino IDE makes it easier for users to write and debug code without having to know the details of the underlying hardware. In addition, the IDE provides many additional functions which simplify the usage of additional peripherals and actuators such as serial communication, LCDs, servo motors, step motors... This is especially true and important for beginners.
+
+> ### Tasks:
+> 
+> 1. <++>
+> 2. <++>
+> 3. <++>
+> 
+
+> ### Questions:
+> 
+> 1. <++>
+> 2. <++>
+> 3. <++>
+> 
+
+
+### Summary:
+#### <++>
+
+### Issues:
+#### Not including a semicolon at the end of each statement:
+Every statement in C++ must end with a semicolon. If a semicolon is omitted, the code will not compile correctly.
+
+#### Not properly formatting the code:
+Properly indenting and spacing code is important in C++ to make the code easier to read. Not formatting the code correctly can lead to syntactical errors.
+
+#### Not using correct capitalization:
+C++ is a case sensitive language and therefore proper capitalization is important. If the wrong capitalization is used, it can lead to syntax errors.
+
+
 ---
 grand_parent: Book
 parent: C++ Programming
@@ -1913,7 +1646,7 @@ title: Clean Code
 nav_order: 4
 ---
 
-## WRITING CLEAN CODE
+## Writing clean code
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
 You will probably spent the same amount of time cleaning the code that you needed for writing a working version.
@@ -2227,6 +1960,7 @@ void setup()
 `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
 
 
+
 ---
 grand_parent: Book
 parent: C++ Programming
@@ -2234,7 +1968,7 @@ title: Testing Code
 nav_order: 4
 ---
 
-## TESTING PROGRAMMING CODE
+## Testing programming code
 
 Testing code in Arduino is important because it helps to ensure that the code is working correctly and producing the desired results. Testing can help to catch bugs and errors in the code, and can also help to verify that the code is performing the tasks that it is intended to perform. By thoroughly testing code, you can improve the reliability and functionality of your Arduino projects.
 
@@ -2272,17 +2006,18 @@ Since testing programming code and hardware is one of the key features in design
 
 We will write a program which will be triggered by sending specific text over the serial communication. For example if we will send the string `forward` the function `moveForward()` will be executed. The function `serialEvent()` is trigged when some data are available on serial communication. A basic example of such functionality is shown in [@lst:053_Testing_programming_code]:
 
+
 ```cpp
 #include "RobotMovingFunctions.h"
+//#include <RobDuinoSerialTesting.h>
+
 void setup()
 {
-  Serial.begin(9600);
-
+  Serial.begin(115200);
   setIOpins();
   moveForward();
   delay(3000);
   stopTheRobot();
-  
 }
 
 void loop()
@@ -2296,6 +2031,7 @@ void serialEvent(){
   else if (test_string == "stop")     stopTheRobot();
   else Serial.println("\n" + test_string + " is not valid command.");
 }
+
 ```
 : Testing programming code. {#lst:053_Testing_programming_code}
 
@@ -2303,13 +2039,11 @@ void serialEvent(){
 >
 > 1. Explore the testing functionality of  this example.
 > 2. Complete the testing functionality with other functions available to control the robot movement.
-> 3. Move the function `serialEvent()` into header file.
 
-In further lectures we will be using more advances `Testing mode` where single digital outputs will be controlled; and inputs will be measured in digital and analog manner. The testing mode will be trigged by a command `testing`. The output will show every output state:
+In further lectures we will be using more advances `Testing mode` where single digital outputs can be controlled; and inputs will be measured in digital and analog manner. This testing process is available if you have installed `RobDuino Libraty` (see Program Installing chapter). The testing mode will be trigged by the command `testing`. The output will show every output state:
 
 ```cpp
 ******* Testing mode ********************
-
 Dig. Out	Dig. In.	An.In.
 D0 = 1		A0 = 0		A0 = 293
 D1 = 0		A1 = 0		A1 = 334
@@ -2322,6 +2056,24 @@ D7 = 0
 -------------------------------------------
 ```
 
+> ### Task: RobDuino module testing
+>
+> 3. Delete `serialEvent()` function in your program and uncomment line 2 in [@lst:053_Testing_programming_code]:  
+> `#include "RobDuinoSerialTesting.h"`.
+> 4. Explore testing functions with command `testing` writing it into Serial Monitor and you will get this respond:
+
+```cpp
+*** Testing mode - menu - ******************
+*    help - prints this text menu
+*    D5   - toggles output state of D5
+*    Dx   - toggles output state of any Dx,
+*           x is any num. from 0 .. 13.
+*    run  - toggles monitoring od I/O pins
+*    exit - exits the Testing mode.
+*-------------------------------------------
+Type any command to continue ...
+```
+
 > ### Questions: 
 >
 > 1. Explain why testing is important.
@@ -2329,10 +2081,20 @@ D7 = 0
 > 3. What parts of the robot should be tested regularly.
 
 ### Summary:
-#### <++>
+#### Testing mode
 
 ### Issues:
-#### <++>
+#### How can I get RobDuinoSerialTesting working.
+
+Basicaly you need to do these stps:
+
+1. install RobDuino Library
+2. put this code at the top of your porgram:  
+      `#include <RobDuinoSerialTesting.h>`
+3. Compile and write the porgram to your Arduino UNO controller
+4. Open `Serial Monitor` window
+5. and write `testing` command into prompt.
+
 
 
 ---
@@ -2342,7 +2104,7 @@ title: Programming Loop
 nav_order: 4
 ---
 
-## PROGRAMMING LOOPs: FOR-NEXT & DO-WHILE
+## Programming loops: FOR-NEXT & DO-WHILE
 
 It is very often needed, that we want to repeat some part of code several times. In that case we can use programming loops where we can specify which code should be repeated. In general there are two very often situation where we are using the programming loops:
 
@@ -2494,6 +2256,7 @@ This code will output the following to the serial port:
 
 In this example, the "continue" statement is used to skip the remainder of the current iteration of the loop if the value of "x" is odd. As a result, only the even values of "x" are printed.
 
+
 ---
 grand_parent: Book
 parent: C++ Programming
@@ -2501,9 +2264,9 @@ title: Variables
 nav_order: 4
 ---
 
-## VARIABLES AND DATA TYPES
+## Variables and data types
 
-In earlier examples we have stored some values into `variables` (e.g counting `for-nex loop` repetition). Variables are the containers for storing data values usually located in RAM (also in EPROM, FLASH ...). In order to store different data (e.g. numbers, words ...) we have to use different type of variables. The declaration of the variable ( =creation ) has next syntax:
+In earlier examples we have stored some values into `variables` (e.g counting `for loop` repetition). Variables are the containers for storing data values usually located in RAM (also in EPROM, FLASH ...). In order to store different data (e.g. numbers, words ...) we have to use different type of variables. The declaration of the variable ( =creation ) has next syntax:
 
 ```cpp
 type varialble_name = value;
@@ -2549,7 +2312,7 @@ stopTheRobot();
 ...
 ```
 
-3. Add some code for blinking the LED in the `for-next loop` during the robot is driving backward.
+3. Add some code for blinking the LED in the `for loop` during the robot is driving backward.
 
     > Don't forget to set the REVERSE_LIGHT_PIN value and its `pinMode(...)`.
 
@@ -2709,11 +2472,77 @@ unsigned long duration = stop_time - start_time;
 
 Where the `duration` is time measured in milliseconds.
 
+#### Structures
+
+n C++, a struct is a user-defined data type that groups together a collection of variables. It is similar to a class in that it can contain variables and functions, but there are a few key differences between the two.
+
+One of the main differences between a struct and a class in C++ is that structs have public members by default, while classes have private members by default. This means that, by default, all members of a struct can be accessed directly from outside the struct, while members of a class can only be accessed through its member functions.
+
+Another difference is that structs are often used for small, simple data structures that do not require the encapsulation and data hiding features provided by classes. Structs are commonly used for situations where you simply want to group together related data, such as representing a point in two-dimensional space, a date, or a color.
+
+Here is an example of a simple struct in C++:
+
+```cpp
+struct Point {
+    int x;
+    int y;
+};
+```
+
+This struct defines a new type called Point, which contains two variables of type int, x and y, representing the coordinates of a point in a two-dimensional space.
+
+```cpp
+Point p1;
+p1.x = 3;
+p1.y = 4;
+```
+
+In this example, we create a variable p1 of type Point and assign values to its members x and y.
+
+It's also worth noting that C++ has also a keyword class which is semantically equivalent to struct except for the default access level of its members.
+
+#### Enumeration
+
+In C++, an `enum` (short for "enumeration") is a user-defined data type that consists of a set of named values. It is used to create a new type with a fixed set of possible values, which can make your code more readable and maintainable.
+
+Here's an example of an enumeration that could be used in a mobile robot program to represent the different states of the robot:
+
+```cpp
+enum class RobotMoves{
+    FORWARD,
+    BACKWARD,
+    MOVE_LEFT,
+    MOVE_RIGHT,
+    STOP
+};
+```
+You can use this enumeration in the robot's control loop to check and update the current state of the robot:
+```cpp
+RobotMoves currentRobotState = RobotMoves::STOP;
+
+while (true) {
+    // Some other logic here
+    // ...
+
+    // Sampling the sensors based on the state of the robot
+    switch (currentRobotState){
+      case RobotMoves::FORWARD    : checkFrontSensors(); break;
+      case RobotMoves::BACKWARD   : checkBackSensors(); break;
+      case RobotMoves::MOVE_LEFT  : checkLeftSensors(); break;
+      case RobotMoves::MOVE_RIGHT : checkRightSensors(); break;
+      default: //nothing to do...
+    }
+}
+```
+This way, it's clear and easy to understand the current state of the robot, and it can also help to implement logic and different behaviors for each state.
+It's also easy to add or remove states in the future if needed, without having to modify the code in many different places.
+
 ### Issues:
 
 #### *<++>*
 
 <++\>
+
 
 ---
 grand_parent: Book
@@ -2722,7 +2551,8 @@ title: Flow Control
 nav_order: 4
 ---
 
-## CONDITIONAL STATEMENTS
+ Flow control
+--------------------------------------------------------------------------------
 
 Before we dive into S-R-A Loop lets take a first look to IF-statemen. `IF-statement` allows us to execute some code when the condition is `true`. Such navigation of execution of the code is essential in programming and as such one of the fundamental structures of the field. Lets test test the bumper push-button-switch if it is working properly...
 
@@ -2869,6 +2699,249 @@ Also other logical condition operators can be used:
 
 <++>
 
+
+ Arrays and strings
+--------------------------------------------------------------------------------
+
+
+ Pointers and references
+--------------------------------------------------------------------------------
+
+
+ Classes and objects
+--------------------------------------------------------------------------------
+
+
+ Exception handling
+--------------------------------------------------------------------------------
+
+
+ Input and output
+--------------------------------------------------------------------------------
+
+
+ Debugging and testing
+--------------------------------------------------------------------------------
+
+
+ Advanced topics threading memory management templates
+--------------------------------------------------------------------------------
+
+### Bit-field variable type
+
+Variable bit fields are a specific type of data structure in C++ that allows a user to store multiple bit-sized values within a single variable. This can be useful for storing several different values in the same memory space or for compressing data. An example of a variable bit field in C++ is shown below:
+
+```c++
+struct example {
+ unsigned int value1 : 4; // Use 4 bits
+ unsigned int value2 : 8; // Use 8 bits
+ unsigned int value3 : 12; // Use 12 bits
+} myStruct;
+```
+
+In this example, we have defined a structure called 'example' which contains three members - 'value1', 'value2', and 'value3'. Each of these members has been defined as a variable bit field using the 'unsigned int' data type and the ':' syntax, which allows us to specify the number of bits that each member should use. In this case, 'value1' will use 4 bits, 'value2' will use 8 bits, and 'value3' will use 12 bits. To access these values, we can use the members of the structure, for example, 'myStruct.value2'.
+
+```c++
+struct adc4 {
+  unsigned int value1 : 10;
+  unsigned int value2 : 10;
+  unsigned int value3 : 10;
+  unsigned int value4 : 10;
+};
+
+unsigned int adc_val[40];           //40 values
+adc4 myAdc[10];                     //40 values
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(sizeof(adc_val));  //print 80
+  Serial.println(sizeof(myAdc));    //print 50
+}
+
+void loop() {
+
+}
+```
+
+---
+parent: Book
+title: Reading Input
+nav_order: 3
+has_children: true
+---
+
+ INPUTS AND SRA LOOP IN ROBOTICS
+================================================================================
+
+
+Robotics is a field of engineering that involves the design and operation of robotic systems. One of the most fundamental principles underlying robotic systems is the S-R-A (sensor-response-actuation) loop. This concept is at the heart of all robotic systems and is essential for understanding the behavior of robots.
+
+The S-R-A loop involves a robot continually sensing its environment, interpreting the data, and then taking some action in response. In other words, the robot is constantly interpreting sensory input and responding with a motor action. It is a continuous cycle of sensing, reasoning, and acting.
+
+The sensing component of the S-R-A loop generally involves the use of sensors such as cameras, ultrasound, or infrared sensors. These sensors detect the robot’s surroundings and provide the robot with the data necessary to make decisions. The response component of the loop involves the robot using its artificial intelligence to interpret the data and make decisions. This decision-making process is what gives robots the ability to respond to their environment.
+
+The actuation component of the S-R-A loop is where the robot takes action. This action may involve a physical movement, such as walking, or it may involve activating a motor to perform a task, such as picking up an object.
+
+The S-R-A loop is the basic building block of any robotic system. All robots use this concept as it is essential for a robot to be able to interact with its environment. Without it, robots would not be able to make decisions or take action. This concept is also important for enabling robots to learn, as it allows them to continually increase their knowledge and abilities.
+
+Overall, the S-R-A loop is the cornerstone of robotics. It is essential for robots to be able to interact with their environment and learn from it. Without the S-R-A loop, robots would be unable to take any action or make decisions. It is an integral part of any robotic system.
+
+From the S-R-A loop, lets start at the very beggining of the loop - at reading input signals by emphasizing the importance of received input signal. In other words, it is critical that the system be able to detect and interpret input signals in order to produce the appropriate responses. Once these input signals are received, they must be accurately processed and acted upon. This is the primary task of the S-R-A loop, and is the basis for any successful input processing system.
+
+To read an input signal on an Arduino, you can use one of the digital input pins or one of the analog input pins. Digital input pins can only read two states: high (5 volts) or low (0 volts). They are often used to read switches or buttons, or to detect the presence or absence of a signal.
+
+To read a digital input signal on an Arduino, you can use the digitalRead function, which takes a pin number as an argument and returns either HIGH or LOW. For example, to read the state of digital pin 2, you could use the following code:
+
+```cpp
+int pin = 2;
+int state = digitalRead(pin);
+```
+
+Analog input pins, on the other hand, can read a range of voltage levels, from 0 to 5 volts. They are often used to read sensors that output an analog signal, such as a temperature sensor or a potentiometer.
+
+To read an analog input signal on an Arduino, you can use the analogRead function, which takes a pin number as an argument and returns a value between 0 and 1023, corresponding to the voltage level on the pin. For example, to read the voltage on analog pin 0, you could use the following code:
+
+```cpp
+int pin = 0;
+int value = analogRead(pin);
+```
+
+
+---
+grand_parent: Book
+parent: Reading Input
+title: Digital Input
+nav_order: 4
+---
+
+## Digital input
+
+Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencials. Usually potencial `0 V` is presented as logical `0` and potencial `+5 V` is indicated as logical `1`. Digital inputs are often used for detecting state of switches, board keys and push buttons...
+
+Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
+
+![Different options of wireing the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
+
+### Tasks:
+
+1. Connect the push-button-switch according to first diagram on [@fig:PBSw_All] and test the program [@lst:280_Digital_Input]
+
+```cpp
+const int BUMPER_PIN = A0;
+void setup()
+{
+  pinMode(BUMPER_PIN, INPUT);
+}
+
+void loop()
+{
+  bool bumperIsPressed = digitalRead(BUMPER_PIN);
+  if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
+}
+```
+: Digital Input. {#lst:280_Digital_Input}
+
+2. Try to connect the bush-button-switch according to second diagran on [@fig:PBSw_All]
+
+| PBSW con. | RobDuino connectors |
+|:---------:|:-------------------:|
+|   No. 1   |          A0         |
+|   No. 2   |    not connected    |
+|   No. 3   |         +5V         |
+
+Table: Connection of push-button-switch with only 2 terminals. {#tbl:sw_two_pins}
+
+Try to understand why this setup is not working. And test all other options in [@fig:PBSw_All]
+
+3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor (third diagran on [@fig:PBSw_All]).
+4. Try to understand how the voltage potencial is spread among the components in electrical loop and how we can calculate this by using 2nd Kirchhoff's Rule.
+5. Change the setup of PBSW and resistor to a `pull-up` setup (fourth diagran on [@fig:PBSw_All]). What is changed?
+6. Enable internal `pull-up` resistor (and remove external one - fifth diagran on [@fig:PBSw_All]).
+
+### Questions:
+
+1. Measure the voltage potencial on pin A0 where the bumper is in ether position.
+2. Why the setup is not working properly if we connect the PBSW only to +5V voltage potencial?
+3. Draw a schematic circuit of the bush-button-switch connected to controller.
+4. What is determined by 2nd Kirshhoff's Rule?
+5. How can we wnable `pull-up` resistor?
+
+### Summary:
+#### 2nd Kirshhoff's Rule
+Kirchhoffs Voltage Rule states that `in any closed loop network, the total voltage around the loop is equal to the sum of all the voltage drops within the same loop` which is also equal to zero. In other words the algebraic sum of all voltages within the loop must be equal to zero. This idea by Kirchhoff is known as the Conservation of Energy.
+
+### Issues:
+#### *<++>*
+<++>
+
+
+---
+grand_parent: Book
+parent: Reading Input
+title: Pull-Up Resistor
+nav_order: 4
+---
+
+## Pull-up resistors on digital input
+
+On the module RobDuino we can find two "on-board push button switches". Wiring of this switches is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can we noticed that both switches are connected to ground voltage potential.
+
+![Wiring of on-board switches.](./slike/RobDuino_OnBoardPwshButtonSwitch_s1.png){#fig:RobDuino_OnBoardPwshButtonSwitch_s1}
+
+To properly use this on-board push-button switches we must enable the `pull-up` resistors of A4 and A5 input of microcontroller.
+
+### Tasks:
+
+1. Configure pins `A4` and `A5` as inputs with `pull-up` resistor.
+2. At the end of the `setup()` function add the `while-loop` which will delay the execution of the program until we press the `A4` key - acting as a "START BUTTON".
+3. Use the `A5` key to stop the robot and terminate the execution of the program.
+
+```cpp
+#include "RobotMovingFunctions.h"
+const int KEY_A4 = A4;
+const int KEY_A5 = A5;
+
+void setup()
+{
+  setIOpins();
+  pinMode(KEY_A4, INPUT_PULLUP);
+  // KEY_A5 setup here...
+}
+
+void loop()
+{
+  moveForward();
+  //to-do: the key reading
+  bool stopTheRobotKey = 0;
+  if (stopTheRobotKey == 1)
+  {
+    stopTheRobot();
+    exit(0);        //terminate the program
+  }
+}
+```
+: Pull Up Resistors on Digital Input. {#lst:290_Pull_Up_Resistors_on_Digital_Input}
+
+### Questions:
+
+1. What is the programming instruction of reading the value form digital input?
+2. Which values can be assigned to `bool` type variable?
+3. Explain the programming instruction `exit(0)`.
+
+### Summary:
+
+#### <++>
+
+<++>
+
+### Issues:
+
+#### *<++>*
+
+<++>
+
+
+
 ---
 grand_parent: Book
 parent: C++ Programming
@@ -2876,7 +2949,7 @@ title: S-R-A Loop
 nav_order: 4
 ---
 
-## S-R-A LOOP
+## S-R-A loop
 
 S-R-A loop is repeating process where:
 
@@ -2960,165 +3033,6 @@ void loop()
 
 <++>  
 
----
-parent: Book
-title: Reading Input
-nav_order: 3
-has_children: true
----
-
-# READING INPUT SIGNAL
-
-To read an input signal on an Arduino, you can use one of the digital input pins or one of the analog input pins. Digital input pins can only read two states: high (5 volts) or low (0 volts). They are often used to read switches or buttons, or to detect the presence or absence of a signal.
-
-To read a digital input signal on an Arduino, you can use the digitalRead function, which takes a pin number as an argument and returns either HIGH or LOW. For example, to read the state of digital pin 2, you could use the following code:
-
-```cpp
-int pin = 2;
-int state = digitalRead(pin);
-```
-
-Analog input pins, on the other hand, can read a range of voltage levels, from 0 to 5 volts. They are often used to read sensors that output an analog signal, such as a temperature sensor or a potentiometer.
-
-To read an analog input signal on an Arduino, you can use the analogRead function, which takes a pin number as an argument and returns a value between 0 and 1023, corresponding to the voltage level on the pin. For example, to read the voltage on analog pin 0, you could use the following code:
-
-```cpp
-int pin = 0;
-int value = analogRead(pin);
-```
-
----
-grand_parent: Book
-parent: Reading Input
-title: Digital Input
-nav_order: 4
----
-
-## DIGITAL INPUT
-
-Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencials. Usually potencial `0 V` is presented as logical `0` and potencial `+5 V` is indicated as logical `1`. Digital inputs are often used for detecting state of switches, board keys and push buttons...
-
-Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
-
-![Different options of wireing the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
-
-### Tasks:
-
-1. Connect the push-button-switch according to first diagram on [@fig:PBSw_All] and test the program [@lst:280_Digital_Input]
-
-```cpp
-const int BUMPER_PIN = A0;
-void setup()
-{
-  pinMode(BUMPER_PIN, INPUT);
-}
-
-void loop()
-{
-  bool bumperIsPressed = digitalRead(BUMPER_PIN);
-  if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
-}
-```
-: Digital Input. {#lst:280_Digital_Input}
-
-2. Try to connect the bush-button-switch according to second diagran on [@fig:PBSw_All]
-
-| PBSW con. | RobDuino connectors |
-|:---------:|:-------------------:|
-|   No. 1   |          A0         |
-|   No. 2   |    not connected    |
-|   No. 3   |         +5V         |
-
-Table: Connection of push-button-switch with only 2 terminals. {#tbl:sw_two_pins}
-
-Try to understand why this setup is not working. And test all other options in [@fig:PBSw_All]
-
-3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor (third diagran on [@fig:PBSw_All]).
-4. Try to understand how the voltage potencial is spread among the components in electrical loop and how we can calculate this by using 2nd Kirchhoff's Rule.
-5. Change the setup of PBSW and resistor to a `pull-up` setup (fourth diagran on [@fig:PBSw_All]). What is changed?
-6. Enable internal `pull-up` resistor (and remove external one - fifth diagran on [@fig:PBSw_All]).
-
-### Questions:
-
-1. Measure the voltage potencial on pin A0 where the bumper is in ether position.
-2. Why the setup is not working properly if we connect the PBSW only to +5V voltage potencial?
-3. Draw a schematic circuit of the bush-button-switch connected to controller.
-4. What is determined by 2nd Kirshhoff's Rule?
-5. How can we wnable `pull-up` resistor?
-
-### Summary:
-#### 2nd Kirshhoff's Rule
-Kirchhoffs Voltage Rule states that `in any closed loop network, the total voltage around the loop is equal to the sum of all the voltage drops within the same loop` which is also equal to zero. In other words the algebraic sum of all voltages within the loop must be equal to zero. This idea by Kirchhoff is known as the Conservation of Energy.
-
-### Issues:
-#### *<++>*
-<++>
-
----
-grand_parent: Book
-parent: Reading Input
-title: Pull-Up Resistor
-nav_order: 4
----
-
-## PULL-UP RESISTORS ON DIGITAL INPUT
-
-On the module RobDuino we can find two "on-board push button switches". Wiring of this switches is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can we noticed that both switches are connected to ground voltage potential.
-
-![Wiring of on-board switches.](./slike/RobDuino_OnBoardPwshButtonSwitch_s1.png){#fig:RobDuino_OnBoardPwshButtonSwitch_s1}
-
-To properly use this on-board push-button switches we must enable the `pull-up` resistors of A4 and A5 input of microcontroller.
-
-### Tasks:
-
-1. Configure pins `A4` and `A5` as inputs with `pull-up` resistor.
-2. At the end of the `setup()` function add the `while-loop` which will delay the execution of the program until we press the `A4` key - acting as a "START BUTTON".
-3. Use the `A5` key to stop the robot and terminate the execution of the program.
-
-```cpp
-#include "RobotMovingFunctions.h"
-const int KEY_A4 = A4;
-const int KEY_A5 = A5;
-
-void setup()
-{
-  setIOpins();
-  pinMode(KEY_A4, INPUT_PULLUP);
-  // KEY_A5 setup here...
-}
-
-void loop()
-{
-  moveForward();
-  //to-do: the key reading
-  bool stopTheRobotKey = 0;
-  if (stopTheRobotKey == 1)
-  {
-    stopTheRobot();
-    exit(0);        //terminate the program
-  }
-}
-```
-: Pull Up Resistors on Digital Input. {#lst:290_Pull_Up_Resistors_on_Digital_Input}
-
-### Questions:
-
-1. What is the programming instruction of reading the value form digital input?
-2. Which values can be assigned to `bool` type variable?
-3. Explain the programming instruction `exit(0)`.
-
-### Summary:
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>
-
 
 ---
 grand_parent: Book
@@ -3127,7 +3041,7 @@ title: PWM as Input sig.
 nav_order: 4
 ---
 
-## PULSE WIDTH AS DIGITAL INPUT
+## Pulse width as digital input
 
 Digital input can also be used to transferee other data. One way is to modulate the data into pulse duration e.g. longer the duration of the pulse, bigger the value. This modulation of data is called **Pulse-width modulatio** or **PWM**. Such an example is ultrasonic distance sensor. Where the distance is hidden in the time duration that sound needed of travel the distance from source to object and back as presented in [@fig:UltraSound_sen_50].
 
@@ -3206,6 +3120,7 @@ void loop()
 #### <++>
 
 
+
 ---
 grand_parent: Book
 parent: Reading Input
@@ -3213,7 +3128,7 @@ title: Analog Input
 nav_order: 4
 ---
 
-## ANALOG INPUT
+## Analog input
 
 In general, controllers are equipped with `Analog to Digital Converters` or short `ADC`. This internal devices converts voltage potencial into numeric value which can be further used by written program. This is also the case in Arduino UNO converter by the function `analogRead(pin_number)`. In this case the voltage range $[0.0\ V .. +5.0\ V]$ is converted in to range of numbers $[0 .. 1024]$.
 
@@ -3290,6 +3205,7 @@ voltage from 0V to 5V is converted to range of numbers from 0 to 1024.
 
 <++>  
 
+
 ---
 grand_parent: Book
 parent: Reading Input
@@ -3297,7 +3213,7 @@ title: Detecting Obstacles
 nav_order: 4
 ---
 
-## AVOIDING OBSTACLES
+## Avoiding obstacles
 
 ### Tasks:
 
@@ -3372,6 +3288,7 @@ void goForwardCarefully()
 
 <++>
 
+
 ---
 grand_parent: Book
 parent: Reading Input
@@ -3379,7 +3296,7 @@ title: Ligth Sensor
 nav_order: 4
 ---
 
-## LIGHT SENSOR
+## Light sensor
 
 ### Tasks:
 
@@ -3454,6 +3371,7 @@ If the value of the sensor is less than 100 the resistance of $R_2$ (connected t
 If the value of the sensor is grater than 900 the resistance of $R_2$ (connected to GND) is to hi in comparismant to the resistance of R_1 (connected to +5V).
 
 
+
 ---
 grand_parent: Book
 parent: Reading Input
@@ -3461,7 +3379,7 @@ title: Line Follower
 nav_order: 4
 ---
 
-## LINE FOLLOWER
+## Line follower
 
 ### Tasks:
 
@@ -3513,6 +3431,7 @@ void loop()
 
 <++>
 
+
 ---
 parent: Book
 title: Motors
@@ -3520,7 +3439,8 @@ nav_order: 3
 has_children: true
 ---
 
-# MOTORS and ACTUATORS
+ CONTROLLING ACTUATORS
+================================================================================
 
 Motors and actuators are essential components of many robotic systems, as they allow robots to move and manipulate their environment. In Arduino robotics, there are several types of motors and actuators that you can use, depending on the specific needs of your application.
 
@@ -3534,6 +3454,7 @@ Some common types of motors and actuators that you can use with Arduino include:
 
 **Linear actuators**: These are motors that produce linear motion, rather than rotary motion. They are commonly used to move mechanisms or lift loads. To control a linear actuator with an Arduino, you will need a motor driver, such as an H-bridge, and you can use the analogWrite function to control the speed and direction of the actuator.
 
+
 ---
 grand_parent: Book
 parent: Motors
@@ -3541,7 +3462,8 @@ title: DC Motor
 nav_order: 4
 ---
 
-## DC MOTOR
+## DC motor
+
 
 ---
 grand_parent: Book
@@ -3550,7 +3472,7 @@ title: PWM Control
 nav_order: 4
 ---
 
-## PWM MOTOR CONTROL
+## PWM motor control
 
 There is often the situation where the power of the motors must be controlled.
 One convenient way to do this is that we don't power the motor full time,
@@ -3646,6 +3568,7 @@ void loop()
 
 <++>
 
+
 ---
 grand_parent: Book
 parent: Motors
@@ -3653,7 +3576,8 @@ title: Servo Motor
 nav_order: 4
 ---
 
-## SERVO MOTOR
+## Servo motor
+
 
 ---
 grand_parent: Book
@@ -3662,481 +3586,60 @@ title: Stepper Motor
 nav_order: 4
 ---
 
-## STEPPER MOTOR
+## Stepper motor
 
----
-parent: Book
-title: Timers
-nav_order: 3
-has_children: true
----
+Stepper motors are a type of electric motor that can precisely control a rotating shaft's angular position. They are the most commonly used type of motor in motion control applications. A stepper motor works by converting electrical pulses into mechanical shaft rotations, which can be used to move a device or position an object. Stepper motors produce precise, smooth, and repeatable motion and can be used in a variety of robotic applications. They are commonly used for positioning CNC machines, 3D printers, pick-and-place systems, and other robotic applications. Stepper motors are available in a variety of sizes and configurations, and can be used with a variety of drive systems and controllers.
 
-# TIMERS AND TIME MEASUREMENT
 
-Timers and time measurement are important concepts in Arduino programming, as they allow you to perform tasks at specific intervals, measure elapsed time, or synchronize events. The Arduino has several built-in timer modules that you can use in your programs.
+In general we differ two types of Stepper motors (regarding the coil wireing):
 
-Here are some common ways to use timers and measure time in Arduino:
+1. Bipolar Stepper Motor - This type of stepper motor has two sets of coils, each with a single winding per phase. The coils are wired in series or in parallel depending on the application. Each winding in the motor is energized, then de-energized in order to make the motor rotate. 
 
-**delay() function**: This function causes the program to pause for a specific number of milliseconds. For example, the following code will cause the LED on digital pin 13 to blink every second:
+2. Unipolar Stepper Motor - This type of stepper motor has two sets of coils, each with multiple windings per phase. The coils are wired in series or in parallel depending on the application. Only one winding in the motor is energized at a time to make the motor rotate."
+
+### Task
+
+Stepper motors are used in many Arduino projects to control motion, such as turning a wheel or a motor shaft. By applying pulse-width modulation (PWM) signals, the Arduino can control the speed and direction of the motor. Below is an example of Arduino code that can be used to control a stepper motor:
 
 ```cpp
-void loop() {
-  digitalWrite(13, HIGH);
-  delay(1000);  // wait for 1 second
-  digitalWrite(13, LOW);
-  delay(1000);  // wait for 1 second
-}
-```
+//Define the pins to be used for the stepper motor
+#define STEPPER_PIN_1 8
+#define STEPPER_PIN_2 9
+#define STEPPER_PIN_3 10
+#define STEPPER_PIN_4 11
 
-**millis() function**: This function returns the number of milliseconds that have elapsed since the Arduino was powered on or reset. You can use this function to measure elapsed time or to trigger events at specific intervals. For example, the following code will turn the LED on and off every 5 seconds:
+//Define the delay between steps in milliseconds
+#define STEP_DELAY 10
 
-```cpp
-unsigned long previous_time = 0;  // store the previous time
+//Create an array of the pins to be used
+int pins[] = {STEPPER_PIN_1,STEPPER_PIN_2,STEPPER_PIN_3,STEPPER_PIN_4};
 
-void loop() {
-  unsigned long current_time = millis();  // get the current time
-  if (current_time - previous_time >= 5000) {  // check if 5 seconds have passed
-    digitalWrite(13, !digitalRead(13));  // toggle the LED
-    previous_time = current_time;  // update the previous time
-  }
-}
-```
-
-**Hardware timers**: The Arduino has several hardware timers that can be used to generate periodic interrupts. You can use these timers to trigger events at specific intervals without using the delay() function. For example, the following code uses Timer 1 to toggle the LED on and off every second:
-
-```cpp
-void setup() {
-  // set up Timer 1 to generate an interrupt every 1 second
-  cli();  // disable global interrupts
-  TCCR1A = 0;  // set Timer 1 to normal mode
-```
-
----
-grand_parent: Book
-parent: Timers
-title: Time measurements
-nav_order: 4
----
-
-## END OF LINE DETECTION
-
-### Tasks:
-
-1. Stop the robot when it reaches the end of line.
-2. Detecting the end of line can be done by measuring the time that robot spend over the black and white area. E.g. if the robot is driving along the line - the time spent over black and time spent over white area will be quite the same. When line ends the robot will not detect the black area soon and the time spent over white area will increase significantly - and that is the trigger for detecting the end of line.
-3. Advanced: Make a function to align (move) the robot back to the line.
-
-### Questions:
-
-1.  How can we store a data to the controller\'s memory?
-2.  How can we measure time in programming loops?
-3. What is the purpose of the prog. instr. exit(0); ?
-
-```cpp
-#include "RobotMovingFunctions.h"
-const int LIGHT_SENSOR_PIN = A0;
-const int SURFACE_BRIGHTNESS_REFERENCE = 400;
-int time_on_black = 0;
-int time_on_white = 0;
-
+//Initialize the stepper motor
 void setup()
 {
-  setIOpins();
-  pinMode(LIGHT_SENSOR_PIN , INPUT);
+ //Set each pin as an output
+ for(int i=0;i<4;i++)
+ {
+ pinMode(pins[i], OUTPUT);
+ }
 }
+
+//Control the stepper motor
 void loop()
 {
-  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
-  {
-    // BLACK area
-    moveLeft();
-    time_on_white = 0;  // reset time on white
-    time_on_black++;    // meas. time on black
-    delay(100);
-  }
-  else
-  {
-    // WHITE area
-    moveRight();
-    // Do similar meas.
-    // of time on white
-    delay(100); 
-    // If time is signif. longer:
-    //        robotStop();exit(0);
-  }
-}
-```
-: Edn of Line Detection. {#lst:360_Edn_of_Line_Detection}
-
-### Summary:
-#### <++>
-
-### Issues:
-#### <++>
-
----
-parent: Book
-title: Barier Gate
-nav_order: 3
-has_children: true
----
-
-# BARIER GATE
-
----
-grand_parent: Book
-parent: Barier Gate
-title: Construction
-nav_order: 4
----
-
-## BARRIER GATE CONSTRUCTION
-
-### Tasks:
-
-1. Construct the barrier gate according to [video](https://www.youtube.com/embed/5_eh7ojNH68) instructions.
-
-![Constracting a barrier gate.](https://img.youtube.com/vi/5_eh7ojNH68/maxresdefault.jpg){#fig:gate_const}
-
-2. Connect the motor to digital outputs D7 and D6,
-   - declare meaningful constants for output pins,
-   - write a function `setIOpins()` for settig output pins and
-   - include it in setup() function.
-3. Write 3 time controlled functions for essential control
-    of the barrier gate :
-    - `moveGateUp();`
-    - `moveGateDown();`
-    - `stopTheGate();`
-    and test this actions in setup() function.
-4. Put this action of lifting and lowering the gate in
-    For-loop and repeat it several times (e.g. 15 times).
-
-Some sample code can be found in next example:
-
-```cpp
-const int MOTOR_PIN_1 = 7;
-const int MOTOR_PIN_2 = 6;
-
-[-] void setup() {
-        pinMode(MOTOR_PIN_1, OUTPUT); //declaration of I/O pins
-        pinMode(MOTOR_PIN_2, OUTPUT);    
-
-        moveGateUp();                 // Lift the barrier.
-        delay(3000);                  // Wait a bit...
-        moveGateDown();               // Lower the barrier.
-    }
-[+] void loop() {
-[+] void stopTheGate(){
-[-] void moveGateUp() {
-        digitalWrite(MOTOR_PIN_1, HIGH);
-        digitalWrite(MOTOR_PIN_2, LOW);
-        delay(1000);
-        stopTheGate(); 
-    }
-[+] void moveGateDown() {
-```
-
-### Questions:
-1. What is the time for raising and lowering the barrier?
-    Compare it to your colleague's value.
-2. What is the disadvantage of time controlled loop?
-
-<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
-
-### Summary
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>
-
----
-grand_parent: Book
-parent: Barier Gate
-title: Reference point
-nav_order: 4
----
-
-## REFERENCE POINT
-
-### Tasks:
-
-1. Add a switch to detect the reference point of the barrier gate. Let the reference point be the closed position of the barrier.
-
-![Adding the reference point key.](https://img.youtube.com/vi/bmgUlj_rP3U/maxresdefault.jpg){#fig:barrier_reference_key}
-
-2. Connect the switch to the controller according to schematics.
-3. Change the program to lower the barrier gate to reference switch position.
-
-### Questions:
-
-1.  Why is detection of reference point important?
-2.  <++>
-
-<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/bmgUlj_rP3U"></iframe>
-
-------------------------------------------------------------------------
-
-<iframe src="https://docs.google.com/presentation/d/1JTBdKVBY-znuZVyeCoOIMyx3Ds80OAD6DyzBDHL_dRk/embed?authuser=0&hl=en&size=s" width="410" height="337" title="switch connection" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Summary
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Barier Gate
-title: Reed switch
-nav_order: 4
----
-
-## REED SWITCH IN NON-CONTACT DETECTION
-
-### Tasks:
-
-1. Add a reed switch to the front of the barrier gate to detect the car.
-2. Connect the reed switch to the input pin A1 an GND.
-
-![Adding reef switch sensor.](https://img.youtube.com/vi/3hhu11bBFXc/maxresdefault.jpg){#fig:reed_sw}
-
-3. Write program as such that the gate barrier will open if car is detected. Some hints are showv in nex example code:
-
-```cpp
-const int MOTOR_PIN_1 = 7;
-const int MOTOR_PIN_2 = 6;
-const int REED_SW_PIN = A1;
-
-[-] void setup() {
-        pinMode(MOTOR_PIN_1, OUTPUT); //declaration of I/O pins
-        pinMode(MOTOR_PIN_2, OUTPUT);    
-        pinMode(REED_SW_PIN, INPUT_PULLUP);
-    }
-[-] void loop() {
-        bool car_is_detected = !digitalRead(REED_SW_PIN);
-        if (car_is_detected){
-            moveGateUp();
-            delay(3000);
-            moveGateDown();
-        }
-    }
-[+] void stopTheGate(){
-[+] void moveGateUp() {
-[+] void moveGateDown() {
-```
-
-### Questions:
-
-1.  What is pull-up resistor?
-2.  How can we turn on the internal pull-up resistor of the microcontroller?
-
-<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
-
-### Summary:
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Barier Gate
-title: On-module Keys
-nav_order: 4
----
-
-## ON-MODULE BUTTONS WITH PULL-UP RESISTORS
-
-### Tasks:
-
-1. Module RobDuino includes two \"on-board\" buttons which are connected from pin A4 and A5 to GND. This two buttons can allso be used but internal pull-up resistors must be turned on.
-1. Add manual functionality to the automated barrier gate. Add the possibility to manually lift (e.g. press A4 button) and lower (A5 button) the barrier gate.
-
-### Questions:
-
-1.  \<++\>
-2.  \<++\>
-
-```cpp
-const int MOTOR_PIN_1 = 7;
-const int MOTOR_PIN_2 = 6;
-const int REED_SW_PIN = A1;
-const int ROBDUINO_BT_A4_PIN = A4;
-const int ROBDUINO_BT_A5_PIN = A5;
-
-[+] void setup() {   
-[-] void loop() {
-        bool car_is_detected = !digitalRead(REED_SW_PIN);
-        if (car_is_detected){
-            moveGateUp();
-            delay(3000);
-            moveGateDown();
-        }
-        manualGateControll();
-    }
-[-] void manualControll(){
-        bool button_A4_is_pressed = !digitalRead(ROBDUINO_BT_A4_PIN);
-        if (button_A4_is_pressed){
-            gateUp();
-        }
-        // add code for the case if button_A5_is_pressed ...
-    }
-[+] void stopTheGate(){
-[+] void moveGateUp() {
-[+] void moveGateDown() {
-```
-
-###  Summary
-
-#### <++>
-
-<++>
-
-###  Issues
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Barier Gate
-title: Potenciometer
-nav_order: 4
----
-
-## POTENTIOMETER AS ANGLE SENSOR
-
-### Tasks:
-
-1. Add the potentiometer to the shaft of barrier gate. You can follow the instrucions in the [video](https://www.youtube.com/embed/kzLtVWtxVsQ).
-
-![Adding potenciometer as an angle sensor.](https://img.youtube.com/vi/kzLtVWtxVsQ/maxresdefault.jpg){#fig:pot_sen}
-
-<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/kzLtVWtxVsQ"></iframe>
-
-<iframe src="https://docs.google.com/presentation/d/1GgbUhsWBIflvZN1qMDrkh2tXRMLtYGoxHCdt5s_COVg/embed?authuser=0&hl=en&size=s" width="410" height="337" title="potenciometer" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-2. Test the potentiometer values with next program:
-
-```cpp
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  Serial.println(analogRead(A3));
-  delay(100);
-}
-```
-
-3. Change the functions for lifting and lowering the barrier gate to use potenciometer readings instead of switch and time controlled movement.
-
-```cpp
-[+] void setup() {   
-[+] void loop() {
-[+] void manualGateControll(){
-[+] void stopTheGate(){
-[-] void moveGateUp() {
-        int gate_orientation = analogRead(POTENTIOMETER_PIN);
-        while (gate_orientation < 750){
-            digitalWrite(MOTOR_PIN_1, HIGH);
-            digitalWrite(MOTOR_PIN_2, LOW);
-            gate_orientation = analogRead(POTENTIOMETER_PIN);
-        }
-        stopTheGate(); 
-    }
-[+] void moveGateDown() {
-```
-4. Advanced: Calculate the angle of barrier gate from the analog readings of potenciometer.
-
-### Questions:
-
-1.  What is the value of the angle sensor when the barrier gate is in the upper orientation\...
-2.  \... and in lower orientation.
-
-### Summary:
-
-#### <++>
-
-<++>
-
-### Issues:
-
-#### *<++>*
-
-<++>  
-
----
-grand_parent: Book
-parent: Barier Gate
-title: PID Control
-nav_order: 4
----
-
-## PID CONTROL
-
-text for some intro to new lecture unit
-
-### Tasks:
-
-1. <++>
-2. <++>
-```cpp
-void zapornicaDol_PID(){
-  zapornicaDol();
-  int orientacija = analogRead(A0);
-
-  //PI regulacija
-  int P = 0;
-  float I = 0;
-
-  while (orientacija > spodnja_meja){
-    orientacija = analogRead(A0);
-    P = orientacija - spodnja_meja;
-    I += 0.001 * P;
-    int moc_motorja = P+I;
-    if (moc_motorja > 255) moc_motorja = 255;
-    analogWrite(6, moc_motorja);
-    Serial.print("0,1023,");Serial.print(orientacija);Serial.print(",");Serial.println(spodnja_meja);
-  }
-  zapornicaStop();
-}
-```
-
-
-3. <++>
-
-### Questions:
-
-1. <++>
-2. <++>
-3. <++>
-
-### Summary:
-#### <++>
-
-### Issues:
-#### <++>
+ //Rotate clockwise
+ for(int i=0;i<4;i++)
+ {
+ digitalWrite(pins[i],HIGH);
+ delay(STEP_DELAY);
+ }
+ //Rotate counter-clockwise
+ for(int i=3;i>=0;i--)
+ {
+ digitalWrite(pins[i],HIGH);
+ delay(STEP_DELAY);
+ }
+}"
 
 ---
 grand_parent: Book
@@ -4203,4 +3706,178 @@ void loop() {
 #### *\<++\>*
 
 <++>
+
+
+ FUNDAMENTAL TASKS IN ROBOTICS
+================================================================================
+
+
+---
+parent: Book
+title: Timers
+nav_order: 3
+has_children: true
+---
+
+## Timers and time measurement
+
+Timers and time measurement are important concepts in Arduino programming, as they allow you to perform tasks at specific intervals, measure elapsed time, or synchronize events. The Arduino has several built-in timer modules that you can use in your programs.
+
+Here are some common ways to use timers and measure time in Arduino:
+
+**delay() function**: This function causes the program to pause for a specific number of milliseconds. For example, the following code will cause the LED on digital pin 13 to blink every second:
+
+```cpp
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);  // wait for 1 second
+  digitalWrite(13, LOW);
+  delay(1000);  // wait for 1 second
+}
+```
+
+**millis() function**: This function returns the number of milliseconds that have elapsed since the Arduino was powered on or reset. You can use this function to measure elapsed time or to trigger events at specific intervals. For example, the following code will turn the LED on and off every 5 seconds:
+
+```cpp
+unsigned long previous_time = 0;  // store the previous time
+
+void loop() {
+  unsigned long current_time = millis();  // get the current time
+  if (current_time - previous_time >= 5000) {  // check if 5 seconds have passed
+    digitalWrite(13, !digitalRead(13));  // toggle the LED
+    previous_time = current_time;  // update the previous time
+  }
+}
+```
+
+**Hardware timers**: The Arduino has several hardware timers that can be used to generate periodic interrupts. You can use these timers to trigger events at specific intervals without using the delay() function. For example, the following code uses Timer 1 to toggle the LED on and off every second:
+
+```cpp
+void setup() {
+  // set up Timer 1 to generate an interrupt every 1 second
+  cli();  // disable global interrupts
+  TCCR1A = 0;  // set Timer 1 to normal mode
+```
+
+ 
+ Move to reference position
+--------------------------------------------------------------------------------
+
+ 
+---
+grand_parent: Book
+parent: Timers
+title: Time measurements
+nav_order: 4
+---
+
+ Navigation and mapping
+--------------------------------------------------------------------------------
+
+### Tasks:
+
+1. Stop the robot when it reaches the end of line.
+2. Detecting the end of line can be done by measuring the time that robot spend over the black and white area. E.g. if the robot is driving along the line - the time spent over black and time spent over white area will be quite the same. When line ends the robot will not detect the black area soon and the time spent over white area will increase significantly - and that is the trigger for detecting the end of line.
+3. Advanced: Make a function to align (move) the robot back to the line.
+
+### Questions:
+
+1.  How can we store a data to the controller\'s memory?
+2.  How can we measure time in programming loops?
+3. What is the purpose of the prog. instr. exit(0); ?
+
+```cpp
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
+const int SURFACE_BRIGHTNESS_REFERENCE = 400;
+int time_on_black = 0;
+int time_on_white = 0;
+
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
+}
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
+  {
+    // BLACK area
+    moveLeft();
+    time_on_white = 0;  // reset time on white
+    time_on_black++;    // meas. time on black
+    delay(100);
+  }
+  else
+  {
+    // WHITE area
+    moveRight();
+    // Do similar meas.
+    // of time on white
+    delay(100); 
+    // If time is signif. longer:
+    //        robotStop();exit(0);
+  }
+}
+```
+: Edn of Line Detection. {#lst:360_Edn_of_Line_Detection}
+
+### Summary:
+#### <++>
+
+### Issues:
+#### <++>
+
+ 
+ PID Control
+--------------------------------------------------------------------------------
+
+ 
+ Pick and place operations
+--------------------------------------------------------------------------------
+
+ 
+ Perception and recognition
+--------------------------------------------------------------------------------
+
+ 
+ ROBOTICS APPLICATIONS
+=================================================================================
+
+ 
+ Robotics projects for educational and research applications
+--------------------------------------------------------------------------------
+
+ 
+ Robotics in industry and everyday life
+--------------------------------------------------------------------------------
+
+ 
+ Robotics competitions and challenges
+--------------------------------------------------------------------------------
+
+ 
+ Robotics careers and future opportunities
+--------------------------------------------------------------------------------
+
+ 
+ ADVANCED ROBOTICS
+================================================================================
+
+ 
+ Robotics in artificial intelligence and machine learning
+--------------------------------------------------------------------------------
+
+ 
+ Robotics in computer vision and image processing
+--------------------------------------------------------------------------------
+
+ 
+ Robotics in natural language processing
+--------------------------------------------------------------------------------
+
+ 
+ Robotics in swarm intelligence and multi-agent systems
+--------------------------------------------------------------------------------
 
