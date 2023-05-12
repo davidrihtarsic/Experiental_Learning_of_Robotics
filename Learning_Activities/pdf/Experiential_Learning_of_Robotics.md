@@ -1,8 +1,7 @@
-
 ---
-title: Introduction
-parent: Book
-nav_order: 3
+parent: Basic Robotics
+title: INTRODUCTION
+nav_order: 1
 has_children: true
 ---
 
@@ -24,15 +23,35 @@ We will then demonstrate how to use the Arduino controller and Robduino shield t
 
 Throughout this lecture, we will use hands-on activities and examples to illustrate the concepts and techniques that are covered. We will also discuss some of the challenges and considerations that are involved in building and programming robots with these tools and materials.
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Embeded systems
+nav_order: 4
+---
 
  Introduction to embedded systems
 --------------------------------------------------------------------------------
 
+\setcounter{section}{1}\setcounter{subsection}{1}
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Robotic applications
+nav_order: 4
+---
 
  Overview of robotics and its applications
 --------------------------------------------------------------------------------
 
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Basic Terminology
+nav_order: 4
+---
 
  Basic concepts and terminology
 --------------------------------------------------------------------------------
@@ -139,6 +158,12 @@ information and action exchanges between multiple robots (2.6) to ensure that th
 ##### INTELLIGENT ROBOT
 robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
 EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: History
+nav_order: 4
+---
 
  History of robotics
 --------------------------------------------------------------------------------
@@ -150,9 +175,9 @@ The potential applications for robotics technology are endless, and robotics is 
 With the advancement of robotics, we stand at the brink of a new era of technology, one that promises to completely revolutionize the way we live. The future of robotics is an exciting one, and it will be fascinating to see what the next few decades have in store.
 
 ---
-grand_parent: Book
-parent: Introduction
-title: Robotics
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Teaching robotics
 nav_order: 4
 ---
 
@@ -167,6 +192,14 @@ In addition, robotics can help to develop social and emotional skills. Through t
 Overall, robotics in education is an important tool for preparing students for the future. By introducing robots into the classroom, educators can create engaging and interactive learning experiences that teach students valuable skills. Robotics can also be used to enhance subject-matter learning, promote STEM education, and develop social and emotional skills."
 
 ### Robotics and Education
+
+Robotics in education has been gaining a great deal of attention in recent years. This is due to its potential to create engaging learning experiences that help to facilitate deeper understanding of complex topics. Robotics provides an opportunity to engage in hands-on learning that encourages students to explore, tinker and construct their own learning. This approach aligns with both constructivism and constructionism, two educational theories that emphasize the need for students to build their own knowledge and understanding through exploration and collaboration. 
+
+In this context, robotics acts as a conduit for students to explore and understand the world around them. The work of Seymour Papert, a renowned MIT professor, has been influential in this field. Papert was an early advocate for the use of robotics in education, and his work led to the development of the popular children’s robotic toy, the Logo Turtle. Papert recognized the potential of robotics to engage students and foster meaningful learning experiences. 
+
+Similarly, the work of Resnick at the MIT Media Lab was influential in the development of innovative robotic programming tools such as Scratch and LEGO Mindstorms. These tools have become popular in teaching children robotics and programming. By providing children with the ability to control and program robots, these tools provide a powerful means for students to explore the possibilities of robotics and to develop a deeper understanding of its principles. 
+
+Overall, robotics in education offers an exciting opportunity to foster meaningful and engaging learning experiences. Through robotics, students have the opportunity to explore the world around them, to tinker and construct their own learning, and to develop a deeper understanding of complex topics."
 
 #### Definition of the robots in education
 
@@ -371,15 +404,20 @@ Literature
 - [Programming Arduino](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#arduino)
 
 -->
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Current state
+nav_order: 4
+---
 
  Current state of the field
 --------------------------------------------------------------------------------
 
-
 ---
-grand_parent: Book
-parent: Introduction
-title: Equipment
+grand_parent: Basic Robotics
+parent: INTRODUCTION
+title: Robotics Equipment
 nav_order: 4
 ---
 
@@ -479,11 +517,31 @@ We can divide the equipment for robotics into three different groups:
 - rubber bands
 - black isolating tape
 
+---
+parent: Basic Robotics
+title: ARDUINO PLATFORM
+nav_order: 2
+has_children: true
+---
 
- ARDUINO
+ ARDUINO PLATFORM
 ================================================================================
 
+Arduino is a popular open-source platform used for developing electronic projects. The platform consists of hardware and software components, including microcontrollers, shields, sensors, and an integrated development environment (IDE).
 
+The Arduino IDE is the software used to program and upload code to the microcontrollers. It is available for Windows, Mac, and Linux operating systems and is free to download. The IDE includes a text editor for writing code, a compiler that turns the code into machine language, and a bootloader that allows the code to be uploaded to the board.
+
+There are different types of Arduino boards available, each with its unique features and capabilities. The most common boards include the Arduino Uno, which is widely used for beginners, and the Arduino Mega, which has more input and output pins. Other notable boards include the Arduino Nano, which is small and compact, and the Arduino Due, which has a more powerful processor.
+
+Overall, the Arduino platform is versatile and easy to use, making it a popular choice for hobbyists, students, and professionals alike. Its open-source nature allows for a vast community of users to develop and share projects and resources, making it an excellent starting point for anyone interested in electronics and programming.
+
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Overview
+nav_order: 4
+---
+ 
 
  Overview of the Arduino platform and its capabilities
 --------------------------------------------------------------------------------
@@ -498,11 +556,10 @@ The Arduino platform has a huge amount of flexibility and can be used to create 
 
 The Arduino platform has grown to become an incredibly popular choice for makers, hobbyists, and professionals alike. It is incredibly easy to use, and the large community of users provides a wealth of tutorials and information. Additionally, the open-source nature of the platform makes it easy to customize and expand upon existing projects. It is a great platform for anyone looking to get started with physical computing projects.
 
-
 ---
-grand_parent: Book
-parent: Introduction
-title: Simulations
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Arduino simulations
 nav_order: 4
 ---
 
@@ -529,12 +586,11 @@ You can sign in with your google account.
   + How can we determine the voltage on the resistor (describe 2 possibilities)?
 4. What voltage is present on the LED?
 
-
 ---
-parent: Book
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
 title: Arduino IDE
-nav_order: 3
-has_children: true
+nav_order: 4
 ---
 
   Arduino IDE
@@ -554,9 +610,9 @@ To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, 
 Happy programming!
 
 ---
-grand_parent: Book
-parent: Introduction
-title: Software
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Software Installation
 nav_order: 4
 ---
 
@@ -724,15 +780,21 @@ void loop() {
 ```
 8. Run `Build` and `Upload`.
 
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Settings
+nav_order: 4
+---
+ 
 
  Setting up an Arduino development environment
 --------------------------------------------------------------------------------
 
-
 ---
-grand_parent: Book
-parent: Introduction
-title: Testing
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Arduino controllers
 nav_order: 4
 ---
 
@@ -962,15 +1024,20 @@ void loop() {
 Če niste prepričani kateri i2c naslov uporablja naprava na LCD-ju le tega lahko preverite s programom `I2C scanner` (https://playground.arduino.cc/Main/I2cScanner/). Običajno I2C LCD-ji, ki jih naredijo kitajski proizvajalci uporabljajo I2C naslov `0x27` , `0x3F` ali manj pogosto `0x38`.
 
 
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Programming Arduino Uno
+nav_order: 4
+---
 
  Programming Arduino using C++
 --------------------------------------------------------------------------------
 
-
 ---
-grand_parent: Book
-parent: Arduino IDE
-title: Hello world
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Hello World
 nav_order: 4
 ---
 
@@ -1053,44 +1120,96 @@ Probably you forgot to put ; (semicolon) at the end of the command. Find the row
 
 Check if the enable switch fot the digital outputs is at the right position (ENABLE).
 
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Serial communication
+nav_order: 4
+---
+ 
 
  Communicating with sensors and actuators
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Control algorithms
+nav_order: 5
+---
+ 
 
  Implementing control algorithms
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
+title: Debugging and testing
+nav_order: 5
+---
+ 
 
  Debugging and testing
 --------------------------------------------------------------------------------
 
+---
+parent: Basic Robotics
+title: BASIC ELECTRONICS
+nav_order: 3
+has_children: true
+---
 
  ELECTRONICS FUNDAMENTALS
 ================================================================================
 
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Power sources
+nav_order: 4
+---
 
  Power sources batteries AC DC adapters
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Basics of electronics
+nav_order: 4
+---
 
  Basic principles of electricity and electronics
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Ohms law
+nav_order: 4
+---
+ 
 
  Voltage current resistance and Ohms law
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Basics elements
+nav_order: 4
+---
+ 
 
  Circuit components and their functions resistors capacitors diodes
 --------------------------------------------------------------------------------
 
-
 ---
-parent: Book
-title: Digital Output
-nav_order: 3
-has_children: true
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Digital output
+nav_order: 4
 ---
 
  Digital output
@@ -1109,6 +1228,13 @@ Once you have set a pin as an output, you can use the digitalWrite function to s
 ```C++
 digitalWrite(13, HIGH);
 ```
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Digital input
+nav_order: 4
+---
+ 
 
  Digital input
 --------------------------------------------------------------------------------
@@ -1121,19 +1247,30 @@ digitalWrite(13, HIGH);
 
 3. Light Sensor: a light sensor can be used to detect light levels and can act as a digital input. By connecting the sensor to an Arduino digital pin and writing a sketch to listen for changes in light levels, digital input can be used to trigger an action."
 
+---
+parent: Basic Robotics
+title: ROBOTICS HARDWARE
+nav_order: 4
+has_children: true
+---
 
  ROBOTICS HARDWARE
 ================================================================================
 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Types of Robots
+nav_order: 4
+---
 
  Overview of different types of robots
 --------------------------------------------------------------------------------
 
-
 ---
-grand_parent: Book
-parent: Digital Output
-title: DC Motor
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Actuator
 nav_order: 4
 ---
 
@@ -1177,11 +1314,10 @@ current.
 Check the voltage of the battery... battery may be discharged.  
 Check the connectors of the motor... may be bad.  
 
-
 ---
-grand_parent: Book
-parent: Digital Output
-title: Digital Output
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Motor control
 nav_order: 4
 ---
 
@@ -1238,11 +1374,10 @@ The torque is weak.
 
 ### Issues  
 
-
 ---
-grand_parent: Book
-parent: Digital Output
-title: Gear Reducer
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Gear reducer
 nav_order: 4
 ---
 
@@ -1294,10 +1429,9 @@ Check if the reductor is attached all the way to the motor.
 Check if the worm gear of the motor is in contact with first gear of the
 roductor.
 
-
 ---
-grand_parent: Book
-parent: Digital Output
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
 title: Robot Construction
 nav_order: 4
 ---
@@ -1334,11 +1468,10 @@ slika iz YouTuba
 
 <++>
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
-title: Introduction to C++
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Basic movement
 nav_order: 4
 ---
 
@@ -1516,15 +1649,20 @@ Ker gre pri robotiki v najosnovnejšem primeru za S-R-A loop bi verjetno bilo pr
 #### <++>
 
 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS HARDWARE
+title: Sensors and actuators
+nav_order: 4
+---
 
 Sensors and actuators
 --------------------------------------------------------------------------------
 
-
 ---
-parent: Book
-title: C++ Programming
-nav_order: 3
+parent: Basic Robotics
+title: INTRODUCTION TO C++
+nav_order: 5
 has_children: true
 ---
 
@@ -1542,9 +1680,9 @@ float y;    // declares a variable y of type float
 char c;     // declares a variable c of type char
 ```
 
-**Operators**: Operators are special symbols that perform specific operations on one or more operands. C++ has a variety of operators, including arithmetic operators (e.g., +, -, *, /), comparison operators (e.g., ==, !=, >, <), and logical operators (e.g., &&, ||, !).
+**Operators**: Operators are special symbols that perform specific operations on one or more operands. C++ has a variety of operators, including arithmetic operators (e.g., +, -, *, /), comparison operators \(e.g., ==, !=, \>, \<\), and logical operators \(e.g., \&\&, \|\|, \!\).
 
-**Control structures**: Control structures are statements that control the flow of execution in a program. C++ has several types of control structures, including if statements, for loops, and while loops.
+Control structures**: Control structures are statements that control the flow of execution in a program. C++ has several types of control structures, including if statements, for loops, and while loops.
 
 **Functions**: A function is a block of code that performs a specific task. C++ has a large standard library of functions, and you can also define your own functions. A function definition has the following syntax:
 
@@ -1556,11 +1694,10 @@ return_type function_name(parameter list) {
 
 **Object-oriented programming**: As I mentioned earlier, C++ is an object-oriented language, which means that it provides features for organizing and modularizing code in the form of "objects." An object is a self-contained unit of code that represents a real-world entity, such as a person, a car, or a bank account. Objects have attributes (data) and behaviors (functions). In C++, you can define classes to create objects.
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
-title: Introduction to C++
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Basic syntax of C++
 nav_order: 4
 ---
 
@@ -1638,10 +1775,9 @@ Properly indenting and spacing code is important in C++ to make the code easier 
 #### Not using correct capitalization:
 C++ is a case sensitive language and therefore proper capitalization is important. If the wrong capitalization is used, it can lead to syntax errors.
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
 title: Clean Code
 nav_order: 4
 ---
@@ -1960,10 +2096,9 @@ void setup()
 `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
 
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
 title: Testing Code
 nav_order: 4
 ---
@@ -2096,11 +2231,10 @@ Basicaly you need to do these stps:
 5. and write `testing` command into prompt.
 
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
-title: Programming Loop
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Programming Loops
 nav_order: 4
 ---
 
@@ -2256,11 +2390,10 @@ This code will output the following to the serial port:
 
 In this example, the "continue" statement is used to skip the remainder of the current iteration of the loop if the value of "x" is odd. As a result, only the even values of "x" are printed.
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
-title: Variables
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Variables and data types
 nav_order: 4
 ---
 
@@ -2543,10 +2676,9 @@ It's also easy to add or remove states in the future if needed, without having t
 
 <++\>
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
 title: Flow Control
 nav_order: 4
 ---
@@ -2699,30 +2831,72 @@ Also other logical condition operators can be used:
 
 <++>
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Arrays and strings
+nav_order: 4
+---
 
  Arrays and strings
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Pointers
+nav_order: 4
+---
 
  Pointers and references
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Classes and Objects
+nav_order: 4
+---
 
  Classes and objects
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Exception handling
+nav_order: 5
+---
 
  Exception handling
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Standard input and output
+nav_order: 5
+---
 
  Input and output
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Debugging and testing
+nav_order: 5
+---
 
  Debugging and testing
 --------------------------------------------------------------------------------
 
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Memory management
+nav_order: 5
+---
 
  Advanced topics threading memory management templates
 --------------------------------------------------------------------------------
@@ -2762,11 +2936,10 @@ void loop() {
 
 }
 ```
-
 ---
-parent: Book
-title: Reading Input
-nav_order: 3
+parent: Basic Robotics
+title: S-R-A LOOP
+nav_order: 6
 has_children: true
 ---
 
@@ -2806,10 +2979,9 @@ int pin = 0;
 int value = analogRead(pin);
 ```
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Digital Input
 nav_order: 4
 ---
@@ -2874,10 +3046,9 @@ Kirchhoffs Voltage Rule states that `in any closed loop network, the total volta
 #### *<++>*
 <++>
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Pull-Up Resistor
 nav_order: 4
 ---
@@ -2941,10 +3112,9 @@ void loop()
 <++>
 
 
-
 ---
-grand_parent: Book
-parent: C++ Programming
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: S-R-A Loop
 nav_order: 4
 ---
@@ -3033,10 +3203,9 @@ void loop()
 
 <++>  
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: PWM as Input sig.
 nav_order: 4
 ---
@@ -3120,10 +3289,9 @@ void loop()
 #### <++>
 
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Analog Input
 nav_order: 4
 ---
@@ -3205,10 +3373,9 @@ voltage from 0V to 5V is converted to range of numbers from 0 to 1024.
 
 <++>  
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Detecting Obstacles
 nav_order: 4
 ---
@@ -3288,10 +3455,9 @@ void goForwardCarefully()
 
 <++>
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Ligth Sensor
 nav_order: 4
 ---
@@ -3371,10 +3537,9 @@ If the value of the sensor is less than 100 the resistance of $R_2$ (connected t
 If the value of the sensor is grater than 900 the resistance of $R_2$ (connected to GND) is to hi in comparismant to the resistance of R_1 (connected to +5V).
 
 
-
 ---
-grand_parent: Book
-parent: Reading Input
+grand_parent: Basic Robotics
+parent: S-R-A LOOP
 title: Line Follower
 nav_order: 4
 ---
@@ -3431,11 +3596,10 @@ void loop()
 
 <++>
 
-
 ---
-parent: Book
-title: Motors
-nav_order: 3
+parent: Basic Robotics
+title: ACTUATORS
+nav_order: 7
 has_children: true
 ---
 
@@ -3454,20 +3618,18 @@ Some common types of motors and actuators that you can use with Arduino include:
 
 **Linear actuators**: These are motors that produce linear motion, rather than rotary motion. They are commonly used to move mechanisms or lift loads. To control a linear actuator with an Arduino, you will need a motor driver, such as an H-bridge, and you can use the analogWrite function to control the speed and direction of the actuator.
 
-
 ---
-grand_parent: Book
-parent: Motors
+grand_parent: Basic Robotics
+parent: ACTUATORS
 title: DC Motor
 nav_order: 4
 ---
 
 ## DC motor
 
-
 ---
-grand_parent: Book
-parent: Motors
+grand_parent: Basic Robotics
+parent: ACTUATORS
 title: PWM Control
 nav_order: 4
 ---
@@ -3568,20 +3730,18 @@ void loop()
 
 <++>
 
-
 ---
-grand_parent: Book
-parent: Motors
+grand_parent: Basic Robotics
+parent: ACTUATORS
 title: Servo Motor
 nav_order: 4
 ---
 
 ## Servo motor
 
-
 ---
-grand_parent: Book
-parent: Motors
+grand_parent: Basic Robotics
+parent: ACTUATORS
 title: Stepper Motor
 nav_order: 4
 ---
@@ -3640,10 +3800,9 @@ void loop()
  delay(STEP_DELAY);
  }
 }"
-
 ---
-grand_parent: Book
-parent: Barier Gate
+grand_parent: Basic Robotics
+parent: ACTUATORS
 title: I2C LCD
 nav_order: 4
 ---
@@ -3707,67 +3866,54 @@ void loop() {
 
 <++>
 
+---
+parent: Basic Robotics
+title: BASIC TASKS
+nav_order: 8
+has_children: true
+---
+
 
  FUNDAMENTAL TASKS IN ROBOTICS
 ================================================================================
 
-
 ---
-parent: Book
+grand_parent: Basic Robotics
+parent: BASIC TASKS
 title: Timers
 nav_order: 3
 has_children: true
 ---
 
-## Timers and time measurement
-
-Timers and time measurement are important concepts in Arduino programming, as they allow you to perform tasks at specific intervals, measure elapsed time, or synchronize events. The Arduino has several built-in timer modules that you can use in your programs.
-
-Here are some common ways to use timers and measure time in Arduino:
-
-**delay() function**: This function causes the program to pause for a specific number of milliseconds. For example, the following code will cause the LED on digital pin 13 to blink every second:
-
-```cpp
-void loop() {
-  digitalWrite(13, HIGH);
-  delay(1000);  // wait for 1 second
-  digitalWrite(13, LOW);
-  delay(1000);  // wait for 1 second
-}
-```
-
-**millis() function**: This function returns the number of milliseconds that have elapsed since the Arduino was powered on or reset. You can use this function to measure elapsed time or to trigger events at specific intervals. For example, the following code will turn the LED on and off every 5 seconds:
-
-```cpp
-unsigned long previous_time = 0;  // store the previous time
-
-void loop() {
-  unsigned long current_time = millis();  // get the current time
-  if (current_time - previous_time >= 5000) {  // check if 5 seconds have passed
-    digitalWrite(13, !digitalRead(13));  // toggle the LED
-    previous_time = current_time;  // update the previous time
-  }
-}
-```
-
-**Hardware timers**: The Arduino has several hardware timers that can be used to generate periodic interrupts. You can use these timers to trigger events at specific intervals without using the delay() function. For example, the following code uses Timer 1 to toggle the LED on and off every second:
-
-```cpp
-void setup() {
-  // set up Timer 1 to generate an interrupt every 1 second
-  cli();  // disable global interrupts
-  TCCR1A = 0;  // set Timer 1 to normal mode
-```
-
- 
  Move to reference position
 --------------------------------------------------------------------------------
 
- 
 ---
-grand_parent: Book
-parent: Timers
-title: Time measurements
+grand_parent: Basic Robotics
+parent: BASIC TASKS
+title: Pick and place
+nav_order: 3
+has_children: true
+---
+
+ Pick and place operations
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: BASIC TASKS
+title: PID Control
+nav_order: 3
+has_children: true
+---
+
+ PID Control
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: BASIC TASKS
+title: Navigation and mapping
 nav_order: 4
 ---
 
@@ -3829,55 +3975,172 @@ void loop()
 ### Issues:
 #### <++>
 
- 
- PID Control
---------------------------------------------------------------------------------
+---
+grand_parent: Basic Robotics
+parent: BASIC TASKS
+title: Timers
+nav_order: 3
+has_children: true
+---
 
- 
- Pick and place operations
---------------------------------------------------------------------------------
+## Timers and time measurement
 
- 
+Timers and time measurement are important concepts in Arduino programming, as they allow you to perform tasks at specific intervals, measure elapsed time, or synchronize events. The Arduino has several built-in timer modules that you can use in your programs.
+
+Here are some common ways to use timers and measure time in Arduino:
+
+**delay() function**: This function causes the program to pause for a specific number of milliseconds. For example, the following code will cause the LED on digital pin 13 to blink every second:
+
+```cpp
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);  // wait for 1 second
+  digitalWrite(13, LOW);
+  delay(1000);  // wait for 1 second
+}
+```
+
+**millis() function**: This function returns the number of milliseconds that have elapsed since the Arduino was powered on or reset. You can use this function to measure elapsed time or to trigger events at specific intervals. For example, the following code will turn the LED on and off every 5 seconds:
+
+```cpp
+unsigned long previous_time = 0;  // store the previous time
+
+void loop() {
+  unsigned long current_time = millis();  // get the current time
+  if (current_time - previous_time >= 5000) {  // check if 5 seconds have passed
+    digitalWrite(13, !digitalRead(13));  // toggle the LED
+    previous_time = current_time;  // update the previous time
+  }
+}
+```
+
+**Hardware timers**: The Arduino has several hardware timers that can be used to generate periodic interrupts. You can use these timers to trigger events at specific intervals without using the delay() function. For example, the following code uses Timer 1 to toggle the LED on and off every second:
+
+```cpp
+void setup() {
+  // set up Timer 1 to generate an interrupt every 1 second
+  cli();  // disable global interrupts
+  TCCR1A = 0;  // set Timer 1 to normal mode
+```
+
+---
+grand_parent: Basic Robotics
+parent: BASIC TASKS
+title: Perception and Recognition
+nav_order: 3
+has_children: true
+---
+
  Perception and recognition
 --------------------------------------------------------------------------------
+
+---
+parent: Basic Robotics
+title: ROBOTICS APPLICATIONS
+nav_order: 9
+has_children: true
+---
 
  
  ROBOTICS APPLICATIONS
 =================================================================================
 
- 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS APPLICATIONS
+title: Projects in Education
+nav_order: 9
+has_children: true
+---
+
  Robotics projects for educational and research applications
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS APPLICATIONS
+title: Robotics industry
+nav_order: 9
+has_children: true
+---
+
  Robotics in industry and everyday life
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS APPLICATIONS
+title: Competitions and challenges
+nav_order: 9
+has_children: true
+---
+
  Robotics competitions and challenges
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ROBOTICS APPLICATIONS
+title: Future opportunities
+nav_order: 9
+has_children: true
+---
+
  Robotics careers and future opportunities
 --------------------------------------------------------------------------------
+
+---
+parent: Basic Robotics
+title: ADVANCED ROBOTICS
+nav_order: 10
+has_children: true
+---
 
  
  ADVANCED ROBOTICS
 ================================================================================
 
- 
+---
+grand_parent: Basic Robotics
+parent: ADVANCED ROBOTICS
+title: Artificial intelligence
+nav_order: 10
+has_children: true
+---
+
  Robotics in artificial intelligence and machine learning
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ADVANCED ROBOTICS
+title: Robotics vision
+nav_order: 10
+has_children: true
+---
+
  Robotics in computer vision and image processing
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ADVANCED ROBOTICS
+title: Natural language
+nav_order: 10
+has_children: true
+---
+
  Robotics in natural language processing
 --------------------------------------------------------------------------------
 
- 
+---
+grand_parent: Basic Robotics
+parent: ADVANCED ROBOTICS
+title: Swarm Robots
+nav_order: 10
+has_children: true
+---
+
  Robotics in swarm intelligence and multi-agent systems
 --------------------------------------------------------------------------------
 

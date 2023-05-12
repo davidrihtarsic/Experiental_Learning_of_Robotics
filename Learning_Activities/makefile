@@ -4,9 +4,10 @@ pdfs:
 		section=$$(echo $$num | sed 's/\..*$$//g'); \
 		subsect=$$(echo $$num | sed 's/.*\.//g'); \
 		[[ $$subsect -gt 0 ]] && subsect=$$((subsect-1)) || section=$$((section-1)); \
+		sed -i '1i\\' $$ff; \
 		sed -i "1i \\\\\setcounter{section}{$$section}\\\\\setcounter{subsection}{$$subsect}" $$ff; \
 		pandoc2notebook -f $$ff; \
-		sed -i "1d" $$ff; \
+		sed -i "1,2d" $$ff; \
 		done;
 
 TITLE="Experiential Learning of Robotics"
@@ -27,9 +28,9 @@ book:
 		-M listings-no-page-break=True \
 		-M codeBlockCaptions=True \
 		-M listingTitle=Program \
-		-M figureTitle=Slika \
-		-M figPrefix=sl. \
-		-M eqnPrefix=en. \
+		-M figureTitle=Figure \
+		-M figPrefix=fig. \
+		-M eqnPrefix=eq. \
 		-M lstPrefix=prog. \
 		-V table-use-row-colors \
 		-V urlcolor=violet \
@@ -41,11 +42,11 @@ book:
 		-V documentclass=book \
 		-V book \
 		--toc \
-		--toc-depth=2
+		--toc-depth=2 \
 		-M titlepage;
 
 clean:
 	@mv *.pdf ./pdf/
 
-file := $(shell find ./ -type f -name "[0-9]*.md"|sed 's/\.\///g')
+file := $(shell find ./ -maxdepth 1 -type f -name "[0-9]*.md"|sed 's/\.\///g'|sort --numeric-sort)
 all: pdfs book clean
