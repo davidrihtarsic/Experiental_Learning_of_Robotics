@@ -7,7 +7,7 @@ The book is available at the github repository [davidrihtarsic/Experiental_Learn
 
 ## Contribute the content
 
-Even bather is that you `clone` the repo, fix bugs and ask for `pull request`.
+Even better is that you `clone` the repo, fix bugs and ask for `pull request`.
 
 Thank you!
 
