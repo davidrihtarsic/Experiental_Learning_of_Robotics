@@ -20,7 +20,7 @@ book:
 		--template skripta \
 		-V lang=sl \
 		-M title=$(TITLE) \
-		-M subtitle="This book is designed for beginners to introduce them to the field of robotics. The contents are based on the integration of electronics, computing, and mechanics." \
+		-M subtitle="This book is designed for beginners to introduce them to the field of robotics. The content is based on the integration of electronics, computing, and mechanics." \
 		-M author:"dr. David Rihtaršič" \
 		-M date:"$(date '+%Y-%B')" \
 		--listings \
