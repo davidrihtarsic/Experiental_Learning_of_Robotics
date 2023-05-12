@@ -1,5 +1,5 @@
 ---
-title: Learning Activity
+title: Basic Robotics
 nav_order: 2
 has_children: true
 ---
