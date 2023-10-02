@@ -1,3 +1,10 @@
+---
+parent: Basic Robotics
+title: INTRODUCTION
+nav_order: 1
+has_children: true
+---
+
 # INTRODUCTION AND PREPARATION
 
 > TO-DO:
@@ -93,19 +100,19 @@ It is not defined by the definition... but we have to describe it.
 
 #### ISO 8373 - General Terms in Robotics
 
-##### ROBOTICS
+**ROBOTICS**
 science and practice of designing, manufacturing, and applying robots (2.6)
 
-##### ROBOT
+**ROBOT**
 actuated mechanism programmable in two or more axes (4.3) with a degree of autonomy (2.2), moving within its environment, to perform intended tasks
 
 - Note 1 to entry: A robot includes the control system (2.7) and interface of the control system.
 - Note 2 to entry: The classification of robot into industrial robot (2.9) or service robot (2.10) is done according to its intended application.
 
-##### REPROGRAMMABLE
+**REPROGRAMMABLE**
 designed so that the programmed motions or auxiliary functions can be changed without physical alteration (2.3)
 
-##### AUTONOMY
+**AUTONOMY**
 ability to perform intended tasks based on current state and sensing, without human intervention
 
 <!--
@@ -116,41 +123,42 @@ Avtonomen brezpilotni zrakoplov zmore varno leteti brez pilotovih posegov. Pri t
 Za tovrstne brezpilotne zrakoplove je ključno, da pilot na daljavo prevzame nadzor nad brezpilotnim zrakoplovom in ukrepa ob nepredvidenih dogodkih, za katere brezpilotni zrakoplov ni bil programiran.
 -->
 
-##### MANIPULATOR
+**MANIPULATOR**
 machine in which the mechanism usually consists of a series of segments, jointed or sliding relative to one another, for the purpose of grasping and/or moving objects (pieces or tools) usually in several degrees of freedom (4.4)
 
 - Note 1 to entry: A manipulator can be controlled by an operator (2.17), a programmable electronic controller, or any logic system (for example cam device, wired).
 - Note 2 to entry: A manipulator does not include an end effector (3.11).
 
-##### CONTROL SYSTEM
+**CONTROL SYSTEM**
 set of logic control and power functions which allows monitoring and control of the mechanical structure of the robot (2.6) and communication with the environment (equipment and users)
 
-##### ROBOTIC DEVICE
+**ROBOTIC DEVICE**
 actuated mechanism fulfilling the characteristics of an industrial robot (2.9) or a service robot (2.10), but lacking either the number of programmable axes (4.3) or the degree of autonomy (2.2)
 EXAMPLE:Power assist device; teleoperated device; two-axis industrial manipulator (2.1)
 
-##### INDUSTRIAL ROBOT
+**INDUSTRIAL ROBOT**
 automatically controlled, reprogrammable (2.4), multipurpose (2.5)manipulator (2.1), programmable in three or more axes (4.3), which can be either fixed in place or mobile for use in industrial automation applications
 Note 1 to entry: The industrial robot includes:
 — the manipulator, including actuators (3.1);
 — the controller, including teach pendant (5.8) and any communication interface (hardware and software).
 Note 2 to entry: This includes any integrated additional axes.
 
-##### SERVICE ROBOT
+**SERVICE ROBOT**
 robot (2.6) that performs useful tasks for humans or equipment excluding industrial automation applications
 Note 1 to entry: Industrial automation applications include, but are not limited to, manufacturing, inspection, packaging, and assembly.
 Note 2 to entry: While articulated robots (3.15.5) used in production lines are industrial robots (2.9), similar articulated robots used for serving food are service robots (2.10).
 
-##### MOBILE ROBOT
+**MOBILE ROBOT**
 robot (2.6) able to travel under its own control
 Note 1 to entry: A mobile robot can be a mobile platform (3.18) with or without manipulators (2.1).
 
-##### ROBOT COOPERATION
+**ROBOT COOPERATION**
 information and action exchanges between multiple robots (2.6) to ensure that their motions work effectively together to accomplish the task
 
-##### INTELLIGENT ROBOT
+**INTELLIGENT ROBOT**
 robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
 EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
+
 ---
 grand_parent: Basic Robotics
 parent: INTRODUCTION
@@ -397,6 +405,7 @@ Literature
 - [Programming Arduino](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#arduino)
 
 -->
+
 ---
 grand_parent: Basic Robotics
 parent: INTRODUCTION
@@ -406,6 +415,26 @@ nav_order: 4
 
  Current state of the field
 --------------------------------------------------------------------------------
+
+<!--
+"Under the subtitle of \"Current Field of State on Educational Robotics,\" you could provide an overview of the current state of educational robotics. This may include information on the latest trends, advancements, and applications in the field. Additionally, you could discuss any challenges or opportunities that currently exist within educational robotics."
+-->
+<!--
+Educational robotics is a rapidly growing field that combines elements of education, technology, and robotics. It focuses on using robots as a tool to enhance learning and provide hands-on experiences for students. The field has gained significant attention in recent years due to the increasing interest in STEM education and the need to develop 21st-century skills.
+
+One of the main objectives of educational robotics is to promote critical thinking, problem-solving, and collaboration among students. By engaging in robotics activities, students can develop a range of skills, including coding, engineering, creativity, and logical reasoning. Moreover, robotics can be integrated into various subjects, such as science, mathematics, and computer science, enabling interdisciplinary learning.
+
+Educational robotics encompasses a wide range of approaches and technologies. For younger students, simple robots like Bee-Bots or Cubetto are often used to introduce basic programming concepts through hands-on activities. As students progress, more complex robots, like LEGO Mindstorms or VEX Robotics kits, offer opportunities for advanced programming and engineering challenges.
+
+In addition to the physical robots, virtual robotics platforms have also gained popularity. These platforms allow students to simulate robot programming and control without the need for physical robots. Virtual robotics offers a cost-effective and accessible way to introduce robotics concepts in classrooms with limited resources.
+
+Several educational robotics competitions and programs have emerged globally, encouraging students to apply their skills in real-world challenges. Examples include FIRST Robotics Competition, RoboCup, and VEX Robotics Competitions. These events provide a platform for students to showcase their robot designs, programming abilities, and teamwork.
+
+The field of educational robotics is continuously evolving. Researchers and educators are exploring innovative ways to integrate robotics into curricula, create engaging learning environments, and develop effective pedagogical approaches. Factors such as artificial intelligence, machine learning, and human-robot interaction are also being explored to enhance the capabilities and functionalities of educational robots.
+
+The future of educational robotics looks promising as it continues to inspire and engage students in STEM education. By providing hands-on experiences with robots, this field aims to prepare students for the digital age, where robotics and automation play an increasingly vital role.
+
+-->
 
 ---
 grand_parent: Basic Robotics
@@ -582,29 +611,6 @@ You can sign in with your google account.
 ---
 grand_parent: Basic Robotics
 parent: ARDUINO PLATFORM
-title: Arduino IDE
-nav_order: 4
----
-
-  Arduino IDE
---------------------------------------------------------------------------------
-
-The Arduino platform is based on the Atmel AVR microcontroller family, and the Arduino Uno is based on the ATmega328 microcontroller. The Arduino Integrated Development Environment (IDE) is a software application that provides a way to write and upload code to the microcontroller. The Arduino IDE is available for Windows, macOS, and Linux, and it is open source.
-
-To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, make sure that you have the Arduino IDE installed on your computer. Then, follow these steps:
-
-1. Connect your Arduino Uno to your computer using a USB cable.
-2. Open the Arduino IDE.
-3. Select the correct board and serial port in the Arduino IDE.
-4. Write your C++ code in the Arduino IDE editor.
-5. Click the "Verify" button to compile your code.
-6. Click the "Upload" button to upload your code to the Arduino Uno.
-
-Happy programming!
-
----
-grand_parent: Basic Robotics
-parent: ARDUINO PLATFORM
 title: Software Installation
 nav_order: 4
 ---
@@ -776,6 +782,29 @@ void loop() {
 ---
 grand_parent: Basic Robotics
 parent: ARDUINO PLATFORM
+title: Arduino IDE
+nav_order: 4
+---
+
+  Arduino IDE
+--------------------------------------------------------------------------------
+
+The Arduino platform is based on the Atmel AVR microcontroller family, and the Arduino Uno is based on the ATmega328 microcontroller. The Arduino Integrated Development Environment (IDE) is a software application that provides a way to write and upload code to the microcontroller. The Arduino IDE is available for Windows, macOS, and Linux, and it is open source.
+
+To program the Arduino Uno in C++, you will need to use the Arduino IDE. First, make sure that you have the Arduino IDE installed on your computer. Then, follow these steps:
+
+1. Connect your Arduino Uno to your computer using a USB cable.
+2. Open the Arduino IDE.
+3. Select the correct board and serial port in the Arduino IDE.
+4. Write your C++ code in the Arduino IDE editor.
+5. Click the "Verify" button to compile your code.
+6. Click the "Upload" button to upload your code to the Arduino Uno.
+
+Happy programming!
+
+---
+grand_parent: Basic Robotics
+parent: ARDUINO PLATFORM
 title: Settings
 nav_order: 4
 ---
@@ -868,7 +897,11 @@ Try to re-connect the Arduino board. Wait a moment, check the settings and choos
 
 1. Na krmilnik Arduino Uno priključite modul `RobDuino` in naložite naslednji program:
 
+
 ```cpp
+bool test_tipk = 1;
+int l=1;
+
 void setup() {
   for (int i = 0; i < 8; i++){
     pinMode(i, OUTPUT);
@@ -878,18 +911,23 @@ void setup() {
   PORTD=1;
 }
 
-int l=1;
 void loop() {
   char tipka_a4_is_pressed = !digitalRead(A4); 
   char tipka_a5_is_pressed = !digitalRead(A5); 
-  if (tipka_a4_is_pressed) l = l << 1;
-  if (tipka_a5_is_pressed) l = l >> 1;
-  if (l < 1) l = 128;
-  if (l > 255) l = 1;
-  PORTD = l;
-  delay(100);
+  if (tipka_a4_is_pressed) l = l >> 1;
+  if (tipka_a5_is_pressed) l = l << 1;
+  if (tipka_a4_is_pressed && tipka_a5_is_pressed) test_tipk = !test_tipk;
+  if (test_tipk){
+    if (l < 1) l = 128;
+    if (l > 255) l = 1;
+    PORTD = l; 
+  }else{
+    PORTD = analogRead(A0) >> 2;
+  }
+  delay(200);
 }
 ```
+: Equipment testing. {#lst:026_Equipment_testing}
 
 2. Nato preverite delovanje obeh tipk (A4 in A5) na modulu in vrednosti izhodnih priključkov D0 .. D7.
 
@@ -1071,7 +1109,7 @@ void loop() {
 
 #### Using curly braces - \{ and \}
 
-Using curly braces in C++ is important part of riting the programming code. Imagine that you want to merge several members of programing code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces {} are the best choice.
+Using curly braces in C++ is important part of writing the programming code. Imagine that you want to merge several members of programming code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces {} are the best choice.
 
 #### Function Name
 
@@ -1156,6 +1194,25 @@ has_children: true
  ELECTRONICS FUNDAMENTALS
 ================================================================================
 
+Whether you're a curious hobbyist or aspiring engineer, learning the fundamentals of electronics is a crucial step towards understanding and building robots. Electronics is the backbone of robotic systems, providing the necessary control and communication between various components.
+
+In this introduction, we'll explore the basic concepts of electronics that are essential for robotics. We'll cover topics such as circuits, components, sensors, actuators, and microcontrollers. By the end of this guide, you'll have a solid foundation to dive deeper into the world of robotics.
+
+Circuits: At the heart of electronics lies the concept of circuits. A circuit is a path through which electric current flows. It consists of various components, such as resistors, capacitors, and diodes, connected by conductive wires. Understanding how circuits work is vital to designing and troubleshooting robotic systems.
+
+Components: Electronic components are the building blocks of circuits. Resistors control the flow of current, capacitors store electrical charge, and diodes allow current to flow in only one direction. Other components, like transistors and integrated circuits (ICs), provide amplification and complex functionalities. Familiarizing yourself with these components will enable you to construct and manipulate electronic circuits.
+
+Sensors: Sensors are essential for robots to perceive their environment. They convert physical quantities, such as temperature, light, sound, or distance, into electrical signals. Common types of sensors include proximity sensors, temperature sensors, accelerometers, and cameras. By integrating sensors into your robot, you can gather valuable data to make informed decisions and enable autonomous behavior.
+
+Actuators: Actuators are responsible for physical movement in robots. They convert electrical energy into mechanical motion. Examples of actuators include motors, servos, solenoids, and pneumatics. Actuators allow robots to perform tasks such as locomotion, gripping objects, or manipulating their environment. Understanding how to control and interface with actuators is crucial for creating dynamic and interactive robots.
+
+Microcontrollers: Microcontrollers are the brains of many robotic systems. They are small, programmable devices that provide computing power and control to robots. Microcontrollers can read sensor inputs, process data, and send commands to actuators. Arduino and Raspberry Pi are popular microcontroller platforms used in robotics. Learning to program microcontrollers will unlock endless possibilities for your robotic creations.
+
+As you embark on your journey into robotics, keep in mind that electronics is a vast and evolving field. It requires a combination of theoretical knowledge and hands-on experience. Experimentation and continuous learning will be your allies in mastering electronics fundamentals in robotics.
+
+Now that you have a glimpse into the foundational aspects of electronics for robotics, you're ready to dive deeper into each topic. Explore tutorials, online resources, and hands-on projects to further expand your knowledge. The more you learn and practice, the more you'll be able to bring your robotic ideas to life.
+
+Remember, robotics is an exciting and interdisciplinary field that combines electronics, mechanics, programming, and more. So, have fun, stay curious, and let your creativity guide you as you explore the world of robotics!
 ---
 grand_parent: Basic Robotics
 parent: BASIC ELECTRONICS
@@ -1166,6 +1223,19 @@ nav_order: 4
  Power sources batteries AC DC adapters
 --------------------------------------------------------------------------------
 
+When it comes to powering an Arduino UNO controller for robotics projects, there are several options available depending on the specific requirements of your project. Here are some common power supply options:
+
+1. USB Cable: The simplest and most common way to power an Arduino UNO is through a USB cable connected to a computer or a USB power source, such as a wall adapter or power bank. This is convenient for testing and prototyping, but it may not be suitable for mobile or standalone robot applications.
+
+2. External Power Supply: The Arduino UNO can also be powered by an external power supply connected to its power jack. The board accepts a voltage range of 7 to 12 volts. You can use a DC power adapter or a battery pack with the appropriate voltage rating. Make sure the power supply can provide enough current to meet the requirements of your project.
+
+3. 9V Battery: Another option is to power the Arduino UNO using a 9V battery. You can connect the battery to the power jack or use a battery clip to connect it to the Vin (voltage input) and GND (ground) pins on the Arduino board. Keep in mind that a 9V battery may not provide sufficient power for more demanding robotic applications.
+
+4. LiPo Battery: For mobile or portable robot projects, lithium polymer (LiPo) batteries are a popular choice. LiPo batteries provide higher energy density and can deliver the necessary current for driving motors and other power-hungry components. However, you will need additional circuitry, such as voltage regulators and protection circuits, to ensure proper voltage levels and prevent overcharging or over-discharging of the battery.
+
+When choosing a power supply, consider the voltage and current requirements of your Arduino UNO and the peripherals connected to it, such as motors, sensors, and other components. Ensure that the power supply can provide enough current and voltage stability for your specific project needs.
+
+Always prioritize safety when working with power supplies. Use appropriate connectors, check polarity, and follow proper wiring practices to prevent short circuits or damage to your Arduino UNO and other components.
 ---
 grand_parent: Basic Robotics
 parent: BASIC ELECTRONICS
@@ -1649,7 +1719,7 @@ title: Sensors and actuators
 nav_order: 4
 ---
 
-Sensors and actuators
+  Sensors and actuators
 --------------------------------------------------------------------------------
 
 ---
@@ -1772,6 +1842,16 @@ nav_order: 4
 ---
 
 ## Writing clean code
+
+The Arduino IDE (Integrated Development Environment) has contributed to clean and readable code by promoting a simple and structured coding approach. One of the ways it achieves this is by introducing the \"setup\" and \"loop\" functions.
+
+The \"setup\" function is called only once when the Arduino board starts up. It is typically used for initializing variables, setting pin modes, and configuring any necessary settings. By separating this initialization code into a designated function, it becomes easier to identify and understand the setup process, making the code more organized and readable.
+
+The \"loop\" function is called repeatedly after the setup function. This function contains the main logic of the program, where actions are performed continuously. By having a dedicated loop function, it enhances the readability of the code as it clarifies the flow of execution.
+
+The Arduino IDE enforces the presence of these two functions, which serves as a guideline for developers to structure their code. This standardization promotes cleaner code because it encourages encapsulating specific functionalities in separate functions. This helps to compartmentalize different tasks and improves code modularity and maintainability.
+
+Additionally, the Arduino IDE provides various built-in libraries and functions that simplify common tasks, such as reading sensor values or controlling actuators. These libraries follow consistent naming conventions and provide well-documented APIs, making it easier for developers to understand and use them. By leveraging these libraries, developers can write cleaner and more readable code, as they can focus on the high-level functionality and rely on the underlying library for the low-level details.
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
 You will probably spent the same amount of time cleaning the code that you needed for writing a working version.
