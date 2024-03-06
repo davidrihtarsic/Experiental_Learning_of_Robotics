@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-figure
 title: "Experiental Robotics"
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
