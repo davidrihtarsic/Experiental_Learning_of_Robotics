@@ -48,6 +48,7 @@ book:
 
 clean:
 	@mv *.pdf ./pdf/
+	@rm ./pdf/*.md
 
 file := $(shell find ./ -maxdepth 1 -type f -name "[0-9]*.md"|sed 's/\.\///g'|sort --numeric-sort)
 all: pdfs book clean
