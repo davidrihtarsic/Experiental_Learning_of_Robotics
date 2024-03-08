@@ -45,10 +45,10 @@ book:
 		--toc \
 		--toc-depth=2 \
 		-M titlepage;
+	@rm -f ./pdf/*.md
 
 clean:
-	@mv *.pdf ./pdf/
-	@rm ./pdf/*.md
+	@mv -f *.pdf ./pdf/
 
 file := $(shell find ./ -maxdepth 1 -type f -name "[0-9]*.md"|sed 's/\.\///g'|sort --numeric-sort)
 all: pdfs book clean
