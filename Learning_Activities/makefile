@@ -27,11 +27,12 @@ book:
 		-M listings=True \
 		-M listings-no-page-break=True \
 		-M codeBlockCaptions=True \
-		-M listingTitle=Program \
+		-M listingTitle="Programing Exapmle" \
 		-M figureTitle=Figure \
 		-M figPrefix=fig. \
 		-M eqnPrefix=eq. \
 		-M lstPrefix=prog. \
+		-M lol=True \
 		-V table-use-row-colors \
 		-V urlcolor=violet \
 		-V caption-justification=centering \

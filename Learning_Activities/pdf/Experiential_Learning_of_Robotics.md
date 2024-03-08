@@ -1197,30 +1197,44 @@ Whether you're a curious hobbyist or aspiring engineer, learning the fundamental
 
 In this introduction, we'll explore the basic concepts of electronics that are essential for robotics. We'll cover topics such as circuits, components, sensors, actuators, and microcontrollers. By the end of this guide, you'll have a solid foundation to dive deeper into the world of robotics.
 
-Circuits: At the heart of electronics lies the concept of circuits. A circuit is a path through which electric current flows. It consists of various components, such as resistors, capacitors, and diodes, connected by conductive wires. Understanding how circuits work is vital to designing and troubleshooting robotic systems.
+**Components**: Electronic components are the building blocks of circuits. Resistors control the flow of current, capacitors store electrical charge, and diodes allow current to flow in only one direction. Other components, like transistors and integrated circuits (ICs), provide amplification and complex functionalities. Familiarizing yourself with these components will enable you to construct and manipulate electronic circuits.
 
-Components: Electronic components are the building blocks of circuits. Resistors control the flow of current, capacitors store electrical charge, and diodes allow current to flow in only one direction. Other components, like transistors and integrated circuits (ICs), provide amplification and complex functionalities. Familiarizing yourself with these components will enable you to construct and manipulate electronic circuits.
+**Circuits**: At the heart of electronics lies the concept of circuits. A circuit is a path through which electric current flows. It consists of various components, such as resistors, capacitors, and diodes, connected by conductive wires. Understanding how circuits work is vital to designing and troubleshooting robotic systems. Central to understanding and designing these systems are the basic principles of electricity and electronics. In next chapters we will dive these principles, focusing on:
 
-Sensors: Sensors are essential for robots to perceive their environment. They convert physical quantities, such as temperature, light, sound, or distance, into electrical signals. Common types of sensors include proximity sensors, temperature sensors, accelerometers, and cameras. By integrating sensors into your robot, you can gather valuable data to make informed decisions and enable autonomous behavior.
+1. Ohm's Law,
+2. Kirchhoff's Current Rule and
+3. Kirchhoff's Voltage Rule,
 
-Actuators: Actuators are responsible for physical movement in robots. They convert electrical energy into mechanical motion. Examples of actuators include motors, servos, solenoids, and pneumatics. Actuators allow robots to perform tasks such as locomotion, gripping objects, or manipulating their environment. Understanding how to control and interface with actuators is crucial for creating dynamic and interactive robots.
+and illustrates each with practical examples relevant to robotic device.
 
-Microcontrollers: Microcontrollers are the brains of many robotic systems. They are small, programmable devices that provide computing power and control to robots. Microcontrollers can read sensor inputs, process data, and send commands to actuators. Arduino and Raspberry Pi are popular microcontroller platforms used in robotics. Learning to program microcontrollers will unlock endless possibilities for your robotic creations.
+**Reading sensor's values**: Sensors are essential for robots to perceive their environment. They convert physical quantities, such as temperature, light, sound, or distance, into electrical signals. Common types of sensors include proximity sensors, temperature sensors, accelerometers, and cameras. By integrating sensors into your robot, you can gather valuable data to make informed decisions and enable autonomous behavior.
+
+**Controlling Actuators**: Actuators are responsible for physical movement in robots. They convert electrical energy into mechanical motion. Examples of actuators include motors, servos, solenoids, and pneumatics. Actuators allow robots to perform tasks such as locomotion, gripping objects, or manipulating their environment. Understanding how to control and interface with actuators is crucial for creating dynamic and interactive robots.
+
+**Microcontrollers**: Microcontrollers are the brains of many robotic systems. They are small, programmable devices that provide computing power and control to robots. Microcontrollers can read sensor inputs, process data, and send commands to actuators. Arduino and Raspberry Pi are popular microcontroller platforms used in robotics. Learning to program microcontrollers will unlock endless possibilities for your robotic creations.
 
 As you embark on your journey into robotics, keep in mind that electronics is a vast and evolving field. It requires a combination of theoretical knowledge and hands-on experience. Experimentation and continuous learning will be your allies in mastering electronics fundamentals in robotics.
 
 Now that you have a glimpse into the foundational aspects of electronics for robotics, you're ready to dive deeper into each topic. Explore tutorials, online resources, and hands-on projects to further expand your knowledge. The more you learn and practice, the more you'll be able to bring your robotic ideas to life.
 
 Remember, robotics is an exciting and interdisciplinary field that combines electronics, mechanics, programming, and more. So, have fun, stay curious, and let your creativity guide you as you explore the world of robotics!
+
 ---
 grand_parent: Basic Robotics
 parent: BASIC ELECTRONICS
-title: Power sources
+title: Basic circuit components
 nav_order: 4
 ---
+ 
 
- Power sources batteries AC DC adapters
+ Basic circuit components
 --------------------------------------------------------------------------------
+
+### Resistors
+
+### Diodes
+
+### Power source
 
 When it comes to powering an Arduino UNO controller for robotics projects, there are several options available depending on the specific requirements of your project. Here are some common power supply options:
 
@@ -1236,7 +1250,7 @@ When choosing a power supply, consider the voltage and current requirements of y
 
 Always prioritize safety when working with power supplies. Use appropriate connectors, check polarity, and follow proper wiring practices to prevent short circuits or damage to your Arduino UNO and other components.
 
-## Battery UPS power supply
+#### Battery UPS power supply
 
 We utilize UPS (Uninterruptible Power Supply) power supply units such as the one available on AliExpress (see [@fig:UPS_Power_Spply]). These UPS units are specifically employed for providing power to simple mobile robots. They offer a cost-effective solution, allowing us to ensure uninterrupted power supply to the robots' systems. The chosen UPS units from AliExpress are reliable and affordable, making them an ideal choice for our requirements.
 
@@ -1253,37 +1267,125 @@ The UPS described in the provided schema ([@fig:Schematic_Aether_LI-M-3P-D_2023-
 In this UPS schema, the resistors R7 and R9 are chosen in a way that their ratio divides the voltage proportionally to achieve the desired output voltage. By adjusting the values of these resistors, the output voltage can be regulated.
 
 In addition to the regular setup, we incorporated an extra switch between the BAT+ (battery positive) and R3 resistor in power supply system. This switch serves the purpose of powering off the UPS (uninterruptible power supply). This feature provides convenience as it allows us to easily turn off the mobile robot and put the UPS into charging mode. By using this switch, we can efficiently manage the power supply to the robot and ensure that the UPS is charged when not in use.
----
-grand_parent: Basic Robotics
-parent: BASIC ELECTRONICS
-title: Basics of electronics
-nav_order: 4
----
-
- Basic principles of electricity and electronics
---------------------------------------------------------------------------------
 
 ---
 grand_parent: Basic Robotics
 parent: BASIC ELECTRONICS
-title: Ohms law
+title: Ohm's Law
 nav_order: 4
 ---
- 
 
- Voltage current resistance and Ohms law
+ Ohm's Law
 --------------------------------------------------------------------------------
+
+Ohm's Law is a foundational principle in the field of electronics, stating the relationship between voltage, current, and resistance in an electrical circuit. It is succinctly expressed as [@eq:ohms_law]:
+
+$$ I = \frac{R}{V} $${#eq:ohms_law}
+
+where: 
+
+- I is the current flowing through the circuit (in amperes), and 
+- V is the voltage across the circuit (in volts), 
+- R is the resistance (in ohms).
+
+**Practical Example in Robotics**:
+
+![Example of tipical electrical scheme of robotic device with one degree of freedom.](./slike/RobDuino_Basics_Electronics.png){#fig:RobDuino_Basics_Electronics}
+
+1. Consider a simple robotic arm that uses a DC motor for movement ([@fig:RobDuino_Basics_Electronics]). If the motor has a resistance of $20 \Omega$ and is connected to a 9V power supply, Ohm's Law can determine the current flowing through the motor:
+
+$$ I_{motor} = \frac{9V}{10\Omega} = 450 mA $$
+
+Understanding this helps in selecting the right power source and ensuring that the motor and control electronics are compatible, preventing overheating and damage.
+
+2. To apply Ohm's Law in calculating the current flowing through a light lamp with a power rating of 0.75W at a supply voltage of 9V, and connected to a digital output (D3), we start by understanding the relationship between power, voltage, and current. Ohm's Law is traditionally stated as [@eq:ohms_law], but we can also express electrical power (Pe) in terms of voltage and current as [@eq:electrical_power]:
+
+$$ P_e = V I $${#eq:electrical_power}
+
+Since we are again interested in electrical current trough lamp we can fill in the data:
+
+$$ I_{D3} = \frac{P_e}{V} = \frac{0.75W}{9V} = 83 mA $${#eq:povwer_d3}
+
+### Questions
+
+1. Calculate electrical current trough resistor $R_1$ if the voltage across it is $U_{R_1}=7.2V$!
+2. Calculate the current trough resistor $R_4$ if measured voltage potential on $A_0$ pin is $V_{A_0} = 2V$!
 
 ---
 grand_parent: Basic Robotics
 parent: BASIC ELECTRONICS
-title: Basics elements
+title: Kirchhoff's Current Law
 nav_order: 4
 ---
- 
 
- Circuit components and their functions resistors capacitors diodes
+ Kirchhoff's Current Law
 --------------------------------------------------------------------------------
+
+Kirchhoff's Current Rule, also known as the first Kirchhoff ~~law~~ rule, states that the total current entering a junction in a circuit equals the total current leaving the junction. This law is based on the principle of conservation of charge and is expressed with [@eq:kcl]:
+
+$$ I_{x_1} + I_{x_2} + ... = I_{y_1} + I_{y_2} + I_{y_3} + ... $${#eq:kcl}
+
+where:
+
+- electrical currents with index $I_x$ are entering currents and
+- currents with index $I_y$ are leaving junction currents.
+
+We will explain the Kirchhoff's current rule on the same example shown in [@fig:RobDuino_Basics_Electronics_KCL]
+
+![Electrical sheme of robotic device.](./slike/RobDuino_Basics_Electronics.png){#fig:RobDuino_Basics_Electronics_KCL}
+
+**Practical Example in Robotics**:
+
+Imagine a robotic hand with multiple sensors (e.g., touch sensor and light sensor) connected to a single microcontroller. If the sensors draw 0.23 mA (when $SW_1$ is closed) and 1.0 mA, and they are all connected to the same power supply junction, the total current entering the junction is:
+
+$$ I_{tot} = I_{tch} + I_{light} = 0.23mA + 1.0mA = 1.23mA $${#eq:i_tot}
+
+This information is critical for designing the power distribution network of the robot, ensuring that the power supply can handle the total current draw.
+
+### Questions
+
+1. What is the total current of actuators (motor, light bulb, LEDs) when they are all on?
+2. Current into input pin $A_0$ is approximately $I_{A_0} = 20 nA$. Compare this current to other two currents at the middle junction in the light sensor. Can it be ignored?
+
+---
+grand_parent: Basic Robotics
+parent: BASIC ELECTRONICS
+title: Kirchhoff's Voltage Rule
+nav_order: 4
+---
+
+ Kirchhoff's Voltage Rule
+--------------------------------------------------------------------------------
+
+Kirchhoff's Voltage Rule, or the second Kirchhoff rule, states that the sum of all electrical potential differences around any closed network (or loop) is zero. This law is grounded in the conservation of energy principle and is expressed wiht [@eq:kvl]
+
+$$ +U_1 - U_2 + ... + U_n = 0 $${#eq:kvl}
+
+where:
+
+- voltage is positive if voltage potential increases in the selected direction (e.g. $U_1$)  and
+- voltage is negative if voltage potential decreases in this direction (e.g. $U_2$).
+
+**Practical Example in Robotics**:
+
+![Scheme of robotic device.](./slike/RobDuino_Basics_Electronics.png){#fig:RobDuino_Basics_Electronics_kvl}
+
+Consider a circuit in a robotic device that includes an LED circuit as a signal light (e.g., $D_0 \rightarrow R_1 \rightarrow LED_1 \rightarrow D_1$. If we assume that across output pins $D1$ and $D_0$ is a positive voltage potential difference $U_{(D_1-D_0)} = 9V$, according to KVL, we can write an [@eq:kvl_ex1] for this loop:
+
+$$ U_{(D_1-D_0)} - U_{R_1} - U_{LED_1} = 0V $${#eq:kvl_ex1}
+
+Rearranging [@eq:kvl_ex1] we can calculate the voltage across resistor $R_1$:
+
+$$ U_{R_1} = U_{(D_1-D_0)} - U_{LED_1} = 9V-1.8V=7.2V$${#eq:u_res_1}
+
+This ensures that the energy supplied by the controller is completely used by the resistor and led. Kirchhoff's voltage rule is instrumental in analyzing and designing circuits for energy efficiency and proper component operation in robotics.
+
+Understanding the basic principles of electricity and electronics, epitomized by Ohm's Law and Kirchhoff's rules, is crucial for anyone venturing into robotics. These principles not only guide the design and analysis of robotic systems but also ensure their safe and efficient operation. By applying these laws, we can predict how circuits will behave under various conditions, optimize energy consumption, and troubleshoot potential issues, laying the groundwork for more advanced explorations into the electrifying world of robotics.
+
+### Questions
+
+1. Calculate the voltage across resistor $R_2$ when voltage potencial of $V_{D0}=0V$ and voltage potencial of $V_{D1}=9V$!
+2. What is the voltage across resistor $R_3$ if we measured voltage potencial $V_{A_0}=2V$ at the input pin $A_0$?
 
 ---
 grand_parent: Basic Robotics
@@ -3731,12 +3833,12 @@ void loop()
 
 ---
 parent: Basic Robotics
-title: ACTUATORS
+title: ACTUATOR CONTROL
 nav_order: 7
 has_children: true
 ---
 
- CONTROLLING ACTUATORS
+ ACTUATOR CONTROL TECHNIQUES
 ================================================================================
 
 Motors and actuators are essential components of many robotic systems, as they allow robots to move and manipulate their environment. In Arduino robotics, there are several types of motors and actuators that you can use, depending on the specific needs of your application.
