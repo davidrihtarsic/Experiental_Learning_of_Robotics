@@ -31,7 +31,7 @@ book:
 		-M figureTitle=Figure \
 		-M figPrefix=fig. \
 		-M eqnPrefix=eq. \
-		-M lstPrefix=prog. \
+		-M lstPrefix="prog. example" \
 		-M lol=True \
 		-V table-use-row-colors \
 		-V urlcolor=violet \

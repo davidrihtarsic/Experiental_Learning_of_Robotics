@@ -1,5 +1,5 @@
-#ifndef EXPERIENTALROBOTICS_H
-#define EXPERIENTALROBOTICS_H
+#ifndef ROBDUINO_TESTING
+#define ROBDUINO_TESTING
 
 /* testing function is using
  * serialEvent()
