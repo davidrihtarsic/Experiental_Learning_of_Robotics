@@ -2098,7 +2098,7 @@ Compact code is more understandable than large one, see next example:
 void setup()
 {
   setIOpins();
-  robotForeward();
+  moveForward();
   delay(3000);
   robotStop();
 }
@@ -2428,11 +2428,86 @@ Basically you need to do these steps:
 ---
 grand_parent: Basic Robotics
 parent: INTRODUCTION TO C++
+title: Flow Control
+nav_order: 4
+---
+
+ Flow control
+--------------------------------------------------------------------------------
+Flow control in C++ programming is the mechanism that allows the execution path of a program to change based on conditions, loops, or jumps. It is fundamental to creating dynamic and responsive programs. The primary ways to control flow in C++ include:
+
+- **Jump Statements**: Facilitate the control flow by jumping to other parts of the program. The break, continue, and goto statements are examples of jump statements.
+- **Loop Statements**: Enable executing a block of code repeatedly as long as a condition remains true. C++ offers for, while, and do-while loops for this purpose.
+- **Conditional Statements**: Direct the program flow based on boolean conditions. Examples include if, if-else, and switch statements.
+
+The `goto` statement in C++ provides a way to jump to another part of the program, altering the normal sequential flow of execution. It's generally recommended to use goto sparingly, as it can make code harder to read and maintain, but it can be useful in certain contexts, such as breaking out of deeply nested loops.
+
+### Tasks:
+
+1. Mark the moving instructions with the label `repeating_moves:`.
+2. At the end of the moves put the `goto` statement and jump to repeating_moves label.
+
+```cpp
+#include "RobotMovingFunctions.h"
+
+void setup()
+{
+  setIOpins();
+
+repeating_moves:
+  moveForeward();
+  delay(1000);
+  moveLeft();
+  delay(550);
+  robotStop();
+  delay(1000);
+goto repeating_moves;
+
+}
+
+void loop()
+{
+
+}
+```
+: Flow control with goto statement. {#lst:054_Flow_Control}
+
+### Questions:
+
+1. Why is using goto statement not the best programming practice.
+2. Which form two is programming instruction: a) repeating_moves or b) goto repeating_moves, and `;` is needed?
+
+### Summary:
+
+The goto statement in C++ programming is a control flow instruction that allows the program to jump to another point in the code. It is used to transfer control to a labeled statement within the same function. Despite its capability to alter the execution flow in a very straightforward manner, goto is often discouraged in modern programming practices due to several reasons:
+
+**Readability**: Frequent use of goto can make code difficult to read and understand. It breaks the structured programming paradigm, making the flow of execution non-linear and less predictable.
+
+**Maintainability**: Programs that rely on goto statements can be harder to maintain and debug. The non-linear flow can introduce bugs that are difficult to trace and fix.
+
+**Alternative Constructs**: C++ provides structured control flow constructs such as loops (for, while, do-while) and conditionals (if, else if, else, switch) that can handle nearly all the use cases for goto in a cleaner, more structured way.
+
+However, there are specific situations where goto might be considered useful or necessary, such as:
+
+**Breaking out of nested loops**: When a break is needed from deeply nested loops, a goto statement can provide a straightforward solution without having to refactor large portions of code.
+**Error handling**: In some low-level programming scenarios, especially in system-level programming, goto can be used for cleanup tasks and to jump to error handling routines.
+
+Despite these use cases, it's important to approach goto with caution. Its use should be limited to scenarios where the benefits outweigh the potential drawbacks in terms of code clarity and maintainability. Modern C++ programming encourages structured programming practices, with goto largely being considered a relic of earlier programming styles.
+
+### Issues:
+
+#### *<++>*
+
+<++>
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
 title: Programming Loops
 nav_order: 4
 ---
 
-## Programming loops: FOR-NEXT & DO-WHILE
+## Programming loops
 
 It is very often needed, that we want to repeat some part of code several times. In that case we can use programming loops where we can specify which code should be repeated. In general there are two very often situation where we are using the programming loops:
 
@@ -2447,13 +2522,23 @@ So called `For-Next` loop is used whenever the repetition of the code can be con
 - summarising of all the costs in the bill
 - robot should turn for **8 times** with 45 degree step to complete full rotation.
 
-### Do-While Loop
+### While Loop
 
-`Do-While` loop is used in situations where we can not predict the numbers of repetitions in advanced. In this case we must state the `condition` that must be met to repeat the code. The repetition of the code will be terminated when the `condition` will not hold anymore. Typical examples are:
+`While` loop is used in situations where we can not predict the numbers of repetitions in advanced. In this case we must state the `condition` that must be met to repeat the code. The repetition of the code will be terminated when the `condition` will not hold anymore. Typical examples are:
 
 - read the content to end of file,
 - divide some number by 2 while we can,
 - while no obstacle is in front of the robot it should drive forward
+
+### Do-While Loop
+
+The Do-While loop in C++ programming is a control flow statement that executes a block of code at least once and then either repeatedly or until a particular condition is met. The condition is evaluated after the execution of the block of code. If the condition is true, the block of code is executed again. This repeats until the condition becomes false. 
+
+Here are three examples where a do-while loop can be suitable in programming a mobile robot:
+
+- Navigating a Maze: A do-while loop can be used to control a robot to navigate through a maze by repeating movements (forward, turn left or right) until it finds the exit. 
+- Obstacle Avoidance: A do-while loop can be used to program a robot to continuously move in a particular direction until it detects an obstacle, then it changes direction.
+- Searching for a Specific Object: A robot can be programmed using a do-while loop to keep searching in an environment until a particular object is found. This can be useful in search and rescue missions, or in a manufacturing setting where a robot is used to find and retrieve specific items.
 
 ### Task: FOR-NEXT LOOP
 
@@ -2489,9 +2574,9 @@ void loop()
     - duration of `delay()` function,
     - add some other functions to the `for-next` loop...
 
-### Task: DO-WHILE LOOP
+### Task: WHILE LOOP
 
-3. Change the `for-next` loop with this `do-while` loop. Can you predict the result?
+3. Change the `for-next` loop with this `while` loop. Can you predict the result?
 
 ```cpp
 while ( 1 == 1 ){
@@ -2502,17 +2587,54 @@ while ( 1 == 1 ){
 }
 ```
 
-Presented `do-while` loop is not an useful example as the condition `( 1 == 1 )` will never change and will be always `true`. So, we created an infinite loop. `Do-While` loop is far more usable if in the condition is some sensor's value, as we will see in next sections.
+Presented `while` loop is not an useful example as the condition `( 1 == 1 )` will never change and will be always `true`. So, we created an infinite loop. `While` loop is far more usable if in the condition is some sensor's value, as we will see in next sections.
 
 ### Questions:
 
 1. Name the situation  where `for-next` loop can be used.
 2. What is the purpose of a `counter` in `for-next` loop?
-3. What is the difference between `for-next` and `do-while` loops?
+3. What is the difference between `for-next` and `while` loops?
 
 ### Summary:
 
-#### For-loop
+Loops in C++ programming are used for flow control, allowing developers to execute a block of code repeatedly until a certain condition is met. There are three types of loops:
+- for,
+- while, and
+- do-while.
+
+The `for` loop is typically used when the number of iterations is known. It contains an initializer, a condition, and an iterator.
+The `while` loop executes a block of code as long as the condition remains true. Unlike the `for` loop, the number of iterations in a `while` loop is indeterminate and depends on when the condition becomes false.
+The `do-while` loop is similar to the `while` loop but executes the block of code at least once before checking the condition. Loops are fundamental for flow control in C++, allowing for efficient and organized code execution.
+
+#### For Loop:
+
+Executes a block of code a specific number of times.
+
+```cpp
+for (initialization; condition; increment) {
+    // Code to execute
+}
+```
+
+#### While Loop
+
+Executes a block of code as long as a condition remains true.
+
+```cpp
+while (condition) {
+    // Code to execute
+}
+```
+
+#### Do-While Loop
+
+Similar to the while loop, but it executes the block of code at least once before checking the condition.
+
+```cpp
+do {
+    // Code to execute
+} while (condition);
+```
 
 <++>
 
@@ -2873,19 +2995,16 @@ It's also easy to add or remove states in the future if needed, without having t
 ---
 grand_parent: Basic Robotics
 parent: INTRODUCTION TO C++
-title: Flow Control
+title: Conditional Statements
 nav_order: 4
 ---
 
- Flow control
+ Conditional Statements
 --------------------------------------------------------------------------------
-Flow control in C++ programming is the mechanism that allows the execution path of a program to change based on conditions, loops, or jumps. It is fundamental to creating dynamic and responsive programs. The primary ways to control flow in C++ include:
 
-- Conditional Statements: Direct the program flow based on boolean conditions. Examples include if, if-else, and switch statements.
-- Loop Statements: Enable executing a block of code repeatedly as long as a condition remains true. C++ offers for, while, and do-while loops for this purpose.
-- Jump Statements: Facilitate the control flow by jumping to other parts of the program. The break, continue, and goto statements are examples of jump statements.
+Conditional statements in C++ are foundational constructs that allow programmers to execute specific sections of code based on certain conditions. These statements enable decision-making within a program, allowing it to respond differently to various inputs or situations. The most commonly used conditional statements in C++ are if, else if, and else.
 
-The simplest form of flow control in C++ is the if statement. It evaluates a condition and executes a block of code if the condition is true. Lets take look of an example using bumper state of our robot...
+Imagine you are programming a mobile robot that uses a bumper sensor to detect obstacles. The bumper sensor can return two states: 0 (no contact), 1 (contact with the obstacle). Based on the sensor's input, the robot should make decisions: stop moving forward when an obstacle is detected and adjust its path accordingly. This will be our future task in next chapter. First we have to construct robot's bumper with push button key and test it.
 
 ### Tasks:
 
@@ -2937,13 +3056,21 @@ void loop()
 
 ### Summary:
 
-Flow control in C++ programming is a fundamental concept that allows developers to dictate how and when certain blocks of code are executed. It enables the creation of dynamic and responsive programs that can make decisions, repeat operations, and jump to different parts of the code based on certain conditions. The primary constructs for controlling the flow of a C++ program are conditional statements, loops, and jump statements.
+Conditional statements in C++ programming are utilized for flow control within a program. These statements allow the program to make decisions and execute certain blocks of code based on specified conditions. The primary conditional statements in C++ include `if`, `if-else`, nested `if-else-if`, and `switch-case`.
 
-#### **Conditional Statements**
+`If` executes a block of code if a specified condition is true.
 
-Conditional statements evaluate a condition and then execute a block of code based on whether the condition is true or false. The most common conditional statements in C++ are if, else if, and else.
+`If-else` provides an alternate block of code if the initial condition is false.
 
-**IF Statement** can be written in several forms. The easiest one is:
+Nested `if-else-if` involves multiple layers of if-else conditions within one another for complex decision making.
+
+`Switch-case` allows a variable to be tested for equality against a list of values and executes the first match.
+
+Thus, conditional statements provide essential control flow mechanisms in C++ programming.
+
+#### IF, IF-ELSE, IF-ELSE-IF
+
+can be written in several forms. The easiest one is:
 
 ```cpp
 if (value_one) statement1;
@@ -2980,7 +3107,8 @@ if (condition1) {
     // Code to execute if none of the above conditions is true
 }
 ```
-**SWITCH** statemen
+
+#### SWITCH statement
 
 The switch statement allows you to execute one block of code out of many, based on the value of a variable. It's often more convenient than multiple if-else statements when dealing with variable values.
 
@@ -2997,7 +3125,7 @@ switch (x) {
 
 In this example, the switch statement checks the value of x and executes the code block corresponding to the first case label that matches the value. The break statements are used to exit the switch statement once a match is found. If no match is found, the code block for the default label is executed.
 
-**Condition operators**
+#### Condition operators
 
 Also other logical condition operators can be used:
 
@@ -3008,169 +3136,12 @@ Also other logical condition operators can be used:
 - Equal to `a == b`
 - Not Equal to: `a != b`
 
-#### **Loops**
-
-Loops are used to repeat a block of code multiple times. C++ provides several types of loops to handle different scenarios:
-
-**For Loop**: Executes a block of code a specific number of times.
-```cpp
-for (initialization; condition; increment) {
-    // Code to execute
-}
-```
-
-**While Loop**: Executes a block of code as long as a condition remains true.
-```cpp
-while (condition) {
-    // Code to execute
-}
-```
-
-**Do-While Loop**: Similar to the while loop, but it executes the block of code at least once before checking the condition.
-
-```cpp
-do {
-    // Code to execute
-} while (condition);
-```
-
-#### **Jump Statements**
-
-Jump statements allow the program to jump to another part of the code. The primary jump statements are break, continue, and return. However, there's another jump statement known as goto, which is generally discouraged.
-
-`break`: Exits the loop immediately.  
-`continue`: Skips the remaining code in the current iteration and proceeds with the next iteration of the loop.  
-`return`: Exits the current function and optionally returns a value.  
-
-`goto`: The goto statement provides an unconditional jump from the goto to a labeled statement in the same function. It is rarely used in modern C++ programming because it can make the code less readable and harder to maintain. The use of goto can lead to "spaghetti code," where the flow of execution jumps around the program erratically, making it difficult to trace and debug.
-
-```cpp
-goto label;
-// Some code here
-label:
-// The code to jump to
-```
-
-Why avoid goto:
-
-- **Readability**: goto statements can significantly harm the readability of code. They break the structured flow of the program, making it difficult for developers to follow the logic.
-- **Maintainability**: Programs that use goto extensively are harder to modify and maintain. Understanding the flow of such programs requires more effort, and making changes can introduce bugs if the jumps are not carefully managed.
-- **Debugging**: Debugging issues in code that uses goto can be more challenging because the erratic flow makes it harder to pinpoint where things go wrong.
-
-
-In conclusion, while C++ supports a wide range of flow control mechanisms to handle various programming needs effectively, it's crucial to use these constructs wisely to maintain code clarity and integrity. The goto statement, despite being a part of the language, is best avoided in favor of more structured and readable control flow constructs.
-
 ### Issues:
 
 #### *<++>*
 
 <++>
 
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Arrays and strings
-nav_order: 4
----
-
- Arrays and strings
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Pointers
-nav_order: 4
----
-
- Pointers and references
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Classes and Objects
-nav_order: 4
----
-
- Classes and objects
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Exception handling
-nav_order: 5
----
-
- Exception handling
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Standard input and output
-nav_order: 5
----
-
- Input and output
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Debugging and testing
-nav_order: 5
----
-
- Debugging and testing
---------------------------------------------------------------------------------
-
----
-grand_parent: Basic Robotics
-parent: INTRODUCTION TO C++
-title: Memory management
-nav_order: 5
----
-
- Advanced topics threading memory management templates
---------------------------------------------------------------------------------
-
-### Bit-field variable type
-
-Variable bit fields are a specific type of data structure in C++ that allows a user to store multiple bit-sized values within a single variable. This can be useful for storing several different values in the same memory space or for compressing data. An example of a variable bit field in C++ is shown below:
-
-```c++
-struct example {
- unsigned int value1 : 4; // Use 4 bits
- unsigned int value2 : 8; // Use 8 bits
- unsigned int value3 : 12; // Use 12 bits
-} myStruct;
-```
-
-In this example, we have defined a structure called 'example' which contains three members - 'value1', 'value2', and 'value3'. Each of these members has been defined as a variable bit field using the 'unsigned int' data type and the ':' syntax, which allows us to specify the number of bits that each member should use. In this case, 'value1' will use 4 bits, 'value2' will use 8 bits, and 'value3' will use 12 bits. To access these values, we can use the members of the structure, for example, 'myStruct.value2'.
-
-```c++
-struct adc4 {
-  unsigned int value1 : 10;
-  unsigned int value2 : 10;
-  unsigned int value3 : 10;
-  unsigned int value4 : 10;
-};
-
-unsigned int adc_val[40];           //40 values
-adc4 myAdc[10];                     //40 values
-
-void setup() {
-  Serial.begin(9600);
-  Serial.println(sizeof(adc_val));  //print 80
-  Serial.println(sizeof(myAdc));    //print 50
-}
-
-void loop() {
-
-}
-```
 ---
 parent: Basic Robotics
 title: S-R-A LOOP
@@ -4103,8 +4074,169 @@ void loop() {
 
 ---
 parent: Basic Robotics
-title: BASIC TASKS
+title: INTERMEDIATE C++
 nav_order: 8
+has_children: true
+---
+
+ INTERMEDIATE C++
+================================================================================
+
+Welcome to Intermediate C++ programming! This course will dive deeper into the core aspects of C++ programming and provide you with a solid foundation for further development. We're going to cover some of the building blocks of C++, including arrays, strings, pointers, classes and objects, exception handlers, and much more.
+
+Firstly, we'll explore arrays, which allow you to store multiple values of the same type in a single block of memory. This can be particularly useful when programming a mobile robot to follow a specified path, for example:
+
+```c++
+int path[5] = {1, 2, 3, 4, 5};
+```
+
+Next, we'll dissect strings – sequences of characters used to store and manipulate text. For instance, we may use a string to denote the robot's status:
+
+```c++
+std::string status = \"Moving Forward\";
+```
+
+Pointers are on our list as well. They are essential and powerful features in C++, storing memory addresses of other variables, which can be useful for dynamic memory allocation in robot's tasks:
+
+```c++
+int batteryLevel = 100;
+int* p = &batteryLevel;
+```
+
+We will also delve into classes and objects – the backbone of Object-Oriented Programming (OOP). Classes act as blueprints for objects, while objects represent instances of a class. For mobile robot programming, we could have a class \"Robot\" and create objects representing specific robots:
+
+```c++
+class Robot {
+ std::string name;
+ int speed;
+ // Other attributes and methods...
+};
+
+Robot MobileRobot;
+MobileRobot.speed = 255; //full speed
+```
+
+Lastly, we'll look into exception handlers, they are mechanisms that handle runtime errors, ensuring our robot doesn’t crash when it encounters an issue:
+
+```c++
+try {
+ // Code that could throw an exception
+} catch (const std::exception& e) {
+ // Handle exception
+}
+```
+
+By the end of this course, you'll have a solid understanding of these key C++ programming concepts and be able to apply them to real-world mobile robot programming scenarios. So, let's get started!
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Arrays and strings
+nav_order: 4
+---
+
+ Arrays and strings
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Pointers
+nav_order: 4
+---
+
+ Pointers and references
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Classes and Objects
+nav_order: 4
+---
+
+ Classes and objects
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Exception handling
+nav_order: 5
+---
+
+ Exception handling
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Standard input and output
+nav_order: 5
+---
+
+ Input and output
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Debugging and testing
+nav_order: 5
+---
+
+ Debugging and testing
+--------------------------------------------------------------------------------
+
+---
+grand_parent: Basic Robotics
+parent: INTRODUCTION TO C++
+title: Memory management
+nav_order: 5
+---
+
+ Advanced topics threading memory management templates
+--------------------------------------------------------------------------------
+
+### Bit-field variable type
+
+Variable bit fields are a specific type of data structure in C++ that allows a user to store multiple bit-sized values within a single variable. This can be useful for storing several different values in the same memory space or for compressing data. An example of a variable bit field in C++ is shown below:
+
+```c++
+struct example {
+ unsigned int value1 : 4; // Use 4 bits
+ unsigned int value2 : 8; // Use 8 bits
+ unsigned int value3 : 12; // Use 12 bits
+} myStruct;
+```
+
+In this example, we have defined a structure called 'example' which contains three members - 'value1', 'value2', and 'value3'. Each of these members has been defined as a variable bit field using the 'unsigned int' data type and the ':' syntax, which allows us to specify the number of bits that each member should use. In this case, 'value1' will use 4 bits, 'value2' will use 8 bits, and 'value3' will use 12 bits. To access these values, we can use the members of the structure, for example, 'myStruct.value2'.
+
+```c++
+struct adc4 {
+  unsigned int value1 : 10;
+  unsigned int value2 : 10;
+  unsigned int value3 : 10;
+  unsigned int value4 : 10;
+};
+
+unsigned int adc_val[40];           //40 values
+adc4 myAdc[10];                     //40 values
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(sizeof(adc_val));  //print 80
+  Serial.println(sizeof(myAdc));    //print 50
+}
+
+void loop() {
+
+}
+```
+---
+parent: Basic Robotics
+title: BASIC TASKS
+nav_order: 9
 has_children: true
 ---
 
@@ -4272,7 +4404,7 @@ has_children: true
 ---
 parent: Basic Robotics
 title: ROBOTICS APPLICATIONS
-nav_order: 9
+nav_order: 10
 has_children: true
 ---
 
@@ -4284,7 +4416,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ROBOTICS APPLICATIONS
 title: Projects in Education
-nav_order: 9
+nav_order: 10
 has_children: true
 ---
 
@@ -4295,7 +4427,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ROBOTICS APPLICATIONS
 title: Robotics industry
-nav_order: 9
+nav_order: 10
 has_children: true
 ---
 
@@ -4306,7 +4438,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ROBOTICS APPLICATIONS
 title: Competitions and challenges
-nav_order: 9
+nav_order: 10
 has_children: true
 ---
 
@@ -4317,7 +4449,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ROBOTICS APPLICATIONS
 title: Future opportunities
-nav_order: 9
+nav_order: 10
 has_children: true
 ---
 
@@ -4327,7 +4459,7 @@ has_children: true
 ---
 parent: Basic Robotics
 title: ADVANCED ROBOTICS
-nav_order: 10
+nav_order: 11
 has_children: true
 ---
 
@@ -4339,7 +4471,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ADVANCED ROBOTICS
 title: Artificial intelligence
-nav_order: 10
+nav_order: 11
 has_children: true
 ---
 
@@ -4350,7 +4482,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ADVANCED ROBOTICS
 title: Robotics vision
-nav_order: 10
+nav_order: 11
 has_children: true
 ---
 
@@ -4361,7 +4493,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ADVANCED ROBOTICS
 title: Natural language
-nav_order: 10
+nav_order: 11
 has_children: true
 ---
 
@@ -4372,7 +4504,7 @@ has_children: true
 grand_parent: Basic Robotics
 parent: ADVANCED ROBOTICS
 title: Swarm Robots
-nav_order: 10
+nav_order: 11
 has_children: true
 ---
 
