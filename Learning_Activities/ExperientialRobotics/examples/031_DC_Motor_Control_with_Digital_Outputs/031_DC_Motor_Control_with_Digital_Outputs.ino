@@ -4,7 +4,7 @@ void setup()
   pinMode(6, OUTPUT);
   // D7=0, D6=0
   digitalWrite(7, LOW);
-  digitalWrite(0, LOW);
+  digitalWrite(6, LOW);
   delay(3000);
   // Write other combinations here...
 
