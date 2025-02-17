@@ -1,6 +1,6 @@
 ---
 grand_parent: Early Robotics
-parent: Qubetto
+parent: Cubetto
 title: Using functions
 nav_order: 1
 ---

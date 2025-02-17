@@ -1,6 +1,6 @@
 ---
 grand_parent: Early Robotics
-parent: Qubetto
+parent: Cubetto
 title: Inovative project
 nav_order: 1
 ---
