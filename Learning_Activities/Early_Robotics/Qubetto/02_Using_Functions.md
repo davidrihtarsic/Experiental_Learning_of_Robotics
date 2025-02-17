@@ -34,6 +34,19 @@ Press “Go.” Cubetto executes the entire mini-program.
 Demonstrate using the function multiple times: if you call the function twice, Cubetto will do the same sub-sequence again.
 Practice & Challenges (5 minutes)
 
+```mermaid
+flowchart TB
+    A((Start)) --> B[Define Function: "StepLeftDoubleFwd"]
+    B --> C[Inside Function: <br/>• Forward Block <br/>• Forward Block <br/>• Turn Left Block]
+    C --> D[End Function Definition]
+    D --> E[Main Program: Place Function Call (StepLeftDoubleFwd)]
+    E --> F[Place Function Call (StepLeftDoubleFwd)]
+    F --> G[Place Function Call (StepLeftDoubleFwd)]
+    G --> H[Place Function Call (StepLeftDoubleFwd)]
+    H --> I[Press GO]
+    I --> J((Cubetto Executes: Forward, Forward, Left) x4))
+```
+
 Have children incorporate the function call into bigger sequences.
 For instance, “function call, turn right, function call.”
 
