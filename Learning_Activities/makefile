@@ -17,7 +17,7 @@ book:
 	@file_name=$$(echo $(TITLE) | sed 's/\ /_/g'); \
 	pandoc ./pdf/Experiential_Learning_of_Robotics.md --to latex -o ./pdf/Experiential_Learning_of_Robotics.pdf \
 		--from markdown \
-		--template skripta \
+		--template skripta.tex \
 		-V lang=en \
 		-M title=$(TITLE) \
 		-M subtitle="This book is designed for beginners to introduce them to the field of robotics. The content is based on the integration of electronics, computing, and mechanics." \
@@ -45,7 +45,7 @@ book:
 		--toc \
 		--toc-depth=2 \
 		-M titlepage;
-	@rm -f ./pdf/*.md
+	@rm -f ./pdf
 
 clean:
 	@mv -f *.pdf ./pdf/

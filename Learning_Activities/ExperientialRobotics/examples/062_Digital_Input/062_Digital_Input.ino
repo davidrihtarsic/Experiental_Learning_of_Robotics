@@ -1,11 +1,9 @@
 const int BUMPER_PIN = A0;
-void setup()
-{
+void setup() {
   pinMode(BUMPER_PIN, INPUT);
 }
 
-void loop()
-{
+void loop() {
   bool bumperIsPressed = digitalRead(BUMPER_PIN);
   if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
 }

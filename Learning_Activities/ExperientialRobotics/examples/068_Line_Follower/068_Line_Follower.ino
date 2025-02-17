@@ -2,14 +2,16 @@
 const int LIGHT_SENSOR_PIN = A0;
 const int SURFACE_BRIGHTNESS_REFERENCE = 400;
 
-void setup()
-{
+void setup(){
   setIOpins();
   pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
 
-void loop()
-{
+void loop(){
+  followTheLine();
+}
+
+void followTheLine(){
   int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
   if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
   {

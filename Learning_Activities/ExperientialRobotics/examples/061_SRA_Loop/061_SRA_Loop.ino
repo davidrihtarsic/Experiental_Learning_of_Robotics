@@ -5,16 +5,15 @@ void setup()
   setIOpins();
   pinMode(BUMPER_PIN, INPUT);
 
-  bool bumperIsPressed = digitalRead(BUMPER_PIN);
-  if ( bumperIsPressed )
-  {
+  driveForwardUntilYouDetectAnObstacle();
+}
+void loop(){
+}
+
+void driveForwardUntilYouDetectAnObstacle(){
+  if ( digitalRead(BUMPER_PIN) ){
     stopTheRobot();
-  }
-  else
-  {
+  } else {
     moveForward();
   }
-}
-void loop()
-{
 }

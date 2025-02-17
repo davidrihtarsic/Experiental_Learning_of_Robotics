@@ -8,8 +8,11 @@ void setup()
   pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
 
-void loop()
-{
+void loop(){
+  followTheLine();
+}
+
+void followTheLine(){
   int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
   if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
       moveLeft();

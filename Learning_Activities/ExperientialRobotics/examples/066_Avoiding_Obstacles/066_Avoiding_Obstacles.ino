@@ -14,12 +14,13 @@ float getDistance_cm()
 }
 void loop()
 {
-  if ( getDistance_cm() > DISTANCE_LIMIT )
-  {
+  moveForwardIfNoObstacleIsDetected();
+}
+
+void moveForwardIfNoObstacleIsDetected(){
+  if ( getDistance_cm() > DISTANCE_LIMIT ) {
     moveForward();
-  }
-  else
-  {
+  } else {
     stopTheRobot();
   }
 }
