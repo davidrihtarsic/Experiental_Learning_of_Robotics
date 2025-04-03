@@ -37,7 +37,7 @@ Practice & Challenges (5 minutes)
 ```mermaid
 flowchart TB
     A((Start)) --> B[Define Function: "StepLeftDoubleFwd"]
-    B --> C[Inside Function: <br/>• Forward Block <br/>• Forward Block <br/>• Turn Left Block]
+    B --> C[Inside Function: <br/>Forward Block<br/>Forward Block<br/>Turn Left Block]
     C --> D[End Function Definition]
     D --> E[Main Program: Place Function Call (StepLeftDoubleFwd)]
     E --> F[Place Function Call (StepLeftDoubleFwd)]

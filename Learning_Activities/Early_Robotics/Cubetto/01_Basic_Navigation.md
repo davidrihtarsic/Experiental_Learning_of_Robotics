@@ -28,6 +28,16 @@ flowchart TB
     D --> E((Cubetto Moves Forward, Then Left))
 ```
 
+<!--
+1. Go around 2 blocks of water (one command is missing)
+2. Use function if it helps to get further...
+3. Go aroung a tree...
+4. Write program with fewer programming blocks possible. (5 block  - use function call inside the function)
+5. Examine programming blocks with magnetic field foil viewer.
+6. Try to  find magnet positions for Negation, Backward and Random
+7. Write the program to go around the lake.
+-->
+
 3. Activity Steps
 Introduction (3–5 minutes)
 
@@ -67,3 +77,4 @@ Enjoy exploring basic navigation with Cubetto!
 Ask each child: “What did Cubetto do first? What happened after?”
 Highlight how the blocks made Cubetto move step by step.
 Reinforce the idea of sequence and order of commands.
+
