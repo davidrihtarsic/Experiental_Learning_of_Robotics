@@ -5176,6 +5176,7 @@ To understand the basic function of a neuron and how it can be used to control a
 ### Conclusion
 
 Through this exercise, students gain a foundational understanding of how simple neurons work by transforming input data into an actionable output. By relating this to a line follower robot, they can see a practical application of AI concepts in robotics. This hands-on approach enhances grasping the dynamic nature of artificial intelligence and its real-world implementations.
+
 ---
 grand_parent: Basic Robotics
 parent: ADVANCED ROBOTICS
