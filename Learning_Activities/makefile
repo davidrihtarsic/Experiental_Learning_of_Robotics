@@ -52,3 +52,31 @@ clean:
 
 file := $(shell find ./ -maxdepth 1 -type f -name "[0-9]*.md"|sed 's/\.\///g'|sort --numeric-sort)
 all: pdfs book clean
+
+
+CHAPTER_DIR := chapters
+CHAPTER_PREFIXES := $(shell ls *.md | cut -d'_' -f1 | cut -d'.' -f1 | sort -nu)
+.PHONY: chapters
+chapters:
+	mkdir -p $(CHAPTER_DIR)
+	@for prefix in $(CHAPTER_PREFIXES); do \
+		files=$$(ls $$prefix.*.md 2>/dev/null | sort); \
+		if [ -n "$$files" ]; then \
+			outfile=$$(echo $$files | grep -oE "$$prefix\.0_[^ ]+"); \
+			if [ -z "$$outfile" ]; then \
+				outfile=$$prefix.0_CHAPTER.md; \
+			fi; \
+			dest=$(CHAPTER_DIR)/$$outfile; \
+			echo "---" > $$dest; \
+			echo "published: false" >> $$dest; \
+			echo "---" >> $$dest; \
+			for file in $$files; do \
+				awk 'BEGIN {skip=0} \
+					/^---$$/ {n++; if(n==1) {skip=1; next} else if(n==2) {skip=0; next}} \
+					!skip {print}' $$file >> $$dest; \
+				echo "" >> $$dest; \
+			done; \
+			echo "Created chapter: $$dest"; \
+		fi \
+	done
+

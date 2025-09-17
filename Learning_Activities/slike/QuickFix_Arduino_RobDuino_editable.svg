@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="700"
+   viewBox="0 0 1200 700"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="QuickFix_Arduino_RobDuino_editable.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.79741687"
+     inkscape:cx="606.3328"
+     inkscape:cy="346.74461"
+     inkscape:window-width="1036"
+     inkscape:window-height="1125"
+     inkscape:window-x="10"
+     inkscape:window-y="61"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <title
+     id="title1">Quick-Fix: Bypass Arduino 5V Regulator (RobDuino +5V → Arduino +5V)</title>
+  <defs
+     id="defs1">
+    <!-- Arrowhead for the dashed +5V wire -->
+    <marker
+       id="arrowhead-red"
+       markerWidth="10"
+       markerHeight="7"
+       refX="10"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#d62728"
+         id="polygon1" />
+    </marker>
+    <style
+       type="text/css"
+       id="style1"><![CDATA[
+      .board { fill: none; stroke: #000; stroke-width: 2; }
+      .label { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 28px; fill: #000; }
+      .title { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 700; }
+      .pin { font-family: "DejaVu Sans Mono", Consolas, monospace; font-size: 26px; }
+      .pin-red { fill: #d62728; font-weight: 700; }
+      .note { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 22px; fill: #d62728; }
+      .wire-red { fill: none; stroke: #d62728; stroke-width: 5; stroke-dasharray: 14 10; }
+      /* helper thin lines if you want to tweak later
+      .helper { stroke: #999; stroke-width:1; fill:none; }
+      */
+    ]]></style>
+  </defs>
+  <!-- Diagram title -->
+  <!-- GROUP: Arduino -->
+  <rect
+     id="arduino-outline"
+     class="board"
+     x="170.76595"
+     y="230.1532"
+     width="480"
+     height="340"
+     rx="8"
+     ry="8" />
+  <text
+     class="label"
+     x="497.63214"
+     y="271.07233"
+     text-anchor="middle"
+     id="text2">Arduino Uno</text>
+  <text
+     class="pin"
+     x="244.15036"
+     y="310.15317"
+     id="text3">3V3</text>
+  <text
+     class="pin pin-red"
+     id="pin-arduino-5v"
+     x="244.15036"
+     y="350.15317">+5V</text>
+  <text
+     class="pin"
+     x="244.15036"
+     y="390.15317"
+     id="text4">GND</text>
+  <text
+     class="pin"
+     x="244.15036"
+     y="430.15317"
+     id="text5">GND</text>
+  <text
+     class="pin"
+     x="244.15036"
+     y="470.15317"
+     id="text6">VIN</text>
+  <circle
+     cx="225.48749"
+     cy="302.15317"
+     r="6"
+     fill="#000000"
+     id="circle6" />
+  <circle
+     cx="225.48749"
+     cy="342.15317"
+     r="6"
+     fill="#000000"
+     id="circle7" />
+  <circle
+     cx="225.48749"
+     cy="382.15317"
+     r="6"
+     fill="#000000"
+     id="circle8" />
+  <circle
+     cx="225.48749"
+     cy="422.15317"
+     r="6"
+     fill="#000000"
+     id="circle9" />
+  <circle
+     cx="225.48749"
+     cy="462.15317"
+     r="6"
+     fill="#000000"
+     id="circle10" />
+  <text
+     class="note"
+     x="496.50403"
+     y="311.35135"
+     text-anchor="middle"
+     id="text10"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       x="496.50403"
+       y="311.35135">⚠ 5V regulator damaged</tspan><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       x="496.50403"
+       y="338.85135">(board doesn't power</tspan><tspan
+       sodipodi:role="line"
+       x="496.50403"
+       y="366.35135"
+       id="tspan15">from external source)</tspan></text>
+  <!-- GROUP: RobDuino -->
+  <rect
+     id="robduino-outline"
+     class="board"
+     x="680"
+     y="260"
+     width="400"
+     height="260"
+     rx="8"
+     ry="8" />
+  <text
+     class="label"
+     x="880"
+     y="240"
+     text-anchor="middle"
+     id="text11">RobDuino Module</text>
+  <text
+     class="pin pin-red"
+     id="pin-robduino-5v"
+     x="1028.7186"
+     y="375.48746"
+     text-anchor="end">+5V (screw terminal)</text>
+  <text
+     class="pin"
+     x="721.94983"
+     y="420"
+     id="text12">GND (screw terminal)</text>
+  <!-- ROUTED DASHED WIRE OUTSIDE THE BOXES (does not cross text/labels) -->
+  <!-- Path goes from RobDuino +5V (near right edge) -> up/right margin -> across top corridor -> down to Arduino +5V left area -->
+  <!-- Waypoints chosen to run OUTSIDE both rectangles -->
+  <path
+     id="wire-5v"
+     class="wire-red"
+     d="m 1070.7504,373.07843 h 67.25 V 180.04971 H 61.999589 V 340.90697 H 210.98431"
+     marker-end="url(#arrowhead-red)" />
+  <!-- Caption near the top corridor -->
+  <text
+     class="pin pin-red"
+     x="595.4043"
+     y="138.56548"
+     text-anchor="middle"
+     id="text13">Direct +5V connection (RobDuino → Arduino Uno)</text>
+  <g
+     id="g30"
+     transform="translate(75.854823,-118.43863)">
+    <rect
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect28"
+       width="28.308399"
+       height="28.308399"
+       x="963.95966"
+       y="444.08426"
+       rx="2.1985774"
+       ry="2.1985774" />
+    <circle
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="circle28"
+       cx="978.15417"
+       cy="458.297"
+       r="9.3616848" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2.04338;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.716,465.30322 13.37281,-13.87058"
+       id="path29" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.13291,451.20482 14.18437,14.11345"
+       id="path30" />
+  </g>
+  <g
+     id="g32"
+     transform="translate(75.854823,-51.51887)">
+    <rect
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect30"
+       width="28.308399"
+       height="28.308399"
+       x="963.95966"
+       y="444.08426"
+       rx="2.1985774"
+       ry="2.1985774" />
+    <circle
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="circle30"
+       cx="978.15417"
+       cy="458.297"
+       r="9.3616848" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2.04338;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.716,465.30322 13.37281,-13.87058"
+       id="path31" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.13291,451.20482 14.18437,14.11345"
+       id="path32" />
+  </g>
+  <g
+     id="g36"
+     transform="translate(75.854823,-84.97875)">
+    <rect
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect34"
+       width="28.308399"
+       height="28.308399"
+       x="963.95966"
+       y="444.08426"
+       rx="2.1985774"
+       ry="2.1985774" />
+    <circle
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="circle34"
+       cx="978.15417"
+       cy="458.297"
+       r="9.3616848" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2.04338;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.716,465.30322 13.37281,-13.87058"
+       id="path35" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.13291,451.20482 14.18437,14.11345"
+       id="path36" />
+  </g>
+  <g
+     id="g39"
+     transform="translate(75.854823,-18.05899)">
+    <rect
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="rect38"
+       width="28.308399"
+       height="28.308399"
+       x="963.95966"
+       y="444.08426"
+       rx="2.1985774"
+       ry="2.1985774" />
+    <circle
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       id="circle38"
+       cx="978.15417"
+       cy="458.297"
+       r="9.3616848" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2.04338;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.716,465.30322 13.37281,-13.87058"
+       id="path38" />
+    <path
+       style="opacity:1;fill:none;stroke:#010101;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 971.13291,451.20482 14.18437,14.11345"
+       id="path39" />
+  </g>
+</svg>
