@@ -5,8 +5,8 @@ void setup()
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   
-  digitalWrite(7, HIGH);
-  digitalWrite(6, LOW);
+  digitalWrite(7, LOW);
+  digitalWrite(6, HIGH);
   digitalWrite(5, HIGH);
   digitalWrite(4, LOW);
   
