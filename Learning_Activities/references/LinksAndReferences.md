@@ -91,6 +91,7 @@ This document provides useful external links for students who want to explore mo
 
 * [Robot Construction](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/Learning_Activities/3.5_Robot_construction_and_assembly.html)
   This section describes assembling a basic mobile robot using Fischertechnik components. It emphasizes mechanical stability, precision, and modularity. Students are guided through assembly tasks, including battery placement and RobDuino integration.
+  Assembly video of basic mobile robot is available on youtube at [link](https://www.youtube.com/watch?v=XgpEFWoUelA).
   **Keywords:** construction, Fischertechnik, assembly, stability, mechanical engineering.
 
 * [Understanding Basic Robot Movement](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/Learning_Activities/3.6_Understanding_basic_robot_movement.html)
