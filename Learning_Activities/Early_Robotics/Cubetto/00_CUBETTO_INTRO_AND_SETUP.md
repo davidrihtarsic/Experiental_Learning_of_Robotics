@@ -9,7 +9,7 @@ CUBETTO INTRO AND SETUP
 ================================================================================
 
 ## What Is Cubetto?
-Cubetto is a friendly wooden robot designed to introduce children to the basics of coding and problem-solving. Children create simple programs by arranging colored blocks on a control board, then pressing “Go.” Cubetto follows the directions they’ve laid out.
+[Cubetto](https://primotoys.com/) is a friendly wooden robot designed to introduce children to the basics of coding and problem-solving. Children create simple programs by arranging colored blocks on a control board, then pressing “Go.” Cubetto follows the directions they’ve laid out.
 
 ## Main Components
 Cubetto Robot – A wooden cube on wheels.
