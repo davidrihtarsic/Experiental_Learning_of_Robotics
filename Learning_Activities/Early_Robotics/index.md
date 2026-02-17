@@ -6,7 +6,7 @@ has_children: true
 
 # Early learning of Robotics
 
-Seymour Papert’s early work at MIT with the Logo Turtle stands as a cornerstone of modern, hands-on approaches to teaching computational thinking. Papert’s constructionist philosophy—championing “learning by doing” and directly manipulating elements to gain deeper insight—paved the way for a multitude of tangible coding tools, including Cubetto.
+Seymour Papert’s early work at MIT with the [Logo Turtle](https://calormen.com/jslogo/) stands as a cornerstone of modern, hands-on approaches to teaching computational thinking. Papert’s constructionist philosophy—championing “learning by doing” and directly manipulating elements to gain deeper insight—paved the way for a multitude of tangible coding tools, including Cubetto.
 
 Much like the original Logo Turtle, Cubetto provides children with a simple, engaging interface for building algorithms: color-coded command blocks fit onto a wooden control board, and each block corresponds to a movement instruction (e.g., forward, turn left, turn right). When children press “Go,” Cubetto physically follows their program, effectively translating abstract instructions into real-world motion. The feedback is immediate—if Cubetto overshoots or turns the wrong way, the children can see exactly where their plan went astray. This iterative cycle of creating, observing, and modifying mirrors Papert’s Logo experiments, in which students honed problem-solving skills by tinkering with on-screen turtle graphics.
 
